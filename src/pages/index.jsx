@@ -1,20 +1,42 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import styled from 'styled-components';
 
-import Layout from '../components/layout';
-import Image from '../components/image';
-import SEO from '../components/seo';
+import Layout from '../components/layout/Layout';
+import SEO from '../components/seo/SEO';
+
+const Styled = {
+  Heading: styled.div`
+    padding: 2rem;
+  `,
+  Title: styled.h1`
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 300;
+    color: #333;
+  `,
+  SubTitle: styled.h2`
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #333;
+  `,
+  Text: styled.p``,
+};
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Styled.Heading>
+      <Styled.Title>
+        Hello you
+        {' '}
+      </Styled.Title>
+      <Styled.SubTitle>and welcome on my page</Styled.SubTitle>
+    </Styled.Heading>
+    <Styled.Text>
+      I am currently working on a new version, please return later...
+    </Styled.Text>
   </Layout>
 );
 
