@@ -21,12 +21,21 @@
     "styled-components": "^4.4.0"
   },
   "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "gatsby-plugin-eslint": "^2.0.5",
     "prettier": "^1.18.2"
   },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "lint": "eslint -c ./.eslintrc './src/**/{*.js,*.jsx}'",
+    "lint:fix": "npm run -s lint -- --fix",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
