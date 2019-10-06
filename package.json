@@ -1,0 +1,25 @@
+{
+  "name": "andreasgasser.com",
+  "version": "1.0.0",
+  "description": "About me homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gasserandreas/andreasgasser.com.git"
+  },
+  "keywords": [
+    "React",
+    "Gatsby",
+    "Storybook",
+    "styled-components"
+  ],
+  "author": "Andreas Gasser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gasserandreas/andreasgasser.com/issues"
+  },
+  "homepage": "https://github.com/gasserandreas/andreasgasser.com#readme"
+}
