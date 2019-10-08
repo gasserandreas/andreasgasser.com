@@ -1,4 +1,9 @@
-import { configure } from '@storybook/react';
+import { configure, addDecorator, addParameters } from '@storybook/react';
+import { create } from '@storybook/theming';
+
+import { withKnobs } from '@storybook/addon-knobs';
+
+import { name } from '../package.json';
 
 // Gatsby's Link overrides:
 // Gatsby defines a global called ___loader to prevent its method calls from creating console errors you override it here
@@ -15,5 +20,29 @@ window.___navigate = pathname => {
   action("NavigateTo:")(pathname);
 };
 
+// custom configuration
+addDecorator(withKnobs);
+
+// set global options
+addParameters({
+  options: {
+    panelPosition: 'right',
+    theme: create({
+      base: 'light',
+
+      fontBase: '"Arial", sans-serif',
+
+      textColor: '#333',
+
+      // brandTitle: name,
+      brandUrl: 'https://andreasgasser.com',
+    }),
+  },
+});
+
 // automatically import all files ending in *.stories.js
-configure(require.context('../src', true, /\.stories\.jsx$/), module);
+function loadStories() {
+  return require.context('../src', true, /\.stories\.jsx$/);
+}
+
+configure(loadStories(), module);
