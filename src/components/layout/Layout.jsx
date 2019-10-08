@@ -72,7 +72,17 @@ Layout.propTypes = {
         title: PropTypes.string,
       }),
     }),
-  }).isRequired,
+  }),
+};
+
+Layout.defaultProps = {
+  data: {
+    site: {
+      siteMetadata: {
+        title: '',
+      },
+    },
+  },
 };
 
 // layout with static data
