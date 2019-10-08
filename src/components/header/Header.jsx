@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Header = () => <span />;
+const Header = ({ siteTitle }) => <span>{siteTitle}</span>;
 
 Header.propTypes = {
-  // siteTitle: PropTypes.string,
+  siteTitle: PropTypes.string,
 };
 
 Header.defaultProps = {
