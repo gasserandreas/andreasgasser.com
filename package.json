@@ -22,6 +22,12 @@
     "styled-normalize": "^8.0.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@storybook/addon-actions": "^5.2.3",
+    "@storybook/addon-links": "^5.2.3",
+    "@storybook/addons": "^5.2.3",
+    "@storybook/react": "^5.2.3",
+    "babel-loader": "^8.0.6",
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-loader": "^3.0.2",
@@ -39,7 +45,9 @@
     "lint:fix": "npm run -s lint -- --fix",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
