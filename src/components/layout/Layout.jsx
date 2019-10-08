@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import styled, { createGlobalStyle } from 'styled-components';
 import { Normalize } from 'styled-normalize';
 
@@ -47,36 +47,63 @@ const Styled = {
   `,
 };
 
-const Layout = ({ children }) => { // eslint-disable-line
-  // const data = useStaticQuery(graphql`
-  //   query SiteTitleQuery {
-  //     site {
-  //       siteMetadata {
-  //         title
-  //       }
-  //     }
-  //   }
-  // `);
-
-  return (
-    <>
-      <Normalize />
-      <GlobalStyle />
-      <Styled.Wrapper>
-        {/* Header */}
-        <Header siteTitle="" />
-        {/* Main content */}
-        <Styled.Content>
-          <main>{children}</main>
-        </Styled.Content>
-        <Footer />
-      </Styled.Wrapper>
-    </>
-  );
-};
+// simple layout component
+export const Layout = ({ children, data }) => (
+  <>
+    <Normalize />
+    <GlobalStyle />
+    <Styled.Wrapper>
+      {/* Header */}
+      <Header siteTitle={data.site.siteMetadata.title} />
+      {/* Main content */}
+      <Styled.Content>
+        <main>{children}</main>
+      </Styled.Content>
+      <Footer />
+    </Styled.Wrapper>
+  </>
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  data: PropTypes.shape({
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        title: PropTypes.string,
+      }),
+    }),
+  }),
 };
 
-export default Layout;
+Layout.defaultProps = {
+  data: {
+    site: {
+      siteMetadata: {
+        title: '',
+      },
+    },
+  },
+};
+
+// layout with static data
+const ConnectedLayout = ({ children }) => {
+  const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `);
+
+  return (
+    <Layout staticData={data}>{children}</Layout>
+  );
+};
+
+ConnectedLayout.propTypes = {
+  children: PropTypes.node.isRequired,
+};
+
+export default ConnectedLayout;
