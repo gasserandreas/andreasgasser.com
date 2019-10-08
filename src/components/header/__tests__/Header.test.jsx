@@ -2,11 +2,11 @@ import React from 'react';
 import { mount } from 'enzyme';
 // import toJson from 'enzyme-to-json';
 
-import Footer from '../Footer';
+import Header from '../Header';
 
-describe('components/Footer', () => {
+describe('components/Header', () => {
   it('simple test', () => {
-    const dom = mount(<Footer />);
+    const dom = mount(<Header />);
     expect(dom.exists()).toBeTruthy();
   });
 

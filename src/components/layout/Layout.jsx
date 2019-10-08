@@ -47,7 +47,36 @@ const Styled = {
   `,
 };
 
-const Layout = ({ children }) => {
+// simple layout component
+export const Layout = ({ children, data }) => (
+  <>
+    <Normalize />
+    <GlobalStyle />
+    <Styled.Wrapper>
+      {/* Header */}
+      <Header siteTitle={data.site.siteMetadata.title} />
+      {/* Main content */}
+      <Styled.Content>
+        <main>{children}</main>
+      </Styled.Content>
+      <Footer />
+    </Styled.Wrapper>
+  </>
+);
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+  data: PropTypes.shape({
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        title: PropTypes.string,
+      }),
+    }),
+  }).isRequired,
+};
+
+// layout with static data
+const ConnectedLayout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -59,24 +88,12 @@ const Layout = ({ children }) => {
   `);
 
   return (
-    <>
-      <Normalize />
-      <GlobalStyle />
-      <Styled.Wrapper>
-        {/* Header */}
-        <Header siteTitle={data.site.siteMetadata.title} />
-        {/* Main content */}
-        <Styled.Content>
-          <main>{children}</main>
-        </Styled.Content>
-        <Footer />
-      </Styled.Wrapper>
-    </>
+    <Layout staticData={data}>{children}</Layout>
   );
 };
 
-Layout.propTypes = {
+ConnectedLayout.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default Layout;
+export default ConnectedLayout;
