@@ -19,7 +19,8 @@
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
     "styled-components": "^4.4.0",
-    "styled-normalize": "^8.0.6"
+    "styled-reset-advanced": "^1.0.2",
+    "styled-system": "^5.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

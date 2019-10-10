@@ -1,9 +1,12 @@
+import React from 'react';
 import { configure, addDecorator, addParameters } from '@storybook/react';
 import { create } from '@storybook/theming';
 
 import { withKnobs } from '@storybook/addon-knobs';
 
 import { name } from '../package.json';
+import GlobalStyles from '../src/components/GlobalStyles';
+import CustomThemeProvider from '../src/components/Theme/CustomThemeProvider'
 
 // Gatsby's Link overrides:
 // Gatsby defines a global called ___loader to prevent its method calls from creating console errors you override it here
@@ -21,6 +24,13 @@ window.___navigate = pathname => {
 };
 
 // custom configuration
+addDecorator((story) => (
+  <CustomThemeProvider>
+    <GlobalStyles/>
+    {story()}
+  </CustomThemeProvider>
+))
+
 addDecorator(withKnobs);
 
 // set global options
