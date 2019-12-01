@@ -1,20 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-import styled from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
+import { Box } from 'rebass/styled-components';
 
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import GlobalStyle from '../GlobalStyles';
-import CustomThemeProvider from '../Theme/CustomThemeProvider';
+import theme from '../Theme/theme';
 
 const Styled = {
-  Wrapper: styled.div`
+  Wrapper: styled(Box)`
     height: 100%;
     min-width: 100%;
     text-align: center;
   `,
-  Content: styled.div`
+  Content: styled(Box)`
     margin: 0 auto;
 
     main {
@@ -25,7 +26,7 @@ const Styled = {
 
 // simple layout component
 export const Layout = ({ children, data }) => (
-  <CustomThemeProvider>
+  <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Styled.Wrapper>
       {/* Header */}
@@ -36,7 +37,7 @@ export const Layout = ({ children, data }) => (
       </Styled.Content>
       <Footer />
     </Styled.Wrapper>
-  </CustomThemeProvider>
+  </ThemeProvider>
 );
 
 Layout.propTypes = {

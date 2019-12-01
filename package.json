@@ -4,6 +4,7 @@
   "description": "About me homepage",
   "main": "index.js",
   "dependencies": {
+    "@rebass/preset": "^4.0.5",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.15.29",
     "gatsby-image": "^2.2.24",
@@ -18,9 +19,8 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
-    "styled-components": "^4.4.0",
-    "styled-reset-advanced": "^1.0.2",
-    "styled-system": "^5.1.2"
+    "rebass": "^4.0.7",
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
