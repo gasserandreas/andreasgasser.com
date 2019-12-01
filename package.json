@@ -4,6 +4,7 @@
   "description": "About me homepage",
   "main": "index.js",
   "dependencies": {
+    "@rebass/forms": "^4.0.6",
     "@rebass/preset": "^4.0.5",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.15.29",

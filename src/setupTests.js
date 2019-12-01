@@ -1,10 +1,9 @@
 import React from 'react';
 import { configure } from 'enzyme';
-import { ThemeProvider } from 'styled-components';
 import Adapter from 'enzyme-adapter-react-16';
 import jestFetchMock from 'jest-fetch-mock';
 
-import usedTheme from './components/Theme/theme';
+import ThemeProvider from './components/Theme/ThemeProvider';
 
 // setup enzyme
 configure({ adapter: new Adapter() });
@@ -13,8 +12,8 @@ configure({ adapter: new Adapter() });
 global.fetch = jestFetchMock;
 
 // setup theme util
-const withTheme = (children, theme = usedTheme) => (
-  <ThemeProvider theme={theme}>
+const withTheme = (children) => (
+  <ThemeProvider>
     {children}
   </ThemeProvider>
 );

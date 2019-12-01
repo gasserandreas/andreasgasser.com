@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-import styled, { ThemeProvider } from 'styled-components';
+import styled from 'styled-components';
 import { Box } from 'rebass/styled-components';
 
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
-import GlobalStyle from '../GlobalStyles';
-import theme from '../Theme/theme';
+import ThemeProvider from '../Theme/ThemeProvider';
 
 const Styled = {
   Wrapper: styled(Box)`
@@ -26,8 +25,7 @@ const Styled = {
 
 // simple layout component
 export const Layout = ({ children, data }) => (
-  <ThemeProvider theme={theme}>
-    <GlobalStyle />
+  <ThemeProvider>
     <Styled.Wrapper>
       {/* Header */}
       <Header siteTitle={data.site.siteMetadata.title} />
