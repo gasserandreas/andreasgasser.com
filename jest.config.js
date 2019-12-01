@@ -16,6 +16,10 @@ module.exports = {
     `<rootDir>/loadershim.js`,
     `<rootDir>/src/setupTests.js`,
   ],
+  setupFilesAfterEnv: [
+    '@testing-library/jest-dom/extend-expect',
+    '@testing-library/react/cleanup-after-each'
+  ] // setupFiles before the tests are ran
   // testEnvironment: "jest-environment-jsdom-fourteen",
   // watchPlugins: [
   //   "jest-watch-typeahead/filename",
