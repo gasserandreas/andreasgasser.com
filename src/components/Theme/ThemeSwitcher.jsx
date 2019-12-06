@@ -25,6 +25,7 @@ const ThemeSwitcher = () => {
     <Styles.Switch
       checked={theme === Themes.dark}
       onClick={handleOnClick}
+      data-testid="theme-switcher"
     />
   );
 };

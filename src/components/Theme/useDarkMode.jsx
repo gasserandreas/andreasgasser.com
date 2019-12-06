@@ -6,7 +6,7 @@ export const Themes = {
   dark: 'DARK',
 };
 
-const useDarkMode = (isDark = null) => {
+export const useDarkMode = (isDark = null) => {
   const [theme, setTheme] = useState(isDark ? Themes.dark : Themes.light);
   const [isMounted, setMounted] = useState(isDark);
 
