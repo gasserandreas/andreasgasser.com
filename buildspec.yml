@@ -10,9 +10,9 @@ phases:
       - echo Close git repo to get .git folder
       - git clone https://github.com/gasserandreas/andreasgasser.com.git
       - rm -rf .git
-      - mv ./andreasgasser/.git ./
+      - mv ./andreasgasser.com/.git ./
       - echo Delete andreasgasser
-      - rm -rf andreasgasser
+      - rm -rf andreasgasser.com
   pre_build:
     commands:
       - echo Installing npm dependencies
