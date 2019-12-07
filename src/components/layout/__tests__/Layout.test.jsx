@@ -26,7 +26,8 @@ describe('components/Layout', () => {
         {...defaultProps}
         {...props}
       />,
-    ));
+    ),
+  );
 
   it('simple test', () => {
     const dom = mountLayout();

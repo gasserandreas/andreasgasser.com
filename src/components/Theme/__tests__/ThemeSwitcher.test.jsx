@@ -1,4 +1,3 @@
-/* global withTheme */
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 
@@ -13,8 +12,9 @@ describe('components/Theme/ThemeSwitcher', () => {
     const dom = render(
       <ThemeSwitchContext.Provider value={[{}, toggleTheme]}>
         <ThemeSwitcher />
-      </ThemeSwitchContext.Provider>);
-    
+      </ThemeSwitchContext.Provider>,
+    );
+
     // console.log(dom);
     const switcher = dom.getByTestId('theme-switcher');
 

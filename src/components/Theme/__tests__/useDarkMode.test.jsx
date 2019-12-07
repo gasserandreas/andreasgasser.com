@@ -74,9 +74,7 @@ describe('components/Theme/useDarkMode', () => {
   });
 
   it('should use dark mode if preferred by browser', () => {
-    window.matchMedia = jest.fn().mockImplementation((query) => {
-      return query === '(prefers-color-scheme: dark)';
-    });
+    window.matchMedia = jest.fn().mockImplementation((query) => query === '(prefers-color-scheme: dark)');
 
     const { result } = renderHook(() => useDarkMode(true));
     const [lightTheme] = result.current;

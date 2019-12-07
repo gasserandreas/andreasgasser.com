@@ -16,4 +16,3 @@ defaultTheme.story = {
 };
 
 export const themeSwitcher = () => <ThemeSwitcher />;
-
