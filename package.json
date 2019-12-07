@@ -1,11 +1,16 @@
 {
   "name": "andreasgasser.com",
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "About me homepage",
   "main": "index.js",
   "dependencies": {
     "@rebass/forms": "^4.0.6",
     "@rebass/preset": "^4.0.5",
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/commit-analyzer": "^6.3.3",
+    "@semantic-release/git": "^7.0.18",
+    "@semantic-release/npm": "^5.3.4",
+    "@semantic-release/release-notes-generator": "^7.3.5",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.15.29",
     "gatsby-image": "^2.2.24",
@@ -66,7 +71,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "storybook": "NODE_ENV=production start-storybook -p 6006 -s static",
-    "storybook:build": "NODE_ENV=production build-storybook -s static"
+    "storybook:build": "NODE_ENV=production build-storybook -s static",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
