@@ -1,3 +1,4 @@
+/* global withTheme */
 import React from 'react';
 import { mount } from 'enzyme';
 // import toJson from 'enzyme-to-json';
@@ -20,11 +21,12 @@ describe('components/Layout', () => {
   };
 
   const mountLayout = (props = {}) => mount(
-    <Layout
-      {...defaultProps}
-      {...props}
-    />,
-  );
+    withTheme(
+      <Layout
+        {...defaultProps}
+        {...props}
+      />,
+    ));
 
   it('simple test', () => {
     const dom = mountLayout();

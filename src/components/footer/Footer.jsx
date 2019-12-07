@@ -1,11 +1,12 @@
 import React from 'react';
+import { Box } from 'rebass/styled-components';
 
 const Footer = () => (
-  <footer>
+  <Box as="footer">
     ©
     {' '}
     {new Date().getFullYear()}
-  </footer>
+  </Box>
 );
 
 export default Footer;

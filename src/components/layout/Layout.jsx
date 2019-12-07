@@ -1,44 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-import styled, { createGlobalStyle } from 'styled-components';
-import { Normalize } from 'styled-normalize';
+import styled from 'styled-components';
+import { Box } from 'rebass/styled-components';
 
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
-
-const GlobalStyle = createGlobalStyle`
-  * {
-    box-sizing: border-box;
-    outline: 0;
-  }
-
-  html,
-  body,
-  #___gatsby,
-  #___gatsby > div {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-  }
-`;
+import ThemeProvider from '../Theme/ThemeProvider';
 
 const Styled = {
-  Wrapper: styled.div`
+  Wrapper: styled(Box)`
     height: 100%;
     min-width: 100%;
     text-align: center;
   `,
-  Content: styled.div`
+  Content: styled(Box)`
     margin: 0 auto;
 
     main {
@@ -49,9 +25,7 @@ const Styled = {
 
 // simple layout component
 export const Layout = ({ children, data }) => (
-  <>
-    <Normalize />
-    <GlobalStyle />
+  <ThemeProvider>
     <Styled.Wrapper>
       {/* Header */}
       <Header siteTitle={data.site.siteMetadata.title} />
@@ -61,7 +35,7 @@ export const Layout = ({ children, data }) => (
       </Styled.Content>
       <Footer />
     </Styled.Wrapper>
-  </>
+  </ThemeProvider>
 );
 
 Layout.propTypes = {
