@@ -35,7 +35,7 @@ const IndexPage = () => (
       <Styled.SubTitle>and welcome on my page</Styled.SubTitle>
     </Styled.Heading>
     <Styled.Text>
-      I am currently working on a new version, please return later...
+      [Test]: I am currently working on a new version, please return later...
     </Styled.Text>
   </Layout>
 );

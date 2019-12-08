@@ -8,7 +8,7 @@ phases:
       - echo Entered the install phase...
       - ls -a
       - echo Close git repo to get .git folder
-      - git clone https://github.com/gasserandreas/andreasgasser.com.git
+      - git clone https://$GH_ACCESS_TOKEN@github.com/gasserandreas/andreasgasser.com.git
       - rm -rf .git
       - mv ./andreasgasser.com/.git ./
       - echo Delete andreasgasser
