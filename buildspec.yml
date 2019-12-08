@@ -8,13 +8,13 @@ phases:
       - echo Entered the install phase...
       - ls -a
       - echo Close git repo to get .git folder
-      - git clone https://github.com/gasserandreas/andreasgasser.com.git
+      - git clone --single-branch --branch ${GIT_BRANCH} https://github.com/gasserandreas/andreasgasser.com.git
       - rm -rf .git
       - mv ./andreasgasser.com/.git ./
       - echo Delete andreasgasser
       - rm -rf andreasgasser.com
-      - echo change branch
-      - git checkout ${GIT_BRANCH}
+      # - echo change branch
+      # - git checkout ${GIT_BRANCH}
   pre_build:
     commands:
       - echo Installing npm dependencies
