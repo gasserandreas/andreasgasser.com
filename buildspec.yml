@@ -13,6 +13,8 @@ phases:
       - mv ./andreasgasser.com/.git ./
       - echo Delete andreasgasser
       - rm -rf andreasgasser.com
+      - echo change branch
+      - git checkout ${GIT_BRANCH}
   pre_build:
     commands:
       - echo Installing npm dependencies
@@ -35,7 +37,7 @@ phases:
     commands:
       - echo Updating S3 Hosting
       # copy files
-      - aws s3 sync --delete ./build $S3_DEPLOY_BUCKET
+      - aws s3 sync --delete ./public $S3_DEPLOY_BUCKET
       # set the cache-control headers for service-worker.js to prevent
       # browser caching
       - >
