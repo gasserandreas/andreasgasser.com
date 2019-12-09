@@ -1,0 +1,42 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - echo Entered the install phase...
+      - ls -a
+      - echo Close git repo to get .git folder
+      - git clone --single-branch --branch ${GIT_BRANCH} https://github.com/gasserandreas/andreasgasser.com.git
+      - rm -rf .git
+      - mv ./andreasgasser.com/.git ./
+      - echo Delete andreasgasser
+      - rm -rf andreasgasser.com
+  pre_build:
+    commands:
+      - echo Installing npm dependencies
+      - yarn install
+      # - echo Copy .env.* files into project
+      # - aws s3 cp $S3_UTILS_BUCKET$ENV_VAR ./
+  build:
+    commands:
+      - echo "Start linting"
+      - yarn run lint
+      - echo "Start test"
+      - CI=true yarn test
+      - echo "Run Semantic Release"
+      - GH_TOKEN="$GH_ACCESS_TOKEN" npx semantic-release
+      - echo "Build started on $CODEBUILD_START_TIME"
+      - yarn run build
+  post_build:
+    commands:
+      - echo Updating S3 Hosting
+      # copy files
+      - aws s3 sync --delete ./public $S3_DEPLOY_BUCKET
+      # # set the cache-control headers for index.html to prevent
+      # browser caching
+      - >
+        aws s3 cp --acl public-read 
+        --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
+        ./public/index.html ${S3_DEPLOY_BUCKET}/
