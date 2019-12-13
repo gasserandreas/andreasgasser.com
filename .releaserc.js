@@ -1,4 +1,5 @@
 module.exports = {
+  npmPublish: false,
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
@@ -9,7 +10,6 @@ module.exports = {
         changelogTitle: '# CHANGELOG.md',
       },
     ],
-    '@semantic-release/npm',
     [
       '@semantic-release/git',
       {
@@ -18,7 +18,7 @@ module.exports = {
       },
     ],
   ],
-  verifyConditions: ['@semantic-release/npm', '@semantic-release/changelog'],
+  verifyConditions: ['@semantic-release/changelog'],
   prepare: ['@semantic-release/changelog', '@semantic-release/git'],
   fail: false,
   success: false,
