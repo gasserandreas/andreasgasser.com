@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/gasserandreas/andreasgasser.com/compare/v1.1.1...v1.2.0) (2019-12-15)
+
+
+### Features
+
+* **#27:** added first base color set ([6f74358](https://github.com/gasserandreas/andreasgasser.com/commit/6f743584e673ee737dd58c22769e4007841557f8)), closes [#27](https://github.com/gasserandreas/andreasgasser.com/issues/27)
+* **#29:** added custom font ([79a1a3f](https://github.com/gasserandreas/andreasgasser.com/commit/79a1a3f3838893397cca813d01199a639f6e05bd)), closes [#29](https://github.com/gasserandreas/andreasgasser.com/issues/29)
+* **#30:** added new temp page layout and content ([7307012](https://github.com/gasserandreas/andreasgasser.com/commit/7307012d31a215f662d0f3e4a0eb2ecaad065f9e)), closes [#30](https://github.com/gasserandreas/andreasgasser.com/issues/30)
+
 ## [1.1.1](https://github.com/gasserandreas/andreasgasser.com/compare/v1.1.0...v1.1.1) (2019-12-15)
 
 
