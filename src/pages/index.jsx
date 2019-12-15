@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { Text, Heading } from 'rebass';
+
 import Layout from '../components/layout/Layout';
 import SEO from '../components/seo/SEO';
 
@@ -8,35 +10,34 @@ const Styled = {
   Heading: styled.div`
     padding: 2rem;
   `,
-  Title: styled.h1`
-    font-size: 3rem;
+  Title: styled(Heading)`
     text-transform: uppercase;
-    margin: 0;
-    font-weight: 300;
-    color: #333;
+    margin: 2rem;
   `,
-  SubTitle: styled.h2`
+  SubTitle: styled(Text)`
     margin: 0;
     font-size: 1.6rem;
     font-weight: 300;
     color: #333;
   `,
-  Text: styled.p``,
 };
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Styled.Heading>
-      <Styled.Title>
+      <Styled.Title
+        fontSize={6}
+        margin={4}
+      >
         Hello you
         {' '}
       </Styled.Title>
-      <Styled.SubTitle>and welcome on my page</Styled.SubTitle>
+      <Styled.SubTitle fontSize={4}>and welcome on my new page</Styled.SubTitle>
     </Styled.Heading>
-    <Styled.Text>
-      [Test]: I am currently working on a new version, please return later...
-    </Styled.Text>
+    <Text margin={3}>
+      I am currently working on a new version, please return later...
+    </Text>
   </Layout>
 );
 

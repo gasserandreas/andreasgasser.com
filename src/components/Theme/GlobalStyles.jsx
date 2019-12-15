@@ -1,6 +1,10 @@
 import { createGlobalStyle } from 'styled-components';
 
+
 const GlobalStyle = createGlobalStyle`
+  /* get Google font */
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
   * {
     box-sizing: border-box;
     outline: 0;
@@ -21,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 500;
   }
 `;
