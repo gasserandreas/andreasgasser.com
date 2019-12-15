@@ -29,14 +29,29 @@ phases:
       - GH_TOKEN="$GH_ACCESS_TOKEN" npx semantic-release
       - echo "Build started on $CODEBUILD_START_TIME"
       - yarn run build
+      - |
+        if [ "${GIT_BRANCH}" = "master" ]; then
+          echo Build Storybook
+          yarn run storybook:build
+        fi
   post_build:
     commands:
       - echo Updating S3 Hosting
       # copy files
       - aws s3 sync --delete ./public $S3_DEPLOY_BUCKET
-      # # set the cache-control headers for index.html to prevent
+      # set the cache-control headers for index.html to prevent
       # browser caching
       - >
         aws s3 cp --acl public-read 
         --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
         ./public/index.html ${S3_DEPLOY_BUCKET}/
+      # publish storybook on prod release
+      - |
+        if [ "${GIT_BRANCH}" = "master" ]; then
+          echo Copy deployment to Storybook bucket
+          aws s3 sync --delete ./storybook-static $S3_DEPLOY_STORYBOOK_BUCKET
+          # set the cache-control headers for index.html to prevent
+          aws s3 cp --acl public-read 
+          --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
+          ./storybook-static/index.html ${S3_DEPLOY_STORYBOOK_BUCKET}/
+        fi
