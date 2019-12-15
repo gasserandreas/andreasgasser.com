@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/gasserandreas/andreasgasser.com/compare/v1.0.0...v1.1.0) (2019-12-15)
+
+
+### Bug Fixes
+
+* **#16:** use GIT_BRANCH to idenfy storybook deployment ([3b53707](https://github.com/gasserandreas/andreasgasser.com/commit/3b5370724a6992e9068f065107c2bd145571e8eb)), closes [#16](https://github.com/gasserandreas/andreasgasser.com/issues/16)
+
+
+### Features
+
+* **#16:** added storybook deployment ([0fb3b2b](https://github.com/gasserandreas/andreasgasser.com/commit/0fb3b2b0f53b15008b8140328775cf9c636a946e)), closes [#16](https://github.com/gasserandreas/andreasgasser.com/issues/16)
+
 # 1.0.0 (2019-12-13)
 
 
