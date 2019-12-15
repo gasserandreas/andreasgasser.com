@@ -6,34 +6,43 @@ import { Box } from 'rebass/styled-components';
 
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
+import GlobalStyles from '../Theme/GlobalStyles';
 import ThemeProvider from '../Theme/ThemeProvider';
 
 const Styled = {
-  Wrapper: styled(Box)`
+  Wrapper: styled(Box)(({ theme }) => `
+    display: flex;
+    flex-direction: column
+    flex-wrap: nowrap;
     height: 100%;
     min-width: 100%;
     text-align: center;
-  `,
+    background-color: ${theme.colors.background};
+  `),
   Content: styled(Box)`
     margin: 0 auto;
-
-    main {
-      margin: 2rem 0;
-    }
+    flex-grow: 1;
+    flex-shrink: 1;
+  `,
+  Footer: styled(Footer)`
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 1rem;
   `,
 };
 
 // simple layout component
 export const Layout = ({ children, data }) => (
   <ThemeProvider>
+    <GlobalStyles />
     <Styled.Wrapper>
       {/* Header */}
       <Header siteTitle={data.site.siteMetadata.title} />
       {/* Main content */}
       <Styled.Content>
-        <main>{children}</main>
+        {children}
       </Styled.Content>
-      <Footer />
+      <Styled.Footer />
     </Styled.Wrapper>
   </ThemeProvider>
 );
