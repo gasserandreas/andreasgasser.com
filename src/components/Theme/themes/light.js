@@ -10,7 +10,7 @@ export default {
     'text-inverse': '#eee',
     muted: '#c9c9c9',
     // background colors
-    background: '#656565',
+    background: '#c3c3c3',
     'background-inverse': '#fff',
   },
 };
