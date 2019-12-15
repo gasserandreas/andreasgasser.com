@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/gasserandreas/andreasgasser.com/compare/v1.1.0...v1.1.1) (2019-12-15)
+
+
+### Bug Fixes
+
+* **#16:** updated buildspec for storybook deployment ([877fed5](https://github.com/gasserandreas/andreasgasser.com/commit/877fed53d203bb484b3dd11accd1b356ab9d1001)), closes [#16](https://github.com/gasserandreas/andreasgasser.com/issues/16)
+
 # [1.1.0](https://github.com/gasserandreas/andreasgasser.com/compare/v1.0.0...v1.1.0) (2019-12-15)
 
 
