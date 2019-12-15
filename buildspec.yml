@@ -51,7 +51,5 @@ phases:
           echo Copy deployment to Storybook bucket
           aws s3 sync --delete ./storybook-static $S3_DEPLOY_STORYBOOK_BUCKET
           # set the cache-control headers for index.html to prevent
-          aws s3 cp --acl public-read 
-          --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
-          ./storybook-static/index.html ${S3_DEPLOY_STORYBOOK_BUCKET}/
+          aws s3 cp --acl public-read --cache-control="max-age=0, no-cache, no-store, must-revalidate" ./storybook-static/index.html ${S3_DEPLOY_STORYBOOK_BUCKET}/
         fi
