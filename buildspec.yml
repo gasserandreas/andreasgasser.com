@@ -30,7 +30,7 @@ phases:
       - echo "Build started on $CODEBUILD_START_TIME"
       - yarn run build
       - |
-        if [ "${BUILD_ENVIRONMENT}" = "production" ]; then
+        if [ "${GIT_BRANCH}" = "master" ]; then
           echo Build Storybook
           yarn run storybook:build
         fi
@@ -47,7 +47,7 @@ phases:
         ./public/index.html ${S3_DEPLOY_BUCKET}/
       # publish storybook on prod release
       - |
-        if [ "${BUILD_ENVIRONMENT}" = "production" ]; then
+        if [ "${GIT_BRANCH}" = "master" ]; then
           echo Copy deployment to Storybook bucket
           aws s3 sync --delete ./storybook-static $S3_DEPLOY_STORYBOOK_BUCKET
           # set the cache-control headers for index.html to prevent
