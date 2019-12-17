@@ -31,8 +31,8 @@ const Styled = {
   `,
 };
 
-// simple layout component
-export const Layout = ({ children, data }) => (
+// simple Page component
+export const Page = ({ children, data }) => (
   <ThemeProvider>
     <GlobalStyles />
     <Styled.Wrapper>
@@ -47,7 +47,7 @@ export const Layout = ({ children, data }) => (
   </ThemeProvider>
 );
 
-Layout.propTypes = {
+Page.propTypes = {
   children: PropTypes.node.isRequired,
   data: PropTypes.shape({
     site: PropTypes.shape({
@@ -58,7 +58,7 @@ Layout.propTypes = {
   }),
 };
 
-Layout.defaultProps = {
+Page.defaultProps = {
   data: {
     site: {
       siteMetadata: {
@@ -68,8 +68,8 @@ Layout.defaultProps = {
   },
 };
 
-// layout with static data
-const ConnectedLayout = ({ children }) => {
+// Page with static data
+const ConnectedPage = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -81,12 +81,12 @@ const ConnectedLayout = ({ children }) => {
   `);
 
   return (
-    <Layout staticData={data}>{children}</Layout>
+    <Page staticData={data}>{children}</Page>
   );
 };
 
-ConnectedLayout.propTypes = {
+ConnectedPage.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default ConnectedLayout;
+export default ConnectedPage;

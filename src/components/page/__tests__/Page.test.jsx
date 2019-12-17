@@ -3,9 +3,9 @@ import React from 'react';
 import { mount } from 'enzyme';
 // import toJson from 'enzyme-to-json';
 
-import { Layout } from '../Layout';
+import { Page } from '../Page';
 
-describe('components/Layout', () => {
+describe('components/Page', () => {
   // mocked data
   const data = {
     site: {
@@ -20,9 +20,9 @@ describe('components/Layout', () => {
     children: 'content',
   };
 
-  const mountLayout = (props = {}) => mount(
+  const mountPage = (props = {}) => mount(
     withTheme(
-      <Layout
+      <Page
         {...defaultProps}
         {...props}
       />,
@@ -30,12 +30,12 @@ describe('components/Layout', () => {
   );
 
   it('simple test', () => {
-    const dom = mountLayout();
+    const dom = mountPage();
     expect(dom.exists()).toBeTruthy();
   });
 
   // it('simple snapshot test', () => {
-  //   const dom = mountLayout();
+  //   const dom = mountPage();
   //   expect(toJson(dom)).toMatchSnapshot();
   // });
 });
