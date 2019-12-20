@@ -4,19 +4,13 @@ import { useStaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import { Box } from 'rebass/styled-components';
 
-import Header from '../header/Header';
-import Footer from '../footer/Footer';
 import GlobalStyles from '../Theme/GlobalStyles';
 import ThemeProvider from '../Theme/ThemeProvider';
 
 const Styled = {
-  Wrapper: styled(Box)(({ theme }) => `
-    display: flex;
-    flex-direction: column
-    flex-wrap: nowrap;
+  Wrapper: styled.div(({ theme }) => `
     height: 100%;
-    min-width: 100%;
-    text-align: center;
+    overflow: hidden;
     background-color: ${theme.colors.background};
   `),
   Content: styled(Box)`
@@ -24,25 +18,17 @@ const Styled = {
     flex-grow: 1;
     flex-shrink: 1;
   `,
-  Footer: styled(Footer)`
-    flex-shrink: 0;
-    flex-grow: 0;
-    padding: 1rem;
-  `,
 };
 
 // simple Page component
-export const Page = ({ children, data }) => (
+// export const Page = ({ children, data }) => (
+export const Page = ({ children }) => (
   <ThemeProvider>
     <GlobalStyles />
     <Styled.Wrapper>
       {/* Header */}
-      <Header siteTitle={data.site.siteMetadata.title} />
-      {/* Main content */}
-      <Styled.Content>
-        {children}
-      </Styled.Content>
-      <Styled.Footer />
+      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
+      {children}
     </Styled.Wrapper>
   </ThemeProvider>
 );

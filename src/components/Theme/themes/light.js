@@ -7,10 +7,10 @@ export default {
     ...colors,
     // text colors
     text: '#333',
-    'text-inverse': '#eee',
+    textInverse: '#eee',
     muted: '#c9c9c9',
     // background colors
     background: '#c3c3c3',
-    'background-inverse': '#fff',
+    backgroundInverse: '#fff',
   },
 };

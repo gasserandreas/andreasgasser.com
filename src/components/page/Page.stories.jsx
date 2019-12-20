@@ -5,6 +5,15 @@ import Page from './Page';
 export default {
   title: 'Page',
   component: Page,
+  decorators: [(storyFn) => (
+    <div
+      style={{
+        height: '100vh',
+      }}
+    >
+      {storyFn()}
+    </div>
+  )],
 };
 
 export const defaultPage = () => (
