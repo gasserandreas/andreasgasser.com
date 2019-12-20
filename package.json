@@ -71,6 +71,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "storybook": "NODE_ENV=production start-storybook -p 6006 -s static",
+    "storybook:dev": "start-storybook -p 6006 -s static",
     "storybook:build": "NODE_ENV=production build-storybook -s static",
     "semantic-release": "semantic-release"
   },
