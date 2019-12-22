@@ -6,7 +6,8 @@ import { withKnobs } from '@storybook/addon-knobs';
 
 import { name } from '../package.json';
 import GlobalStyles from '../src/components/Theme/GlobalStyles';
-import ThemeProvider from '../src/components/Theme/ThemeProvider';
+import ThemeProvider, { useTheme } from '../src/components/Theme/ThemeProvider';
+import ThemeSwitcher from '../src/components/Theme/ThemeSwitcher';
 
 // Gatsby's Link overrides:
 // Gatsby defines a global called ___loader to prevent its method calls from creating console errors you override it here
@@ -23,13 +24,36 @@ window.___navigate = pathname => {
   action("NavigateTo:")(pathname);
 };
 
+const ThemedBackground = ({ children }) => {
+  const theme = useTheme();
+  const { colors } = theme;
+  
+  return (
+    <div style={{ backgroundColor: colors.background }}>
+      <div>
+        <strong>Switch theme: </strong>
+        <span style={{ display: 'inline-block', margin: '0.25rem 1rem 0.25rem 0'}}>
+          <ThemeSwitcher />
+        </span>
+      </div>
+      {children}
+    </div>
+  )
+}
+
 // custom configuration
 addDecorator((story) => (
   <ThemeProvider>
     <GlobalStyles/>
-    {story()}
+    <ThemedBackground>
+      {story()}
+    </ThemedBackground>
+    {/* <div>
+      <ThemeSwitcher />
+      {story()}
+    </div> */}
   </ThemeProvider>
-))
+));
 
 addDecorator(withKnobs);
 
