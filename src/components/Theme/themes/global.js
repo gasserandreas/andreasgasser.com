@@ -1,13 +1,6 @@
 /* eslint-disable prefer-destructuring */
 import rebass from '@rebass/preset';
 
-const heading = {
-  color: 'text',
-  fontFamily: 'heading',
-  lineHeight: 'heading',
-  fontWeight: 'heading',
-}
-
 const breakpoints = ['320px', '540px', '720px', '960px', '1140px', '1400px'];
 
 // aliases
@@ -18,7 +11,7 @@ breakpoints.lg = breakpoints[3];
 breakpoints.xl = breakpoints[4];
 breakpoints.xxl = breakpoints[5];
 
-const theme = {
+export default ({ colors }) => ({
   ...rebass,
   fonts: {
     body: 'Open Sans, Helvetica Neue, Helvetica, sans-serif',
@@ -38,10 +31,18 @@ const theme = {
   breakpoints,
   text: {
     small: {
-      'font-size': 1,
+      fontSize: 0,
+      color: colors.text,
     },
     bold: {
-      'font-weight': '900',
+      fontWeight: '900',
+      color: colors.text,
+    },
+    default: {
+      color: colors.text,
+    },
+    muted: {
+      color: colors.muted,
     },
     page: {
       fontSize: 4,
@@ -52,12 +53,11 @@ const theme = {
     subPage: {
       lineHeight: '1.6em',
       fontSize: 3,
+      color: colors.muted,
     },
     section: {
       lineHeight: '1.4em',
       fontSize: 3,
     },
   },
-};
-
-export default theme;
+});

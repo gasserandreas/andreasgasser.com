@@ -16,7 +16,7 @@ export const ThemeSwitchContext = createContext(null);
 
 function getTheme(selectedTheme) {
   const theme = selectedTheme === Themes.light ? light : dark;
-  return theme(global);
+  return global(theme);
 }
 
 export function useTheme() {
