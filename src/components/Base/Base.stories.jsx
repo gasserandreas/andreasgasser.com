@@ -1,11 +1,12 @@
 import React from 'react';
 import { select } from '@storybook/addon-knobs';
 
-import Text from './Text';
+import TextComponent from './Text';
+import HeadingComponent from './Heading';
 
 export default {
   title: 'Base',
-  component: Text,
+  component: TextComponent,
 };
 
 const textOptions = {
@@ -15,14 +16,22 @@ const textOptions = {
   bold: 'bold',
 };
 
-export const defaultText = () => (
-  <Text variant={select('variant', textOptions, textOptions[0])}>
+export const Text = () => (
+  <TextComponent variant={select('variant', textOptions, textOptions[0])}>
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
     {' '}
     eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-  </Text>
+  </TextComponent>
 );
 
-defaultText.story = {
-  name: 'default',
+const headingOptions = {
+  page: 'page',
+  subPage: 'subPage',
+  section: 'section',
 };
+
+export const Heading = () => (
+  <HeadingComponent variant={select('variant', headingOptions, headingOptions[0])}>
+    Custom Heading
+  </HeadingComponent>
+);

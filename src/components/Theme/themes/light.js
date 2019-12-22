@@ -15,6 +15,7 @@ export default (global) => ({
   ...global,
   colors,
   text: {
+    ...global.text,
     small: {
       ...global.text.small,
       color: colors.text,
@@ -27,6 +28,9 @@ export default (global) => ({
       color: colors.text,
     },
     muted: {
+      color: colors.muted,
+    },
+    subPage: {
       color: colors.muted,
     },
   },
