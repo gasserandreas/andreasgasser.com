@@ -1,0 +1,700 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Heading page Heading 1`] = `
+<CustomThemeProvider
+  dark={false}
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Array [
+          "320px",
+          "540px",
+          "720px",
+          "960px",
+          "1140px",
+          "1400px",
+        ],
+        "buttons": Object {
+          "outline": Object {
+            "bg": "transparent",
+            "boxShadow": "inset 0 0 2px",
+            "color": "primary",
+            "variant": "buttons.primary",
+          },
+          "primary": Object {
+            "bg": "primary",
+            "borderRadius": "default",
+            "color": "background",
+            "fontSize": 2,
+            "fontWeight": "bold",
+          },
+          "secondary": Object {
+            "bg": "secondary",
+            "color": "background",
+            "variant": "buttons.primary",
+          },
+        },
+        "colors": Object {
+          "background": "#fff",
+          "gray": "#dddddf",
+          "highlight": "hsla(205, 100%, 40%, 0.125)",
+          "muted": "#f6f6f9",
+          "primary": "#07c",
+          "secondary": "#30c",
+          "text": "#000",
+        },
+        "fontSizes": Array [
+          14,
+          16,
+          20,
+          24,
+          32,
+          48,
+          64,
+          96,
+        ],
+        "fontWeights": Object {
+          "body": 400,
+          "bold": 900,
+          "heading": 700,
+        },
+        "fonts": Object {
+          "body": "Open Sans, Helvetica Neue, Helvetica, sans-serif",
+          "heading": "inherit",
+          "monospace": "Menlo, monospace",
+        },
+        "lineHeights": Object {
+          "body": 1.5,
+          "heading": 1.125,
+        },
+        "radii": Object {
+          "circle": 99999,
+          "default": 4,
+        },
+        "shadows": Object {
+          "card": "0 0 4px rgba(0, 0, 0, .125)",
+        },
+        "sizes": Object {
+          "avatar": 48,
+        },
+        "space": Array [
+          0,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+        ],
+        "styles": Object {
+          "root": Object {
+            "fontFamily": "body",
+            "fontWeight": "body",
+            "lineHeight": "body",
+          },
+        },
+        "text": Object {
+          "bold": Object {
+            "color": "#595959",
+            "fontWeight": "900",
+          },
+          "default": Object {
+            "color": "#595959",
+          },
+          "muted": Object {
+            "color": "#808080",
+          },
+          "page": Object {
+            "fontSize": 4,
+            "letterSpacing": "-0.04em",
+            "lineHeight": "1.4em",
+            "wordSpacing": "-0.08em",
+          },
+          "section": Object {
+            "fontSize": 3,
+            "lineHeight": "1.4em",
+          },
+          "small": Object {
+            "color": "#595959",
+            "fontSize": 0,
+          },
+          "subPage": Object {
+            "color": "#808080",
+            "fontSize": 3,
+            "lineHeight": "1.6em",
+          },
+        },
+        "variants": Object {
+          "avatar": Object {
+            "borderRadius": "circle",
+            "height": "avatar",
+            "width": "avatar",
+          },
+          "card": Object {
+            "bg": "background",
+            "boxShadow": "card",
+            "p": 2,
+          },
+          "link": Object {
+            "color": "primary",
+          },
+          "nav": Object {
+            ":hover,:focus,.active": Object {
+              "color": "primary",
+            },
+            "color": "inherit",
+            "display": "inline-block",
+            "fontSize": 1,
+            "fontWeight": "bold",
+            "p": 2,
+            "textDecoration": "none",
+          },
+        },
+      }
+    }
+  >
+    <Heading
+      variant="page"
+    >
+      <ForwardRef
+        as="h1"
+        variant="page"
+      >
+        <styled.div
+          __css={
+            Object {
+              "fontFamily": "heading",
+              "fontSize": 4,
+              "fontWeight": "heading",
+              "lineHeight": "heading",
+            }
+          }
+          as="h1"
+          tx="text"
+          variant="page"
+        >
+          <StyledComponent
+            __css={
+              Object {
+                "fontFamily": "heading",
+                "fontSize": 4,
+                "fontWeight": "heading",
+                "lineHeight": "heading",
+              }
+            }
+            as="h1"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": false,
+                  "lastClassName": "hGoEHV",
+                  "rules": Array [
+                    "box-sizing: border-box;",
+                    "margin: 0;",
+                    "min-width: 0;",
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "div",
+                "toString": [Function],
+                "usesTheme": true,
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            tx="text"
+            variant="page"
+          >
+            <h1
+              className="sc-bdVaJa hGoEHV"
+            >
+              Page Heading
+            </h1>
+          </StyledComponent>
+        </styled.div>
+      </ForwardRef>
+    </Heading>
+  </ThemeProvider>
+</CustomThemeProvider>
+`;
+
+exports[`components/Heading section Heading 1`] = `
+<CustomThemeProvider
+  dark={false}
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Array [
+          "320px",
+          "540px",
+          "720px",
+          "960px",
+          "1140px",
+          "1400px",
+        ],
+        "buttons": Object {
+          "outline": Object {
+            "bg": "transparent",
+            "boxShadow": "inset 0 0 2px",
+            "color": "primary",
+            "variant": "buttons.primary",
+          },
+          "primary": Object {
+            "bg": "primary",
+            "borderRadius": "default",
+            "color": "background",
+            "fontSize": 2,
+            "fontWeight": "bold",
+          },
+          "secondary": Object {
+            "bg": "secondary",
+            "color": "background",
+            "variant": "buttons.primary",
+          },
+        },
+        "colors": Object {
+          "background": "#fff",
+          "gray": "#dddddf",
+          "highlight": "hsla(205, 100%, 40%, 0.125)",
+          "muted": "#f6f6f9",
+          "primary": "#07c",
+          "secondary": "#30c",
+          "text": "#000",
+        },
+        "fontSizes": Array [
+          14,
+          16,
+          20,
+          24,
+          32,
+          48,
+          64,
+          96,
+        ],
+        "fontWeights": Object {
+          "body": 400,
+          "bold": 900,
+          "heading": 700,
+        },
+        "fonts": Object {
+          "body": "Open Sans, Helvetica Neue, Helvetica, sans-serif",
+          "heading": "inherit",
+          "monospace": "Menlo, monospace",
+        },
+        "lineHeights": Object {
+          "body": 1.5,
+          "heading": 1.125,
+        },
+        "radii": Object {
+          "circle": 99999,
+          "default": 4,
+        },
+        "shadows": Object {
+          "card": "0 0 4px rgba(0, 0, 0, .125)",
+        },
+        "sizes": Object {
+          "avatar": 48,
+        },
+        "space": Array [
+          0,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+        ],
+        "styles": Object {
+          "root": Object {
+            "fontFamily": "body",
+            "fontWeight": "body",
+            "lineHeight": "body",
+          },
+        },
+        "text": Object {
+          "bold": Object {
+            "color": "#595959",
+            "fontWeight": "900",
+          },
+          "default": Object {
+            "color": "#595959",
+          },
+          "muted": Object {
+            "color": "#808080",
+          },
+          "page": Object {
+            "fontSize": 4,
+            "letterSpacing": "-0.04em",
+            "lineHeight": "1.4em",
+            "wordSpacing": "-0.08em",
+          },
+          "section": Object {
+            "fontSize": 3,
+            "lineHeight": "1.4em",
+          },
+          "small": Object {
+            "color": "#595959",
+            "fontSize": 0,
+          },
+          "subPage": Object {
+            "color": "#808080",
+            "fontSize": 3,
+            "lineHeight": "1.6em",
+          },
+        },
+        "variants": Object {
+          "avatar": Object {
+            "borderRadius": "circle",
+            "height": "avatar",
+            "width": "avatar",
+          },
+          "card": Object {
+            "bg": "background",
+            "boxShadow": "card",
+            "p": 2,
+          },
+          "link": Object {
+            "color": "primary",
+          },
+          "nav": Object {
+            ":hover,:focus,.active": Object {
+              "color": "primary",
+            },
+            "color": "inherit",
+            "display": "inline-block",
+            "fontSize": 1,
+            "fontWeight": "bold",
+            "p": 2,
+            "textDecoration": "none",
+          },
+        },
+      }
+    }
+  >
+    <Heading
+      variant="section"
+    >
+      <ForwardRef
+        as="h3"
+        variant="section"
+      >
+        <styled.div
+          __css={
+            Object {
+              "fontFamily": "heading",
+              "fontSize": 4,
+              "fontWeight": "heading",
+              "lineHeight": "heading",
+            }
+          }
+          as="h3"
+          tx="text"
+          variant="section"
+        >
+          <StyledComponent
+            __css={
+              Object {
+                "fontFamily": "heading",
+                "fontSize": 4,
+                "fontWeight": "heading",
+                "lineHeight": "heading",
+              }
+            }
+            as="h3"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": false,
+                  "lastClassName": "eXqPrR",
+                  "rules": Array [
+                    "box-sizing: border-box;",
+                    "margin: 0;",
+                    "min-width: 0;",
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "div",
+                "toString": [Function],
+                "usesTheme": true,
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            tx="text"
+            variant="section"
+          >
+            <h3
+              className="sc-bdVaJa eXqPrR"
+            >
+              section Heading
+            </h3>
+          </StyledComponent>
+        </styled.div>
+      </ForwardRef>
+    </Heading>
+  </ThemeProvider>
+</CustomThemeProvider>
+`;
+
+exports[`components/Heading subPage Heading 1`] = `
+<CustomThemeProvider
+  dark={false}
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Array [
+          "320px",
+          "540px",
+          "720px",
+          "960px",
+          "1140px",
+          "1400px",
+        ],
+        "buttons": Object {
+          "outline": Object {
+            "bg": "transparent",
+            "boxShadow": "inset 0 0 2px",
+            "color": "primary",
+            "variant": "buttons.primary",
+          },
+          "primary": Object {
+            "bg": "primary",
+            "borderRadius": "default",
+            "color": "background",
+            "fontSize": 2,
+            "fontWeight": "bold",
+          },
+          "secondary": Object {
+            "bg": "secondary",
+            "color": "background",
+            "variant": "buttons.primary",
+          },
+        },
+        "colors": Object {
+          "background": "#fff",
+          "gray": "#dddddf",
+          "highlight": "hsla(205, 100%, 40%, 0.125)",
+          "muted": "#f6f6f9",
+          "primary": "#07c",
+          "secondary": "#30c",
+          "text": "#000",
+        },
+        "fontSizes": Array [
+          14,
+          16,
+          20,
+          24,
+          32,
+          48,
+          64,
+          96,
+        ],
+        "fontWeights": Object {
+          "body": 400,
+          "bold": 900,
+          "heading": 700,
+        },
+        "fonts": Object {
+          "body": "Open Sans, Helvetica Neue, Helvetica, sans-serif",
+          "heading": "inherit",
+          "monospace": "Menlo, monospace",
+        },
+        "lineHeights": Object {
+          "body": 1.5,
+          "heading": 1.125,
+        },
+        "radii": Object {
+          "circle": 99999,
+          "default": 4,
+        },
+        "shadows": Object {
+          "card": "0 0 4px rgba(0, 0, 0, .125)",
+        },
+        "sizes": Object {
+          "avatar": 48,
+        },
+        "space": Array [
+          0,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+        ],
+        "styles": Object {
+          "root": Object {
+            "fontFamily": "body",
+            "fontWeight": "body",
+            "lineHeight": "body",
+          },
+        },
+        "text": Object {
+          "bold": Object {
+            "color": "#595959",
+            "fontWeight": "900",
+          },
+          "default": Object {
+            "color": "#595959",
+          },
+          "muted": Object {
+            "color": "#808080",
+          },
+          "page": Object {
+            "fontSize": 4,
+            "letterSpacing": "-0.04em",
+            "lineHeight": "1.4em",
+            "wordSpacing": "-0.08em",
+          },
+          "section": Object {
+            "fontSize": 3,
+            "lineHeight": "1.4em",
+          },
+          "small": Object {
+            "color": "#595959",
+            "fontSize": 0,
+          },
+          "subPage": Object {
+            "color": "#808080",
+            "fontSize": 3,
+            "lineHeight": "1.6em",
+          },
+        },
+        "variants": Object {
+          "avatar": Object {
+            "borderRadius": "circle",
+            "height": "avatar",
+            "width": "avatar",
+          },
+          "card": Object {
+            "bg": "background",
+            "boxShadow": "card",
+            "p": 2,
+          },
+          "link": Object {
+            "color": "primary",
+          },
+          "nav": Object {
+            ":hover,:focus,.active": Object {
+              "color": "primary",
+            },
+            "color": "inherit",
+            "display": "inline-block",
+            "fontSize": 1,
+            "fontWeight": "bold",
+            "p": 2,
+            "textDecoration": "none",
+          },
+        },
+      }
+    }
+  >
+    <Heading
+      variant="subPage"
+    >
+      <ForwardRef
+        as="h2"
+        variant="subPage"
+      >
+        <styled.div
+          __css={
+            Object {
+              "fontFamily": "heading",
+              "fontSize": 4,
+              "fontWeight": "heading",
+              "lineHeight": "heading",
+            }
+          }
+          as="h2"
+          tx="text"
+          variant="subPage"
+        >
+          <StyledComponent
+            __css={
+              Object {
+                "fontFamily": "heading",
+                "fontSize": 4,
+                "fontWeight": "heading",
+                "lineHeight": "heading",
+              }
+            }
+            as="h2"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": false,
+                  "lastClassName": "iXnHtG",
+                  "rules": Array [
+                    "box-sizing: border-box;",
+                    "margin: 0;",
+                    "min-width: 0;",
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "div",
+                "toString": [Function],
+                "usesTheme": true,
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            tx="text"
+            variant="subPage"
+          >
+            <h2
+              className="sc-bdVaJa iXnHtG"
+            >
+              Sub Page Heading
+            </h2>
+          </StyledComponent>
+        </styled.div>
+      </ForwardRef>
+    </Heading>
+  </ThemeProvider>
+</CustomThemeProvider>
+`;
