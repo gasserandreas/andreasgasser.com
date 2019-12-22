@@ -43,8 +43,8 @@ exports[`components/TitleLink simple snapshot test 1`] = `
           "muted": "#c9c9c9",
           "primary": "#07c",
           "secondary": "#30c",
-          "text": "#333",
-          "textHighlighed": "#565656",
+          "text": "#595959",
+          "textHighlighed": "#333",
           "textHover": "#7e7e7e",
           "textInverse": "#eee",
         },
@@ -65,13 +65,13 @@ exports[`components/TitleLink simple snapshot test 1`] = `
           "heading": 700,
         },
         "fonts": Object {
-          "body": "system-ui, sans-serif",
+          "body": "Open Sans, Helvetica Neue, Helvetica, sans-serif",
           "heading": "inherit",
           "monospace": "Menlo, monospace",
         },
         "lineHeights": Object {
           "body": 1.5,
-          "heading": 1.25,
+          "heading": 1.125,
         },
         "radii": Object {
           "circle": 99999,
@@ -167,7 +167,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-htpNat",
               "isStatic": false,
-              "lastClassName": "gmsjui",
+              "lastClassName": "koCKea",
               "rules": Array [
                 [Function],
               ],
@@ -192,17 +192,17 @@ exports[`components/TitleLink simple snapshot test 1`] = `
         to="https://www.google.com/"
       >
         <Link
-          className="sc-htpNat gmsjui"
+          className="sc-htpNat koCKea"
           external={true}
           to="https://www.google.com/"
         >
           <styled.a
-            className="sc-htpNat gmsjui"
+            className="sc-htpNat koCKea"
             href="https://www.google.com/"
             target="_blank"
           >
             <StyledComponent
-              className="sc-htpNat gmsjui"
+              className="sc-htpNat koCKea"
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
@@ -210,7 +210,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bwzfXH",
                     "isStatic": false,
-                    "lastClassName": "czfiUD",
+                    "lastClassName": "jgtaUg",
                     "rules": Array [
                       [Function],
                     ],
@@ -231,7 +231,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
               target="_blank"
             >
               <a
-                className="sc-bwzfXH czfiUD sc-htpNat gmsjui"
+                className="sc-bwzfXH jgtaUg sc-htpNat koCKea"
                 href="https://www.google.com/"
                 target="_blank"
               >
