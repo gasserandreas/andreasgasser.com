@@ -1,10 +1,7 @@
-import preset from '@rebass/preset';
-
-const { colors } = preset;
-
 export default {
+  ...global,
   colors: {
-    ...colors,
+    ...global.colors,
     // text colors
     text: '#e9e9e9',
     textHover: '#b3b3b3',

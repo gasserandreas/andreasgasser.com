@@ -1,12 +1,17 @@
 import React from 'react';
-import styled from 'styled-components';
+import PropTypes from 'prop-types';
+import { Text as RText } from 'rebass/styled-components';
 
-import { Text } from 'rebass/styled-components';
-
-const StyledText = styled(Text)(({ theme }) => `
-  color: ${theme.colors.text};
-`);
-
-export default (props) => (
-  <StyledText color="text" {...props} />
+const Text = (props) => (
+  <RText {...props} />
 );
+
+Text.propTypes = {
+  variant: PropTypes.string,
+};
+
+Text.defaultProps = {
+  variant: 'default',
+};
+
+export default Text;

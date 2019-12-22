@@ -36,20 +36,15 @@ exports[`components/TitleLink simple snapshot test 1`] = `
           },
         },
         "colors": Object {
-          "background": "#c3c3c3",
-          "backgroundInverse": "#fff",
+          "background": "#fff",
           "gray": "#dddddf",
           "highlight": "hsla(205, 100%, 40%, 0.125)",
-          "muted": "#c9c9c9",
+          "muted": "#f6f6f9",
           "primary": "#07c",
           "secondary": "#30c",
-          "text": "#595959",
-          "textHighlighed": "#333",
-          "textHover": "#7e7e7e",
-          "textInverse": "#eee",
+          "text": "#000",
         },
         "fontSizes": Array [
-          12,
           14,
           16,
           20,
@@ -61,7 +56,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
         ],
         "fontWeights": Object {
           "body": 400,
-          "bold": 700,
+          "bold": 900,
           "heading": 700,
         },
         "fonts": Object {
@@ -102,24 +97,34 @@ exports[`components/TitleLink simple snapshot test 1`] = `
           },
         },
         "text": Object {
-          "caps": Object {
-            "letterSpacing": "0.1em",
-            "textTransform": "uppercase",
+          "bold": Object {
+            "color": "#595959",
+            "fontWeight": "900",
           },
-          "display": Object {
-            "fontFamily": "heading",
-            "fontSize": Array [
-              5,
-              6,
-              7,
-            ],
-            "fontWeight": "heading",
-            "lineHeight": "heading",
+          "default": Object {
+            "color": "#595959",
           },
-          "heading": Object {
-            "fontFamily": "heading",
-            "fontWeight": "heading",
-            "lineHeight": "heading",
+          "muted": Object {
+            "color": "#808080",
+          },
+          "page": Object {
+            "fontSize": 4,
+            "letterSpacing": "-0.04em",
+            "lineHeight": "1.4em",
+            "wordSpacing": "-0.08em",
+          },
+          "section": Object {
+            "fontSize": 3,
+            "lineHeight": "1.4em",
+          },
+          "small": Object {
+            "color": "#595959",
+            "fontSize": 0,
+          },
+          "subPage": Object {
+            "color": "#808080",
+            "fontSize": 3,
+            "lineHeight": "1.6em",
           },
         },
         "variants": Object {
@@ -167,7 +172,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-htpNat",
               "isStatic": false,
-              "lastClassName": "koCKea",
+              "lastClassName": "cMPWcx",
               "rules": Array [
                 [Function],
               ],
@@ -192,17 +197,17 @@ exports[`components/TitleLink simple snapshot test 1`] = `
         to="https://www.google.com/"
       >
         <Link
-          className="sc-htpNat koCKea"
+          className="sc-htpNat cMPWcx"
           external={true}
           to="https://www.google.com/"
         >
           <styled.a
-            className="sc-htpNat koCKea"
+            className="sc-htpNat cMPWcx"
             href="https://www.google.com/"
             target="_blank"
           >
             <StyledComponent
-              className="sc-htpNat koCKea"
+              className="sc-htpNat cMPWcx"
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
@@ -210,7 +215,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bwzfXH",
                     "isStatic": false,
-                    "lastClassName": "jgtaUg",
+                    "lastClassName": "jbnfhe",
                     "rules": Array [
                       [Function],
                     ],
@@ -231,7 +236,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
               target="_blank"
             >
               <a
-                className="sc-bwzfXH jgtaUg sc-htpNat koCKea"
+                className="sc-bwzfXH jbnfhe sc-htpNat cMPWcx"
                 href="https://www.google.com/"
                 target="_blank"
               >
