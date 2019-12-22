@@ -57,12 +57,10 @@ export const propTypes = {
   children: PropTypes.node.isRequired,
   to: PropTypes.string.isRequired,
   external: PropTypes.bool,
-
 };
 
 export const defaultProps = {
   external: false,
-
 };
 
 Link.propTypes = propTypes;
