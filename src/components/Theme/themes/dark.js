@@ -7,6 +7,8 @@ export default {
     ...colors,
     // text colors
     text: '#e9e9e9',
+    textHover: '#b3b3b3',
+    textHighlighed: '#f9f9f9',
     textInverse: '#9e9e9e',
     muted: '#808080',
     // background colors
