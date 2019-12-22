@@ -29,6 +29,22 @@ const theme = {
     heading: 1.125,
   },
   breakpoints,
+  text: {
+    small: {
+      'font-size': '0.85rem',
+    },
+    bold: {
+      'font-weight': '900',
+    },
+  },
+  heading: {
+    site: {
+      'font-size': '1.5rem',
+      'letter-spacing': '-0.04em',
+      'word-spacing': '-0.08em',
+      'line-height': '1.4em',
+    },
+  }
 };
 
 export default theme;
