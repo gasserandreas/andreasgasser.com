@@ -1,6 +1,7 @@
 import React from 'react';
 import { boolean, text } from '@storybook/addon-knobs';
 
+import Text from '../Base/Text';
 import Link from './Link';
 import TitleLink from './TitleLink';
 
@@ -24,7 +25,7 @@ defaultLink.story = {
 
 
 export const inlineLink = () => (
-  <p>
+  <Text>
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
     {' '}
     eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -44,12 +45,12 @@ export const inlineLink = () => (
     At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
     {' '}
     no sea takimata sanctus est Lorem ipsum dolor sit amet.
-  </p>
+  </Text>
 );
 
 export const titleLink = () => (
   <div>
-    <p>
+    <Text>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
       {' '}
       eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -69,7 +70,7 @@ export const titleLink = () => (
       At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
       {' '}
       no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </p>
+    </Text>
     <TitleLink to={text('to', '/home')}>Section Title</TitleLink>
   </div>
 );
