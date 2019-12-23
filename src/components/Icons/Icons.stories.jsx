@@ -2,23 +2,23 @@ import React from 'react';
 
 import BaseIcon from './BaseIcon';
 import { CodeIcon, ChartBarIcon } from './Icons';
+import { GitHubIcon, LinkedInIcon } from './SocialIcon';
 
-export default {
-  title: 'Icons',
-  component: BaseIcon,
-};
-
-export const defaultFooter = () => {
-  const icons = {
-    'Bar Chart': <ChartBarIcon />,
-    Code: <CodeIcon />,
-  };
-
+/**
+ * render util function
+ */
+function renderIconTable(icons) {
   return (
     <table>
       <thead>
         <tr>
-          <th>Name</th>
+          <th style={{
+            textAlign: 'left',
+            width: '8rem',
+          }}
+          >
+            Name
+          </th>
           <th>Icon</th>
         </tr>
       </thead>
@@ -32,8 +32,31 @@ export const defaultFooter = () => {
       </tbody>
     </table>
   );
+}
+
+export default {
+  title: 'Icons',
+  component: BaseIcon,
 };
 
-defaultFooter.story = {
+export const defaultIcon = () => {
+  const icons = {
+    'Bar Chart': <ChartBarIcon />,
+    Code: <CodeIcon />,
+  };
+
+  return renderIconTable(icons);
+};
+
+defaultIcon.story = {
   name: 'default',
+};
+
+export const SocialIcons = () => {
+  const icons = {
+    GitHub: <GitHubIcon />,
+    LinkedIn: <LinkedInIcon />,
+  };
+
+  return renderIconTable(icons);
 };

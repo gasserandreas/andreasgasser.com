@@ -36,13 +36,13 @@ exports[`components/Link simple snapshot test 1`] = `
           },
         },
         "colors": Object {
-          "background": "#fff",
-          "gray": "#dddddf",
-          "highlight": "hsla(205, 100%, 40%, 0.125)",
-          "muted": "#f6f6f9",
-          "primary": "#07c",
-          "secondary": "#30c",
-          "text": "#000",
+          "background": "#c3c3c3",
+          "backgroundInverse": "#fff",
+          "muted": "#808080",
+          "text": "#595959",
+          "textHighlighed": "#333",
+          "textHover": "#7e7e7e",
+          "textInverse": "#eee",
         },
         "fontSizes": Array [
           14,
@@ -172,7 +172,7 @@ exports[`components/Link simple snapshot test 1`] = `
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bwzfXH",
                 "isStatic": false,
-                "lastClassName": "jbnfhe",
+                "lastClassName": "jgtaUg",
                 "rules": Array [
                   [Function],
                 ],
@@ -192,7 +192,7 @@ exports[`components/Link simple snapshot test 1`] = `
           target="_blank"
         >
           <a
-            className="sc-bwzfXH jbnfhe"
+            className="sc-bwzfXH jgtaUg"
             href="https://www.google.com/"
             target="_blank"
           >

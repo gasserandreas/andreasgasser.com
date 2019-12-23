@@ -13,6 +13,7 @@ breakpoints.xxl = breakpoints[5];
 
 export default ({ colors }) => ({
   ...rebass,
+  colors,
   fonts: {
     body: 'Open Sans, Helvetica Neue, Helvetica, sans-serif',
     heading: 'inherit',
