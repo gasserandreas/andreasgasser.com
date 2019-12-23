@@ -14,11 +14,9 @@ import global from './themes/global';
 
 export const ThemeSwitchContext = createContext(null);
 
-function getTheme(theme) {
-  return {
-    ...global,
-    ...theme === Themes.light ? light : dark,
-  };
+function getTheme(selectedTheme) {
+  const theme = selectedTheme === Themes.light ? light : dark;
+  return global(theme);
 }
 
 export function useTheme() {

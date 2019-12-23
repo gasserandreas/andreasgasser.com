@@ -1,16 +1,15 @@
-import preset from '@rebass/preset';
-
-const { colors } = preset;
-
 export default {
+  ...global,
   colors: {
-    ...colors,
+    ...global.colors,
     // text colors
     text: '#e9e9e9',
-    'text-inverse': '#9e9e9e',
+    textHover: '#b3b3b3',
+    textHighlighed: '#f9f9f9',
+    textInverse: '#9e9e9e',
     muted: '#808080',
     // background colors
     background: '#9a9a9a',
-    'background-inverse': '#323232',
+    backgroundInverse: '#323232',
   },
 };

@@ -9,7 +9,7 @@ Header.propTypes = {
 };
 
 Header.defaultProps = {
-  siteTitle: '',
+  siteTitle: 'Header',
 };
 
 export default Header;
