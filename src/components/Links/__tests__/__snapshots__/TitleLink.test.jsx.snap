@@ -36,13 +36,13 @@ exports[`components/TitleLink simple snapshot test 1`] = `
           },
         },
         "colors": Object {
-          "background": "#fff",
-          "gray": "#dddddf",
-          "highlight": "hsla(205, 100%, 40%, 0.125)",
-          "muted": "#f6f6f9",
-          "primary": "#07c",
-          "secondary": "#30c",
-          "text": "#000",
+          "background": "#c3c3c3",
+          "backgroundInverse": "#fff",
+          "muted": "#808080",
+          "text": "#595959",
+          "textHighlighed": "#333",
+          "textHover": "#7e7e7e",
+          "textInverse": "#eee",
         },
         "fontSizes": Array [
           14,
@@ -172,7 +172,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-htpNat",
               "isStatic": false,
-              "lastClassName": "cMPWcx",
+              "lastClassName": "koCKea",
               "rules": Array [
                 [Function],
               ],
@@ -196,17 +196,17 @@ exports[`components/TitleLink simple snapshot test 1`] = `
         to="https://www.google.com/"
       >
         <Link
-          className="sc-htpNat cMPWcx"
+          className="sc-htpNat koCKea"
           external={true}
           to="https://www.google.com/"
         >
           <styled.a
-            className="sc-htpNat cMPWcx"
+            className="sc-htpNat koCKea"
             href="https://www.google.com/"
             target="_blank"
           >
             <StyledComponent
-              className="sc-htpNat cMPWcx"
+              className="sc-htpNat koCKea"
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
@@ -214,7 +214,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-bwzfXH",
                     "isStatic": false,
-                    "lastClassName": "jbnfhe",
+                    "lastClassName": "jgtaUg",
                     "rules": Array [
                       [Function],
                     ],
@@ -234,7 +234,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
               target="_blank"
             >
               <a
-                className="sc-bwzfXH jbnfhe sc-htpNat cMPWcx"
+                className="sc-bwzfXH jgtaUg sc-htpNat koCKea"
                 href="https://www.google.com/"
                 target="_blank"
               >
