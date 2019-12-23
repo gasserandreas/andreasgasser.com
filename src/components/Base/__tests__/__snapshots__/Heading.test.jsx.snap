@@ -211,7 +211,6 @@ exports[`components/Heading page Heading 1`] = `
                 "styledComponentId": "sc-bdVaJa",
                 "target": "div",
                 "toString": [Function],
-                "usesTheme": true,
                 "warnTooManyClasses": [Function],
                 "withComponent": [Function],
               }
@@ -444,7 +443,6 @@ exports[`components/Heading section Heading 1`] = `
                 "styledComponentId": "sc-bdVaJa",
                 "target": "div",
                 "toString": [Function],
-                "usesTheme": true,
                 "warnTooManyClasses": [Function],
                 "withComponent": [Function],
               }
@@ -677,7 +675,6 @@ exports[`components/Heading subPage Heading 1`] = `
                 "styledComponentId": "sc-bdVaJa",
                 "target": "div",
                 "toString": [Function],
-                "usesTheme": true,
                 "warnTooManyClasses": [Function],
                 "withComponent": [Function],
               }

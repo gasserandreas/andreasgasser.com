@@ -183,7 +183,6 @@ exports[`components/Link simple snapshot test 1`] = `
               "styledComponentId": "sc-bwzfXH",
               "target": "a",
               "toString": [Function],
-              "usesTheme": false,
               "warnTooManyClasses": [Function],
               "withComponent": [Function],
             }
