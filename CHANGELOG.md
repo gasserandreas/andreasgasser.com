@@ -1,3 +1,23 @@
+# [1.3.0](https://github.com/gasserandreas/andreasgasser.com/compare/v1.2.0...v1.3.0) (2019-12-23)
+
+
+### Bug Fixes
+
+* **#21:** fixed layout / page bug ([c5fc74c](https://github.com/gasserandreas/andreasgasser.com/commit/c5fc74cd51f8334f956ac5ad1115d76bbf7721d7))
+
+
+### Features
+
+* **#21:** Added improved Layout and Page component ([b892984](https://github.com/gasserandreas/andreasgasser.com/commit/b8929840d39a14d215936da88334a0086c7ef371)), closes [#21](https://github.com/gasserandreas/andreasgasser.com/issues/21)
+* **#23:** added base Heading style ([159fb55](https://github.com/gasserandreas/andreasgasser.com/commit/159fb55d96a230cc269207fb4c5a3653a4dae98d)), closes [#23](https://github.com/gasserandreas/andreasgasser.com/issues/23)
+* **#23:** added Text base styles ([22cf1d7](https://github.com/gasserandreas/andreasgasser.com/commit/22cf1d735572a8f0b9520cae41b9538823d2202e)), closes [#23](https://github.com/gasserandreas/andreasgasser.com/issues/23)
+* **#24:** added base icon and first icon set ([55763f6](https://github.com/gasserandreas/andreasgasser.com/commit/55763f67edf2f5bd4efbf95db09b8a83aa8b1e79)), closes [#24](https://github.com/gasserandreas/andreasgasser.com/issues/24)
+* **#25:** added social media icons ([9515f96](https://github.com/gasserandreas/andreasgasser.com/commit/9515f96b38fba135ddaa891c8a1e6e823c5b18ae)), closes [#25](https://github.com/gasserandreas/andreasgasser.com/issues/25)
+* **#26:** added base link component ([aeccfd2](https://github.com/gasserandreas/andreasgasser.com/commit/aeccfd2c3bb1f27c33f28ad8975d11a611935940)), closes [#26](https://github.com/gasserandreas/andreasgasser.com/issues/26)
+* **#26:** added TitleLink ([10bb6d4](https://github.com/gasserandreas/andreasgasser.com/commit/10bb6d4eb5ab888f694411d0cae8b9fc6a0aa7be)), closes [#26](https://github.com/gasserandreas/andreasgasser.com/issues/26)
+* **#26:** updated theme ([43e033e](https://github.com/gasserandreas/andreasgasser.com/commit/43e033ea27c12ea3cf452433e2f7b60004738a2e)), closes [#26](https://github.com/gasserandreas/andreasgasser.com/issues/26)
+* **#42:** added new components to temp page ([74c0c2e](https://github.com/gasserandreas/andreasgasser.com/commit/74c0c2e80584402cecde3beeaa645f45609c4cfe)), closes [#42](https://github.com/gasserandreas/andreasgasser.com/issues/42)
+
 # [1.2.0](https://github.com/gasserandreas/andreasgasser.com/compare/v1.1.1...v1.2.0) (2019-12-15)
 
 
