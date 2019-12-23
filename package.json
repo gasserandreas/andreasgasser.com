@@ -4,6 +4,10 @@
   "description": "About me homepage",
   "main": "index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "@rebass/forms": "^4.0.6",
     "@rebass/preset": "^4.0.5",
     "@semantic-release/changelog": "^3.0.6",

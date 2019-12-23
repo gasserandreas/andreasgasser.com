@@ -188,7 +188,6 @@ exports[`components/TitleLink simple snapshot test 1`] = `
             "styledComponentId": "sc-htpNat",
             "target": [Function],
             "toString": [Function],
-            "usesTheme": false,
             "warnTooManyClasses": [Function],
             "withComponent": [Function],
           }
@@ -226,7 +225,6 @@ exports[`components/TitleLink simple snapshot test 1`] = `
                   "styledComponentId": "sc-bwzfXH",
                   "target": "a",
                   "toString": [Function],
-                  "usesTheme": false,
                   "warnTooManyClasses": [Function],
                   "withComponent": [Function],
                 }
