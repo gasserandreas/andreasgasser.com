@@ -29,7 +29,7 @@ const ThemedBackground = ({ children }) => {
   const { colors } = theme;
   
   return (
-    <div style={{ backgroundColor: colors.background }}>
+    <div style={{ backgroundColor: colors.background, height: '100vh' }}>
       <div>
         <strong>Switch theme: </strong>
         <span style={{ display: 'inline-block', margin: '0.25rem 1rem 0.25rem 0'}}>
