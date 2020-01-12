@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`components/TitleLink simple snapshot test 1`] = `
+exports[`components/TopBar simple styling test 1`] = `
 <CustomThemeProvider
   dark={false}
 >
@@ -156,95 +156,46 @@ exports[`components/TitleLink simple snapshot test 1`] = `
       }
     }
   >
-    <Styled(Link)
-      external={true}
-      to="https://www.google.com/"
+    <FullSizeMenu
+      show={false}
     >
-      <StyledComponent
-        external={true}
-        forwardedComponent={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "_foldedDefaultProps": Object {
-              "external": false,
-            },
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-htpNat",
-              "isStatic": false,
-              "lastClassName": "koCKea",
-              "rules": Array [
-                [Function],
-              ],
-            },
-            "displayName": "Styled(Link)",
-            "foldedComponentIds": Array [],
-            "propTypes": Object {
-              "children": [Function],
-              "external": [Function],
-              "to": [Function],
-            },
-            "render": [Function],
-            "styledComponentId": "sc-htpNat",
-            "target": [Function],
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          }
-        }
-        forwardedRef={null}
-        to="https://www.google.com/"
+      <styled.div
+        show={false}
       >
-        <Link
-          className="sc-htpNat koCKea"
-          external={true}
-          to="https://www.google.com/"
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bdVaJa",
+                "isStatic": false,
+                "lastClassName": "jNAtVv",
+                "rules": Array [
+                  [Function],
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-bdVaJa",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          show={false}
         >
-          <styled.a
-            className="sc-htpNat koCKea"
-            href="https://www.google.com/"
-            target="_blank"
+          <div
+            className="sc-bdVaJa jNAtVv"
           >
-            <StyledComponent
-              className="sc-htpNat koCKea"
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "sc-bwzfXH",
-                    "isStatic": false,
-                    "lastClassName": "jgtaUg",
-                    "rules": Array [
-                      [Function],
-                    ],
-                  },
-                  "displayName": "styled.a",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "sc-bwzfXH",
-                  "target": "a",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                }
-              }
-              forwardedRef={null}
-              href="https://www.google.com/"
-              target="_blank"
-            >
-              <a
-                className="sc-bwzfXH jgtaUg sc-htpNat koCKea"
-                href="https://www.google.com/"
-                target="_blank"
-              >
-                click me
-              </a>
-            </StyledComponent>
-          </styled.a>
-        </Link>
-      </StyledComponent>
-    </Styled(Link)>
+            content
+          </div>
+        </StyledComponent>
+      </styled.div>
+    </FullSizeMenu>
   </ThemeProvider>
 </CustomThemeProvider>
 `;

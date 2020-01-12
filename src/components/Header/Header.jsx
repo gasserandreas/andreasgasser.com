@@ -2,7 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Box } from 'rebass/styled-components';
 
-const Header = ({ siteTitle }) => <Box>{siteTitle}</Box>;
+import TopBar from '../TopBar/TopBar';
+
+const Header = ({ siteTitle }) => (
+  <Box>
+    <TopBar menuContent={<p>Hello Menu</p>} />
+    {siteTitle}
+  </Box>
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
