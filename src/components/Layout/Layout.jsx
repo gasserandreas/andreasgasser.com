@@ -70,7 +70,7 @@ const Layout = ({ children }) => (
       <Footer />
     </Styles.LeftNavigation>
     <Styles.TopBarWrapper data-testid="topBarWrapper">
-      <TopBar />
+      <TopBar menuContent={<p>Hello Menu</p>} />
     </Styles.TopBarWrapper>
     <Styles.Content padding={4}>
       {children}

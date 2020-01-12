@@ -6,7 +6,7 @@ import TopBar from '../TopBar/TopBar';
 
 const Header = ({ siteTitle }) => (
   <Box>
-    <TopBar />
+    <TopBar menuContent={<p>Hello Menu</p>} />
     {siteTitle}
   </Box>
 );
