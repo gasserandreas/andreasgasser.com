@@ -8,8 +8,11 @@ export default {
 };
 
 export const defaultTopBar = () => (
-  <div style={{ position: 'absolute', top: '0px', height: '250px', overflow: 'scroll', borderBottom: '1px solid' }}>
-    <TopBar />
+  <div style={{
+    position: 'absolute', top: '0px', height: '250px', overflow: 'scroll', borderBottom: '1px solid',
+  }}
+  >
+    <TopBar menuContent={<p>Hello Menu</p>} />
     <p style={{ paddingTop: TOP_BAR_FULL_HEIGHT }}>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
       {' '}

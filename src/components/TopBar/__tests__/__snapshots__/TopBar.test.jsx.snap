@@ -1,0 +1,947 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/TopBar should enable dense mode after long scroll 1`] = `
+<CustomThemeProvider
+  dark={false}
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Array [
+          "320px",
+          "540px",
+          "720px",
+          "960px",
+          "1140px",
+          "1400px",
+        ],
+        "buttons": Object {
+          "outline": Object {
+            "bg": "transparent",
+            "boxShadow": "inset 0 0 2px",
+            "color": "primary",
+            "variant": "buttons.primary",
+          },
+          "primary": Object {
+            "bg": "primary",
+            "borderRadius": "default",
+            "color": "background",
+            "fontSize": 2,
+            "fontWeight": "bold",
+          },
+          "secondary": Object {
+            "bg": "secondary",
+            "color": "background",
+            "variant": "buttons.primary",
+          },
+        },
+        "colors": Object {
+          "background": "#c3c3c3",
+          "backgroundInverse": "#fff",
+          "muted": "#808080",
+          "text": "#595959",
+          "textHighlighed": "#333",
+          "textHover": "#7e7e7e",
+          "textInverse": "#eee",
+        },
+        "fontSizes": Array [
+          14,
+          16,
+          20,
+          24,
+          32,
+          48,
+          64,
+          96,
+        ],
+        "fontWeights": Object {
+          "body": 400,
+          "bold": 900,
+          "heading": 700,
+        },
+        "fonts": Object {
+          "body": "Open Sans, Helvetica Neue, Helvetica, sans-serif",
+          "heading": "inherit",
+          "monospace": "Menlo, monospace",
+        },
+        "lineHeights": Object {
+          "body": 1.5,
+          "heading": 1.125,
+        },
+        "radii": Object {
+          "circle": 99999,
+          "default": 4,
+        },
+        "shadows": Object {
+          "card": "0 0 4px rgba(0, 0, 0, .125)",
+        },
+        "sizes": Object {
+          "avatar": 48,
+        },
+        "space": Array [
+          0,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+        ],
+        "styles": Object {
+          "root": Object {
+            "fontFamily": "body",
+            "fontWeight": "body",
+            "lineHeight": "body",
+          },
+        },
+        "text": Object {
+          "bold": Object {
+            "color": "#595959",
+            "fontWeight": "900",
+          },
+          "default": Object {
+            "color": "#595959",
+          },
+          "muted": Object {
+            "color": "#808080",
+          },
+          "page": Object {
+            "fontSize": 4,
+            "letterSpacing": "-0.04em",
+            "lineHeight": "1.4em",
+            "wordSpacing": "-0.08em",
+          },
+          "section": Object {
+            "fontSize": 3,
+            "lineHeight": "1.4em",
+          },
+          "small": Object {
+            "color": "#595959",
+            "fontSize": 0,
+          },
+          "subPage": Object {
+            "color": "#808080",
+            "fontSize": 3,
+            "lineHeight": "1.6em",
+          },
+        },
+        "variants": Object {
+          "avatar": Object {
+            "borderRadius": "circle",
+            "height": "avatar",
+            "width": "avatar",
+          },
+          "card": Object {
+            "bg": "background",
+            "boxShadow": "card",
+            "p": 2,
+          },
+          "link": Object {
+            "color": "primary",
+          },
+          "nav": Object {
+            ":hover,:focus,.active": Object {
+              "color": "primary",
+            },
+            "color": "inherit",
+            "display": "inline-block",
+            "fontSize": 1,
+            "fontWeight": "bold",
+            "p": 2,
+            "textDecoration": "none",
+          },
+        },
+      }
+    }
+  >
+    <TopBar
+      menuContent={
+        <p
+          data-testid="topbar-menu"
+        >
+          Menu
+        </p>
+      }
+    >
+      <FullSizeMenu
+        show={false}
+        top={64}
+      >
+        <styled.div
+          show={false}
+          top={64}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-htpNat",
+                  "isStatic": false,
+                  "lastClassName": "lnmGaM",
+                  "rules": Array [
+                    [Function],
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-htpNat",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            show={false}
+            top={64}
+          >
+            <div
+              className="sc-htpNat lnmGaM"
+            >
+              <p
+                data-testid="topbar-menu"
+              >
+                Menu
+              </p>
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </FullSizeMenu>
+      <Styled(styled.div)
+        height={64}
+        showBackground={false}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bxivhb",
+                "isStatic": false,
+                "lastClassName": "kBSuHC",
+                "rules": Array [
+                  "box-sizing: border-box;",
+                  "margin: 0;",
+                  "min-width: 0;",
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                ],
+              },
+              "displayName": "Styled(styled.div)",
+              "foldedComponentIds": Array [
+                "sc-bdVaJa",
+              ],
+              "render": [Function],
+              "styledComponentId": "sc-bxivhb",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          height={64}
+          showBackground={false}
+        >
+          <div
+            className="sc-bdVaJa sc-bxivhb kBSuHC"
+            height={64}
+          >
+            <Styled(Text)
+              data-testid="topbar-menu-item"
+              onClick={[Function]}
+            >
+              <StyledComponent
+                data-testid="topbar-menu-item"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-ifAKCX",
+                      "isStatic": false,
+                      "lastClassName": "gvfZWj",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Styled(Text)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-ifAKCX",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                onClick={[Function]}
+              >
+                <Text
+                  className="sc-ifAKCX gvfZWj"
+                  data-testid="topbar-menu-item"
+                  onClick={[Function]}
+                  variant="default"
+                >
+                  <ForwardRef
+                    className="sc-ifAKCX gvfZWj"
+                    data-testid="topbar-menu-item"
+                    onClick={[Function]}
+                    variant="default"
+                  >
+                    <styled.div
+                      className="sc-ifAKCX gvfZWj"
+                      data-testid="topbar-menu-item"
+                      onClick={[Function]}
+                      tx="text"
+                      variant="default"
+                    >
+                      <StyledComponent
+                        className="sc-ifAKCX gvfZWj"
+                        data-testid="topbar-menu-item"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "dKonal",
+                              "rules": Array [
+                                "box-sizing: border-box;",
+                                "margin: 0;",
+                                "min-width: 0;",
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        onClick={[Function]}
+                        tx="text"
+                        variant="default"
+                      >
+                        <div
+                          className="sc-bdVaJa dKonal sc-ifAKCX gvfZWj"
+                          data-testid="topbar-menu-item"
+                          onClick={[Function]}
+                        >
+                          Menu
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </ForwardRef>
+                </Text>
+              </StyledComponent>
+            </Styled(Text)>
+            <Styled(Text)
+              data-testid="topbar-mail-item"
+              onClick={[Function]}
+            >
+              <StyledComponent
+                data-testid="topbar-mail-item"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-ifAKCX",
+                      "isStatic": false,
+                      "lastClassName": "gvfZWj",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Styled(Text)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-ifAKCX",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                onClick={[Function]}
+              >
+                <Text
+                  className="sc-ifAKCX gvfZWj"
+                  data-testid="topbar-mail-item"
+                  onClick={[Function]}
+                  variant="default"
+                >
+                  <ForwardRef
+                    className="sc-ifAKCX gvfZWj"
+                    data-testid="topbar-mail-item"
+                    onClick={[Function]}
+                    variant="default"
+                  >
+                    <styled.div
+                      className="sc-ifAKCX gvfZWj"
+                      data-testid="topbar-mail-item"
+                      onClick={[Function]}
+                      tx="text"
+                      variant="default"
+                    >
+                      <StyledComponent
+                        className="sc-ifAKCX gvfZWj"
+                        data-testid="topbar-mail-item"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "dKonal",
+                              "rules": Array [
+                                "box-sizing: border-box;",
+                                "margin: 0;",
+                                "min-width: 0;",
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        onClick={[Function]}
+                        tx="text"
+                        variant="default"
+                      >
+                        <div
+                          className="sc-bdVaJa dKonal sc-ifAKCX gvfZWj"
+                          data-testid="topbar-mail-item"
+                          onClick={[Function]}
+                        >
+                          Email
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </ForwardRef>
+                </Text>
+              </StyledComponent>
+            </Styled(Text)>
+          </div>
+        </StyledComponent>
+      </Styled(styled.div)>
+    </TopBar>
+  </ThemeProvider>
+</CustomThemeProvider>
+`;
+
+exports[`components/TopBar should enable dense mode after long scroll 2`] = `
+<CustomThemeProvider
+  dark={false}
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Array [
+          "320px",
+          "540px",
+          "720px",
+          "960px",
+          "1140px",
+          "1400px",
+        ],
+        "buttons": Object {
+          "outline": Object {
+            "bg": "transparent",
+            "boxShadow": "inset 0 0 2px",
+            "color": "primary",
+            "variant": "buttons.primary",
+          },
+          "primary": Object {
+            "bg": "primary",
+            "borderRadius": "default",
+            "color": "background",
+            "fontSize": 2,
+            "fontWeight": "bold",
+          },
+          "secondary": Object {
+            "bg": "secondary",
+            "color": "background",
+            "variant": "buttons.primary",
+          },
+        },
+        "colors": Object {
+          "background": "#c3c3c3",
+          "backgroundInverse": "#fff",
+          "muted": "#808080",
+          "text": "#595959",
+          "textHighlighed": "#333",
+          "textHover": "#7e7e7e",
+          "textInverse": "#eee",
+        },
+        "fontSizes": Array [
+          14,
+          16,
+          20,
+          24,
+          32,
+          48,
+          64,
+          96,
+        ],
+        "fontWeights": Object {
+          "body": 400,
+          "bold": 900,
+          "heading": 700,
+        },
+        "fonts": Object {
+          "body": "Open Sans, Helvetica Neue, Helvetica, sans-serif",
+          "heading": "inherit",
+          "monospace": "Menlo, monospace",
+        },
+        "lineHeights": Object {
+          "body": 1.5,
+          "heading": 1.125,
+        },
+        "radii": Object {
+          "circle": 99999,
+          "default": 4,
+        },
+        "shadows": Object {
+          "card": "0 0 4px rgba(0, 0, 0, .125)",
+        },
+        "sizes": Object {
+          "avatar": 48,
+        },
+        "space": Array [
+          0,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+        ],
+        "styles": Object {
+          "root": Object {
+            "fontFamily": "body",
+            "fontWeight": "body",
+            "lineHeight": "body",
+          },
+        },
+        "text": Object {
+          "bold": Object {
+            "color": "#595959",
+            "fontWeight": "900",
+          },
+          "default": Object {
+            "color": "#595959",
+          },
+          "muted": Object {
+            "color": "#808080",
+          },
+          "page": Object {
+            "fontSize": 4,
+            "letterSpacing": "-0.04em",
+            "lineHeight": "1.4em",
+            "wordSpacing": "-0.08em",
+          },
+          "section": Object {
+            "fontSize": 3,
+            "lineHeight": "1.4em",
+          },
+          "small": Object {
+            "color": "#595959",
+            "fontSize": 0,
+          },
+          "subPage": Object {
+            "color": "#808080",
+            "fontSize": 3,
+            "lineHeight": "1.6em",
+          },
+        },
+        "variants": Object {
+          "avatar": Object {
+            "borderRadius": "circle",
+            "height": "avatar",
+            "width": "avatar",
+          },
+          "card": Object {
+            "bg": "background",
+            "boxShadow": "card",
+            "p": 2,
+          },
+          "link": Object {
+            "color": "primary",
+          },
+          "nav": Object {
+            ":hover,:focus,.active": Object {
+              "color": "primary",
+            },
+            "color": "inherit",
+            "display": "inline-block",
+            "fontSize": 1,
+            "fontWeight": "bold",
+            "p": 2,
+            "textDecoration": "none",
+          },
+        },
+      }
+    }
+  >
+    <TopBar
+      menuContent={
+        <p
+          data-testid="topbar-menu"
+        >
+          Menu
+        </p>
+      }
+    >
+      <FullSizeMenu
+        show={false}
+        top={64}
+      >
+        <styled.div
+          show={false}
+          top={64}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-htpNat",
+                  "isStatic": false,
+                  "lastClassName": "lnmGaM",
+                  "rules": Array [
+                    [Function],
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-htpNat",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            show={false}
+            top={64}
+          >
+            <div
+              className="sc-htpNat lnmGaM"
+            >
+              <p
+                data-testid="topbar-menu"
+              >
+                Menu
+              </p>
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </FullSizeMenu>
+      <Styled(styled.div)
+        height={48}
+        showBackground={true}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bxivhb",
+                "isStatic": false,
+                "lastClassName": "dyAwmG",
+                "rules": Array [
+                  "box-sizing: border-box;",
+                  "margin: 0;",
+                  "min-width: 0;",
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                ],
+              },
+              "displayName": "Styled(styled.div)",
+              "foldedComponentIds": Array [
+                "sc-bdVaJa",
+              ],
+              "render": [Function],
+              "styledComponentId": "sc-bxivhb",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          height={48}
+          showBackground={true}
+        >
+          <div
+            className="sc-bdVaJa sc-bxivhb dyAwmG"
+            height={48}
+          >
+            <Styled(Text)
+              data-testid="topbar-menu-item"
+              onClick={[Function]}
+            >
+              <StyledComponent
+                data-testid="topbar-menu-item"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-ifAKCX",
+                      "isStatic": false,
+                      "lastClassName": "gvfZWj",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Styled(Text)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-ifAKCX",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                onClick={[Function]}
+              >
+                <Text
+                  className="sc-ifAKCX gvfZWj"
+                  data-testid="topbar-menu-item"
+                  onClick={[Function]}
+                  variant="default"
+                >
+                  <ForwardRef
+                    className="sc-ifAKCX gvfZWj"
+                    data-testid="topbar-menu-item"
+                    onClick={[Function]}
+                    variant="default"
+                  >
+                    <styled.div
+                      className="sc-ifAKCX gvfZWj"
+                      data-testid="topbar-menu-item"
+                      onClick={[Function]}
+                      tx="text"
+                      variant="default"
+                    >
+                      <StyledComponent
+                        className="sc-ifAKCX gvfZWj"
+                        data-testid="topbar-menu-item"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "dKonal",
+                              "rules": Array [
+                                "box-sizing: border-box;",
+                                "margin: 0;",
+                                "min-width: 0;",
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        onClick={[Function]}
+                        tx="text"
+                        variant="default"
+                      >
+                        <div
+                          className="sc-bdVaJa dKonal sc-ifAKCX gvfZWj"
+                          data-testid="topbar-menu-item"
+                          onClick={[Function]}
+                        >
+                          Menu
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </ForwardRef>
+                </Text>
+              </StyledComponent>
+            </Styled(Text)>
+            <Styled(Text)
+              data-testid="topbar-mail-item"
+              onClick={[Function]}
+            >
+              <StyledComponent
+                data-testid="topbar-mail-item"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-ifAKCX",
+                      "isStatic": false,
+                      "lastClassName": "gvfZWj",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Styled(Text)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-ifAKCX",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                onClick={[Function]}
+              >
+                <Text
+                  className="sc-ifAKCX gvfZWj"
+                  data-testid="topbar-mail-item"
+                  onClick={[Function]}
+                  variant="default"
+                >
+                  <ForwardRef
+                    className="sc-ifAKCX gvfZWj"
+                    data-testid="topbar-mail-item"
+                    onClick={[Function]}
+                    variant="default"
+                  >
+                    <styled.div
+                      className="sc-ifAKCX gvfZWj"
+                      data-testid="topbar-mail-item"
+                      onClick={[Function]}
+                      tx="text"
+                      variant="default"
+                    >
+                      <StyledComponent
+                        className="sc-ifAKCX gvfZWj"
+                        data-testid="topbar-mail-item"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "dKonal",
+                              "rules": Array [
+                                "box-sizing: border-box;",
+                                "margin: 0;",
+                                "min-width: 0;",
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        onClick={[Function]}
+                        tx="text"
+                        variant="default"
+                      >
+                        <div
+                          className="sc-bdVaJa dKonal sc-ifAKCX gvfZWj"
+                          data-testid="topbar-mail-item"
+                          onClick={[Function]}
+                        >
+                          Email
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </ForwardRef>
+                </Text>
+              </StyledComponent>
+            </Styled(Text)>
+          </div>
+        </StyledComponent>
+      </Styled(styled.div)>
+    </TopBar>
+  </ThemeProvider>
+</CustomThemeProvider>
+`;
+
+exports[`components/TopBar should render default TopBar 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "mailto:undefined?subject=Question from my website",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;

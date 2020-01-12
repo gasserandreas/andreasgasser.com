@@ -1,5 +1,6 @@
 /* global document, window */
 import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { Box } from 'rebass/styled-components';
 import styled from 'styled-components';
 
@@ -27,16 +28,22 @@ function getBoxShadows() {
   ` : '';
 }
 
+function getEmailLink() {
+  return `mailto:${process.env.GATSBY_CONTACT_EMAIL}?subject=Question from my website`;
+}
+
 const Styles = {
   TopBar: styled(Box)(({ theme, height, showBackground }) => `
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 101;
 
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    padding: 1rem;
 
     transition: background-color ${TRANSITION_TIME} ease,
                 height ${TRANSITION_TIME} ease;
@@ -47,9 +54,20 @@ const Styles = {
     ${getBackgroundStyles(theme, showBackground)}
     ${getBoxShadows()}
   `),
+  TopBarText: styled(Text)(({ theme }) => `
+    color: ${theme.colors.textHighlighed};
+    text-transform: uppercase;
+    line-height: 1.8rem;
+
+    &:hover {
+      cursor: pointer;
+      color: ${theme.colors.text};
+      border-bottom: 2px solid ${theme.colors.textHover};
+    }
+  `),
 };
 
-const TopBar = () => {
+const TopBar = ({ menuContent }) => {
   let scrollListener;
 
   const [openMenu, setOpenMenu] = useState(false);
@@ -63,34 +81,64 @@ const TopBar = () => {
     setOpenMenu((prev) => !prev);
   };
 
+  const handleSetHeight = (newHeight) => {
+    if (newHeight !== height) {
+      setHeight(newHeight);
+    }
+  };
+
+  // scroll function
+  const onScroll = () => {
+    if (isDensed()) {
+      // enable dense mode
+      handleSetHeight(TOP_BAR_DENSED_HEIGHT);
+    } else {
+      // enable full size mode
+      handleSetHeight(TOP_BAR_FULL_HEIGHT);
+    }
+  };
+
   useEffect(() => {
-    scrollListener = document.addEventListener('scroll', () => {
-      if (isDensed()) {
-        // enable dense mode
-        setHeight(TOP_BAR_DENSED_HEIGHT);
-      } else {
-        // enable full size mode
-        setHeight(TOP_BAR_FULL_HEIGHT);
-      }
-    });
-  }, () => {
-    document.removeEventListener(scrollListener);
+    scrollListener = document.addEventListener('scroll', onScroll);
+
+    // default call
+    onScroll();
+
+    return () => {
+      document.removeEventListener(scrollListener, onScroll);
+    };
   });
 
   return (
     <>
-      <FullSizeMenu show={openMenu} top={TOP_BAR_FULL_HEIGHT} />
+      <FullSizeMenu
+        show={openMenu}
+        top={TOP_BAR_FULL_HEIGHT}
+      >
+        {menuContent}
+      </FullSizeMenu>
       <Styles.TopBar height={height} showBackground={openMenu || isDensed()}>
-        <Text onClick={handleMenuClick}>Menu</Text>
+        <Styles.TopBarText
+          onClick={handleMenuClick}
+          data-testid="topbar-menu-item"
+        >
+          Menu
+        </Styles.TopBarText>
+        <Styles.TopBarText
+          onClick={() => window.open(getEmailLink())}
+          data-testid="topbar-mail-item"
+        >
+          Email
+        </Styles.TopBarText>
       </Styles.TopBar>
     </>
   );
 };
 
-TopBar.propTypes = {};
-
-TopBar.defaultProps = {
-  siteTitle: '',
+TopBar.propTypes = {
+  menuContent: PropTypes.node.isRequired,
 };
+
+TopBar.defaultProps = {};
 
 export default TopBar;
