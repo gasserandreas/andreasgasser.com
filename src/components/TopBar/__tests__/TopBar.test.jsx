@@ -1,10 +1,13 @@
-/* global withTheme, Event, document window */
+/* global withTheme */
 import React from 'react';
-import { mount } from 'enzyme';
-import toJson from 'enzyme-to-json';
-import { render, fireEvent, act } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 
 import TopBar from '../TopBar';
+
+jest.mock('../../hooks/useEventListener', () => ({
+  __esModule: true, // this property makes it work
+  default: jest.fn(),
+}));
 
 describe('components/TopBar', () => {
   const MENU_TEXT_TEST_ID = 'topbar-menu-item';
@@ -18,6 +21,8 @@ describe('components/TopBar', () => {
     </p>
   );
 
+  const contentRef = <div>content</div>;
+
   beforeAll(() => {
     global.open = jest.fn();
   });
@@ -27,7 +32,11 @@ describe('components/TopBar', () => {
   });
 
   it('should render default TopBar', async () => {
-    const { getByTestId, findByTestId } = render(withTheme(<TopBar menuContent={menuContent} />));
+    const { getByTestId, findByTestId } = render(
+      withTheme(
+        <TopBar menuContent={menuContent} contentRef={contentRef} />,
+      ),
+    );
 
     const menuItem = getByTestId(MENU_TEXT_TEST_ID);
     expect(menuItem).toHaveTextContent('Menu');
@@ -44,29 +53,5 @@ describe('components/TopBar', () => {
     // check for mailto link
     fireEvent.click(mailItem);
     expect(global.open).toMatchSnapshot();
-  });
-
-  it('should enable dense mode after long scroll', (done) => {
-    window.scrollY = 0;
-
-    const dom = mount(withTheme(<TopBar menuContent={menuContent} />));
-    expect(dom.exists()).toBeTruthy();
-
-    expect(toJson(dom)).toMatchSnapshot();
-
-    act(() => {
-      // update scrollY position
-      window.scrollY = 100;
-
-      // fire custom event
-      const newEvent = new Event('scroll');
-      document.dispatchEvent(newEvent);
-
-      // check for changed styles in dense mode
-      setTimeout(() => {
-        expect(toJson(dom.update())).toMatchSnapshot();
-        done();
-      }, 500);
-    });
   });
 });

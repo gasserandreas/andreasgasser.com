@@ -1,22 +1,50 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Box } from 'rebass/styled-components';
+import styled from 'styled-components';
+import { Box, Text } from 'rebass/styled-components';
 
-import TopBar from '../TopBar/TopBar';
+const Styles = {
+  SiteName: styled(Text)`
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  `,
+  Name: styled(Text)`
+    display: block;
+    margin: 0.25rem 0;
 
-const Header = ({ siteTitle }) => (
+    strong {
+      font-weight: 600;
+    }
+  `,
+  JobDescription: styled(Text)(({ theme }) => `
+    color: ${theme.colors.muted};
+  `),
+};
+
+const Header = () => (
   <Box>
-    <TopBar menuContent={<p>Hello Menu</p>} />
-    {siteTitle}
+    <Styles.SiteName>
+      Hi I
+      {'\''}
+      am
+      <Styles.Name>
+        <strong>Andreas</strong>
+        {' '}
+        Gasser
+      </Styles.Name>
+    </Styles.SiteName>
+    <Styles.JobDescription>
+      Front end architect
+      <br />
+      Senior software engineer
+      <br />
+      UX advocate
+    </Styles.JobDescription>
   </Box>
 );
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
+Header.propTypes = {};
 
-Header.defaultProps = {
-  siteTitle: 'Header',
-};
+Header.defaultProps = {};
 
 export default Header;

@@ -21,6 +21,7 @@ const Styles = {
     /* default styles */
     width: 16rem;
     background-color: ${theme.colors.backgroundInverse};
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 0;
@@ -60,26 +61,42 @@ const Styles = {
     flex-shrink: 1;
     overflow: scroll;
   `,
+  Header: styled(Header)`
+    flex-grow: 0;
+    flex-shrink: 0;
+  `,
+  Navigation: styled(Navigation)`
+    flex-grow: 1;
+    flex-shrink: 1;
+  `,
+  Footer: styled(Footer)`
+    flex-grow: 0;
+    flex-shrink: 0;
+  `,
 };
 
-const Layout = ({ children }) => (
-  <Styles.Layout>
-    <Styles.LeftNavigation padding={4} data-testid="leftNavigation">
-      <Header />
-      <Navigation />
-      <Footer />
-    </Styles.LeftNavigation>
-    <Styles.TopBarWrapper data-testid="topBarWrapper">
-      <TopBar menuContent={<p>Hello Menu</p>} />
-    </Styles.TopBarWrapper>
-    <Styles.Content padding={4}>
-      {children}
-      <Styles.FooterWrapper data-testid="footerWrapper">
-        <Footer />
-      </Styles.FooterWrapper>
-    </Styles.Content>
-  </Styles.Layout>
-);
+const Layout = ({ children }) => {
+  const contentRef = React.useRef();
+
+  return (
+    <Styles.Layout>
+      <Styles.LeftNavigation padding={4} data-testid="leftNavigation">
+        <Styles.Header />
+        <Styles.Navigation />
+        <Styles.Footer />
+      </Styles.LeftNavigation>
+      <Styles.TopBarWrapper data-testid="topBarWrapper">
+        <TopBar menuContent="No navigation so far" contentRef={contentRef} />
+      </Styles.TopBarWrapper>
+      <Styles.Content padding={4} ref={contentRef}>
+        {children}
+        <Styles.FooterWrapper data-testid="footerWrapper">
+          <Footer />
+        </Styles.FooterWrapper>
+      </Styles.Content>
+    </Styles.Layout>
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
