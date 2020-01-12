@@ -1,5 +1,5 @@
-/* global document, window */
-import React, { useState, useEffect } from 'react';
+/* global window */
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Box } from 'rebass/styled-components';
 import styled from 'styled-components';
@@ -7,14 +7,12 @@ import styled from 'styled-components';
 import FullSizeMenu from './FullSizeMenu';
 import Text from '../Base/Text';
 
+import useEventListener from '../hooks/useEventListener';
+
 // constant definitions
 const TRANSITION_TIME = '0.5s';
 export const TOP_BAR_FULL_HEIGHT = 64;
 export const TOP_BAR_DENSED_HEIGHT = 48;
-
-function isDensed() {
-  return window.scrollY > TOP_BAR_FULL_HEIGHT;
-}
 
 function getBackgroundStyles(theme, show) {
   return show ? `
@@ -22,8 +20,8 @@ function getBackgroundStyles(theme, show) {
   ` : '';
 }
 
-function getBoxShadows() {
-  return isDensed() ? `
+function getBoxShadows(showShadow) {
+  return showShadow ? `
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 0px;
   ` : '';
 }
@@ -33,7 +31,12 @@ function getEmailLink() {
 }
 
 const Styles = {
-  TopBar: styled(Box)(({ theme, height, showBackground }) => `
+  TopBar: styled(Box)(({
+    theme,
+    height,
+    showBackground,
+    showShadow,
+  }) => `
     position: fixed;
     top: 0;
     left: 0;
@@ -43,7 +46,8 @@ const Styles = {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 1rem;
+    align-items: center;
+    padding: 0 1rem;
 
     transition: background-color ${TRANSITION_TIME} ease,
                 height ${TRANSITION_TIME} ease;
@@ -52,7 +56,7 @@ const Styles = {
 
     height: ${height}px;
     ${getBackgroundStyles(theme, showBackground)}
-    ${getBoxShadows()}
+    ${getBoxShadows(showShadow)}
   `),
   TopBarText: styled(Text)(({ theme }) => `
     color: ${theme.colors.textHighlighed};
@@ -67,18 +71,25 @@ const Styles = {
   `),
 };
 
-const TopBar = ({ menuContent }) => {
-  let scrollListener;
-
+const TopBar = ({ menuContent, contentRef }) => {
   const [openMenu, setOpenMenu] = useState(false);
   const [height, setHeight] = useState(TOP_BAR_FULL_HEIGHT);
+  const [isDensed, setIsDensed] = useState(false);
 
   const handleMenuClick = () => {
     if (!openMenu) {
-      window.scrollY = '0px';
+      setOpenMenu(true);
+
       setHeight(TOP_BAR_FULL_HEIGHT);
+    } else {
+      setOpenMenu(false);
+
+      if (isDensed) {
+        setHeight(TOP_BAR_DENSED_HEIGHT);
+      } else {
+        setHeight(TOP_BAR_FULL_HEIGHT);
+      }
     }
-    setOpenMenu((prev) => !prev);
   };
 
   const handleSetHeight = (newHeight) => {
@@ -88,26 +99,19 @@ const TopBar = ({ menuContent }) => {
   };
 
   // scroll function
-  const onScroll = () => {
-    if (isDensed()) {
+  const onScroll = ({ target }) => {
+    if (target.scrollTop > TOP_BAR_FULL_HEIGHT) {
       // enable dense mode
       handleSetHeight(TOP_BAR_DENSED_HEIGHT);
+      setIsDensed(true);
     } else {
       // enable full size mode
       handleSetHeight(TOP_BAR_FULL_HEIGHT);
+      setIsDensed(false);
     }
   };
 
-  useEffect(() => {
-    scrollListener = document.addEventListener('scroll', onScroll);
-
-    // default call
-    onScroll();
-
-    return () => {
-      document.removeEventListener(scrollListener, onScroll);
-    };
-  });
+  useEventListener(contentRef, 'scroll', onScroll);
 
   return (
     <>
@@ -117,7 +121,7 @@ const TopBar = ({ menuContent }) => {
       >
         {menuContent}
       </FullSizeMenu>
-      <Styles.TopBar height={height} showBackground={openMenu || isDensed()}>
+      <Styles.TopBar height={height} showBackground={openMenu || isDensed} showShadow={!openMenu && isDensed}>
         <Styles.TopBarText
           onClick={handleMenuClick}
           data-testid="topbar-menu-item"
@@ -137,6 +141,7 @@ const TopBar = ({ menuContent }) => {
 
 TopBar.propTypes = {
   menuContent: PropTypes.node.isRequired,
+  contentRef: PropTypes.node.isRequired,
 };
 
 TopBar.defaultProps = {};
