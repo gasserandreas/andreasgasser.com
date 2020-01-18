@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { Box, Text } from 'rebass/styled-components';
+import { Box } from 'rebass/styled-components';
+
+import Text from '../Base/Text';
+
 // import { StaticQuery, graphql } from 'gatsby';
 
 // import NonStretchedImage from '../NonStretchedImage/NonStretchedImage';

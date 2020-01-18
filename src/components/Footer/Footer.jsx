@@ -1,9 +1,10 @@
 import React from 'react';
-import { Box, Text } from 'rebass/styled-components';
+import { Box } from 'rebass/styled-components';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 import { GitHubIcon, LinkedInIcon } from '../Icons/SocialIcon';
+import Text from '../Base/Text';
 
 import * as Paths from '../utils/Paths';
 
