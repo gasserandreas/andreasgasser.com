@@ -156,7 +156,9 @@ exports[`components/Header simple snapshot test 1`] = `
       }
     }
   >
-    <Header>
+    <Header
+      data={Object {}}
+    >
       <styled.div>
         <StyledComponent
           forwardedComponent={
@@ -379,7 +381,7 @@ exports[`components/Header simple snapshot test 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-ifAKCX",
                       "isStatic": false,
-                      "lastClassName": "cqlaCz",
+                      "lastClassName": "dvBxxg",
                       "rules": Array [
                         [Function],
                       ],
@@ -400,14 +402,14 @@ exports[`components/Header simple snapshot test 1`] = `
                 forwardedRef={null}
               >
                 <ForwardRef
-                  className="sc-ifAKCX cqlaCz"
+                  className="sc-ifAKCX dvBxxg"
                 >
                   <styled.div
-                    className="sc-ifAKCX cqlaCz"
+                    className="sc-ifAKCX dvBxxg"
                     tx="text"
                   >
                     <StyledComponent
-                      className="sc-ifAKCX cqlaCz"
+                      className="sc-ifAKCX dvBxxg"
                       forwardedComponent={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
@@ -441,7 +443,7 @@ exports[`components/Header simple snapshot test 1`] = `
                       tx="text"
                     >
                       <div
-                        className="sc-bdVaJa gtVQmG sc-ifAKCX cqlaCz"
+                        className="sc-bdVaJa gtVQmG sc-ifAKCX dvBxxg"
                       >
                         Front end architect
                         <br />
