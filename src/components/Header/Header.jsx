@@ -1,6 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Box, Text } from 'rebass/styled-components';
+// import { StaticQuery, graphql } from 'gatsby';
+
+// import NonStretchedImage from '../NonStretchedImage/NonStretchedImage';
 
 const Styles = {
   SiteName: styled(Text)`
@@ -18,10 +22,16 @@ const Styles = {
   `,
   JobDescription: styled(Text)(({ theme }) => `
     color: ${theme.colors.muted};
+    font-size: 0.9rem;
+    margin-top: 1rem;
   `),
+  // Image: styled(NonStretchedImage)(() => `
+  //   border-radius: 0.5rem;
+  //   margin-bottom: 1rem;
+  // `),
 };
 
-const Header = () => (
+export const Header = () => (
   <Box>
     <Styles.SiteName>
       Hi I
@@ -33,6 +43,7 @@ const Header = () => (
         Gasser
       </Styles.Name>
     </Styles.SiteName>
+    {/* <Styles.Image fluid={data.file.childImageSharp.fluid} /> */}
     <Styles.JobDescription>
       Front end architect
       <br />
@@ -43,8 +54,44 @@ const Header = () => (
   </Box>
 );
 
-Header.propTypes = {};
+Header.propTypes = {
+  data: PropTypes.shape({
+    file: PropTypes.shape({
+      childImageSharp: PropTypes.shape({
+        fluid: PropTypes.any,
+      }),
+    }),
+  }),
+};
 
-Header.defaultProps = {};
+Header.defaultProps = {
+  data: {},
+};
 
 export default Header;
+
+// export const query = graphql`
+//   query {
+//     file(relativePath: { eq: "me.jpg" }) {
+//       childImageSharp {
+//         fluid(maxWidth: 700, quality: 100) {
+//         # fluid(maxWidth: 700, quality: 100, grayscale: true, ) {
+//           ...GatsbyImageSharpFluid
+//           presentationWidth
+//         }
+//       }
+//     }
+//   }
+// `;
+
+// export default (props) => (
+//   <StaticQuery
+//     query={query}
+//     render={(data) => (
+//       <Header
+//         {...props}
+//         data={data}
+//       />
+//     )}
+//   />
+// );
