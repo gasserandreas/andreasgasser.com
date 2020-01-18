@@ -1,7 +1,7 @@
 /* global withTheme */
 import React from 'react';
 import { mount } from 'enzyme';
-// import toJson from 'enzyme-to-json';
+import toJson from 'enzyme-to-json';
 
 import Footer from '../Footer';
 
@@ -11,8 +11,8 @@ describe('components/Footer', () => {
     expect(dom.exists()).toBeTruthy();
   });
 
-  // it('simple snapshot test', () => {
-  //   const dom = mount(<Footer />);
-  //   expect(toJson(dom)).toMatchSnapshot();
-  // });
+  it('simple snapshot test', () => {
+    const dom = mount(withTheme(<Footer />));
+    expect(toJson(dom)).toMatchSnapshot();
+  });
 });
