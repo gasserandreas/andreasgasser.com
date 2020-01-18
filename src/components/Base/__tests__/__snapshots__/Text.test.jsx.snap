@@ -38,8 +38,8 @@ exports[`components/Text bold Text 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#808080",
-          "text": "#595959",
+          "muted": "#696969",
+          "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
           "textInverse": "#eee",
@@ -98,14 +98,14 @@ exports[`components/Text bold Text 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#595959",
+            "color": "#333333",
           },
           "muted": Object {
-            "color": "#808080",
+            "color": "#696969",
           },
           "page": Object {
             "fontSize": 4,
@@ -118,11 +118,11 @@ exports[`components/Text bold Text 1`] = `
             "lineHeight": "1.4em",
           },
           "small": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontSize": 0,
           },
           "subPage": Object {
-            "color": "#808080",
+            "color": "#696969",
             "fontSize": 3,
             "lineHeight": "1.6em",
           },
@@ -174,7 +174,7 @@ exports[`components/Text bold Text 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bdVaJa",
                   "isStatic": false,
-                  "lastClassName": "kfuSjk",
+                  "lastClassName": "kPgNdE",
                   "rules": Array [
                     "box-sizing: border-box;",
                     "margin: 0;",
@@ -201,7 +201,7 @@ exports[`components/Text bold Text 1`] = `
             variant="bold"
           >
             <div
-              className="sc-bdVaJa kfuSjk"
+              className="sc-bdVaJa kPgNdE"
             >
               Bold Text
             </div>
@@ -251,8 +251,8 @@ exports[`components/Text default Text 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#808080",
-          "text": "#595959",
+          "muted": "#696969",
+          "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
           "textInverse": "#eee",
@@ -311,14 +311,14 @@ exports[`components/Text default Text 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#595959",
+            "color": "#333333",
           },
           "muted": Object {
-            "color": "#808080",
+            "color": "#696969",
           },
           "page": Object {
             "fontSize": 4,
@@ -331,11 +331,11 @@ exports[`components/Text default Text 1`] = `
             "lineHeight": "1.4em",
           },
           "small": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontSize": 0,
           },
           "subPage": Object {
-            "color": "#808080",
+            "color": "#696969",
             "fontSize": 3,
             "lineHeight": "1.6em",
           },
@@ -387,7 +387,7 @@ exports[`components/Text default Text 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bdVaJa",
                   "isStatic": false,
-                  "lastClassName": "dKonal",
+                  "lastClassName": "myVVx",
                   "rules": Array [
                     "box-sizing: border-box;",
                     "margin: 0;",
@@ -414,7 +414,7 @@ exports[`components/Text default Text 1`] = `
             variant="default"
           >
             <div
-              className="sc-bdVaJa dKonal"
+              className="sc-bdVaJa myVVx"
             >
               Default Text
             </div>
@@ -464,8 +464,8 @@ exports[`components/Text muted Text 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#808080",
-          "text": "#595959",
+          "muted": "#696969",
+          "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
           "textInverse": "#eee",
@@ -524,14 +524,14 @@ exports[`components/Text muted Text 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#595959",
+            "color": "#333333",
           },
           "muted": Object {
-            "color": "#808080",
+            "color": "#696969",
           },
           "page": Object {
             "fontSize": 4,
@@ -544,11 +544,11 @@ exports[`components/Text muted Text 1`] = `
             "lineHeight": "1.4em",
           },
           "small": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontSize": 0,
           },
           "subPage": Object {
-            "color": "#808080",
+            "color": "#696969",
             "fontSize": 3,
             "lineHeight": "1.6em",
           },
@@ -600,7 +600,7 @@ exports[`components/Text muted Text 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bdVaJa",
                   "isStatic": false,
-                  "lastClassName": "bcJdQb",
+                  "lastClassName": "wxFFP",
                   "rules": Array [
                     "box-sizing: border-box;",
                     "margin: 0;",
@@ -627,7 +627,7 @@ exports[`components/Text muted Text 1`] = `
             variant="muted"
           >
             <div
-              className="sc-bdVaJa bcJdQb"
+              className="sc-bdVaJa wxFFP"
             >
               Muted Text
             </div>
@@ -677,8 +677,8 @@ exports[`components/Text small Text 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#808080",
-          "text": "#595959",
+          "muted": "#696969",
+          "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
           "textInverse": "#eee",
@@ -737,14 +737,14 @@ exports[`components/Text small Text 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#595959",
+            "color": "#333333",
           },
           "muted": Object {
-            "color": "#808080",
+            "color": "#696969",
           },
           "page": Object {
             "fontSize": 4,
@@ -757,11 +757,11 @@ exports[`components/Text small Text 1`] = `
             "lineHeight": "1.4em",
           },
           "small": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontSize": 0,
           },
           "subPage": Object {
-            "color": "#808080",
+            "color": "#696969",
             "fontSize": 3,
             "lineHeight": "1.6em",
           },
@@ -813,7 +813,7 @@ exports[`components/Text small Text 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bdVaJa",
                   "isStatic": false,
-                  "lastClassName": "oNpvL",
+                  "lastClassName": "fvJQsY",
                   "rules": Array [
                     "box-sizing: border-box;",
                     "margin: 0;",
@@ -840,7 +840,7 @@ exports[`components/Text small Text 1`] = `
             variant="small"
           >
             <div
-              className="sc-bdVaJa oNpvL"
+              className="sc-bdVaJa fvJQsY"
             >
               Small Text
             </div>

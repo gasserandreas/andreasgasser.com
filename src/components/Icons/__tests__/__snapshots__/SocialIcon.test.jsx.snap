@@ -38,8 +38,8 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#808080",
-          "text": "#595959",
+          "muted": "#696969",
+          "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
           "textInverse": "#eee",
@@ -98,14 +98,14 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#595959",
+            "color": "#333333",
           },
           "muted": Object {
-            "color": "#808080",
+            "color": "#696969",
           },
           "page": Object {
             "fontSize": 4,
@@ -118,11 +118,11 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
             "lineHeight": "1.4em",
           },
           "small": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontSize": 0,
           },
           "subPage": Object {
-            "color": "#808080",
+            "color": "#696969",
             "fontSize": 3,
             "lineHeight": "1.6em",
           },
@@ -186,7 +186,7 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bxivhb",
                   "isStatic": false,
-                  "lastClassName": "cRhmMY",
+                  "lastClassName": "gTWFUj",
                   "rules": Array [
                     [Function],
                   ],
@@ -205,17 +205,17 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
             to="https://linkedin.com/in/gasserandreas"
           >
             <Link
-              className="sc-bxivhb cRhmMY"
+              className="sc-bxivhb gTWFUj"
               external={true}
               to="https://linkedin.com/in/gasserandreas"
             >
               <styled.a
-                className="sc-bxivhb cRhmMY"
+                className="sc-bxivhb gTWFUj"
                 href="https://linkedin.com/in/gasserandreas"
                 target="_blank"
               >
                 <StyledComponent
-                  className="sc-bxivhb cRhmMY"
+                  className="sc-bxivhb gTWFUj"
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
@@ -243,7 +243,7 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
                   target="_blank"
                 >
                   <a
-                    className="sc-htpNat bHgDYU sc-bxivhb cRhmMY"
+                    className="sc-htpNat bHgDYU sc-bxivhb gTWFUj"
                     href="https://linkedin.com/in/gasserandreas"
                     target="_blank"
                   >
@@ -417,8 +417,8 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#808080",
-          "text": "#595959",
+          "muted": "#696969",
+          "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
           "textInverse": "#eee",
@@ -477,14 +477,14 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#595959",
+            "color": "#333333",
           },
           "muted": Object {
-            "color": "#808080",
+            "color": "#696969",
           },
           "page": Object {
             "fontSize": 4,
@@ -497,11 +497,11 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
             "lineHeight": "1.4em",
           },
           "small": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontSize": 0,
           },
           "subPage": Object {
-            "color": "#808080",
+            "color": "#696969",
             "fontSize": 3,
             "lineHeight": "1.6em",
           },
@@ -565,7 +565,7 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bxivhb",
                   "isStatic": false,
-                  "lastClassName": "cRhmMY",
+                  "lastClassName": "gTWFUj",
                   "rules": Array [
                     [Function],
                   ],
@@ -584,17 +584,17 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
             to="https://github.com/gasserandreas"
           >
             <Link
-              className="sc-bxivhb cRhmMY"
+              className="sc-bxivhb gTWFUj"
               external={true}
               to="https://github.com/gasserandreas"
             >
               <styled.a
-                className="sc-bxivhb cRhmMY"
+                className="sc-bxivhb gTWFUj"
                 href="https://github.com/gasserandreas"
                 target="_blank"
               >
                 <StyledComponent
-                  className="sc-bxivhb cRhmMY"
+                  className="sc-bxivhb gTWFUj"
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
@@ -622,7 +622,7 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
                   target="_blank"
                 >
                   <a
-                    className="sc-htpNat bHgDYU sc-bxivhb cRhmMY"
+                    className="sc-htpNat bHgDYU sc-bxivhb gTWFUj"
                     href="https://github.com/gasserandreas"
                     target="_blank"
                   >

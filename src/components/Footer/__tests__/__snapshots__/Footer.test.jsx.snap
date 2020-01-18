@@ -38,8 +38,8 @@ exports[`components/Footer simple snapshot test 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#808080",
-          "text": "#595959",
+          "muted": "#696969",
+          "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
           "textInverse": "#eee",
@@ -98,14 +98,14 @@ exports[`components/Footer simple snapshot test 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#595959",
+            "color": "#333333",
           },
           "muted": Object {
-            "color": "#808080",
+            "color": "#696969",
           },
           "page": Object {
             "fontSize": 4,
@@ -118,11 +118,11 @@ exports[`components/Footer simple snapshot test 1`] = `
             "lineHeight": "1.4em",
           },
           "small": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontSize": 0,
           },
           "subPage": Object {
-            "color": "#808080",
+            "color": "#696969",
             "fontSize": 3,
             "lineHeight": "1.6em",
           },
@@ -169,7 +169,7 @@ exports[`components/Footer simple snapshot test 1`] = `
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
                 "isStatic": false,
-                "lastClassName": "gtVQmG",
+                "lastClassName": "myVVx",
                 "rules": Array [
                   "box-sizing: border-box;",
                   "margin: 0;",
@@ -196,7 +196,7 @@ exports[`components/Footer simple snapshot test 1`] = `
           <footer
             className="sc-bdVaJa gtVQmG"
           >
-            <Styled(Component)>
+            <Styled(Text)>
               <StyledComponent
                 forwardedComponent={
                   Object {
@@ -205,19 +205,16 @@ exports[`components/Footer simple snapshot test 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-bZQynM",
                       "isStatic": false,
-                      "lastClassName": "jhvvLi",
+                      "lastClassName": "jKKGRU",
                       "rules": Array [
                         [Function],
                       ],
                     },
-                    "displayName": "Styled(Component)",
+                    "displayName": "Styled(Text)",
                     "foldedComponentIds": Array [],
                     "render": [Function],
                     "styledComponentId": "sc-bZQynM",
-                    "target": Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "render": [Function],
-                    },
+                    "target": [Function],
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
                     "withComponent": [Function],
@@ -225,121 +222,129 @@ exports[`components/Footer simple snapshot test 1`] = `
                 }
                 forwardedRef={null}
               >
-                <ForwardRef
-                  className="sc-bZQynM jhvvLi"
+                <Text
+                  className="sc-bZQynM jKKGRU"
+                  variant="default"
                 >
-                  <styled.div
-                    className="sc-bZQynM jhvvLi"
-                    tx="text"
+                  <ForwardRef
+                    className="sc-bZQynM jKKGRU"
+                    variant="default"
                   >
-                    <StyledComponent
-                      className="sc-bZQynM jhvvLi"
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "sc-bdVaJa",
-                            "isStatic": false,
-                            "lastClassName": "gtVQmG",
-                            "rules": Array [
-                              "box-sizing: border-box;",
-                              "margin: 0;",
-                              "min-width: 0;",
-                              [Function],
-                              [Function],
-                              [Function],
-                              [Function],
-                              [Function],
-                            ],
-                          },
-                          "displayName": "styled.div",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "sc-bdVaJa",
-                          "target": "div",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
+                    <styled.div
+                      className="sc-bZQynM jKKGRU"
                       tx="text"
+                      variant="default"
                     >
-                      <div
-                        className="sc-bdVaJa gtVQmG sc-bZQynM jhvvLi"
+                      <StyledComponent
+                        className="sc-bZQynM jKKGRU"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "myVVx",
+                              "rules": Array [
+                                "box-sizing: border-box;",
+                                "margin: 0;",
+                                "min-width: 0;",
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        tx="text"
+                        variant="default"
                       >
-                        Would you like to know more or start casual chat
-                         - 
-                        <Styled(mockConstructor)
-                          to="/contact"
+                        <div
+                          className="sc-bdVaJa myVVx sc-bZQynM jKKGRU"
                         >
-                          <StyledComponent
-                            forwardedComponent={
-                              [MockFunction] {
-                                "calls": Array [
-                                  Array [
-                                    Object {
-                                      "children": "drop me a message",
-                                      "className": "sc-gzVnrw bNrNWx",
-                                      "to": "/contact",
-                                    },
-                                    Object {},
-                                  ],
-                                  Array [
-                                    Object {
-                                      "children": "drop me a message",
-                                      "className": "sc-gzVnrw bNrNWx",
-                                      "to": "/contact",
-                                    },
-                                    Object {},
-                                  ],
-                                ],
-                                "results": Array [
-                                  Object {
-                                    "type": "return",
-                                    "value": <a
-                                      className="sc-gzVnrw bNrNWx"
-                                      href="/contact"
-                                    >
-                                      drop me a message
-                                    </a>,
-                                  },
-                                  Object {
-                                    "type": "return",
-                                    "value": <a
-                                      className="sc-gzVnrw bNrNWx"
-                                      href="/contact"
-                                    >
-                                      drop me a message
-                                    </a>,
-                                  },
-                                ],
-                              }
-                            }
-                            forwardedRef={null}
+                          Would you like to know more or start casual chat
+                           - 
+                          <Styled(mockConstructor)
                             to="/contact"
                           >
-                            <mockConstructor
-                              className="sc-gzVnrw bNrNWx"
+                            <StyledComponent
+                              forwardedComponent={
+                                [MockFunction] {
+                                  "calls": Array [
+                                    Array [
+                                      Object {
+                                        "children": "drop me a message",
+                                        "className": "sc-gzVnrw vJPqv",
+                                        "to": "/contact",
+                                      },
+                                      Object {},
+                                    ],
+                                    Array [
+                                      Object {
+                                        "children": "drop me a message",
+                                        "className": "sc-gzVnrw vJPqv",
+                                        "to": "/contact",
+                                      },
+                                      Object {},
+                                    ],
+                                  ],
+                                  "results": Array [
+                                    Object {
+                                      "type": "return",
+                                      "value": <a
+                                        className="sc-gzVnrw vJPqv"
+                                        href="/contact"
+                                      >
+                                        drop me a message
+                                      </a>,
+                                    },
+                                    Object {
+                                      "type": "return",
+                                      "value": <a
+                                        className="sc-gzVnrw vJPqv"
+                                        href="/contact"
+                                      >
+                                        drop me a message
+                                      </a>,
+                                    },
+                                  ],
+                                }
+                              }
+                              forwardedRef={null}
                               to="/contact"
                             >
-                              <a
-                                className="sc-gzVnrw bNrNWx"
-                                href="/contact"
+                              <mockConstructor
+                                className="sc-gzVnrw vJPqv"
+                                to="/contact"
                               >
-                                drop me a message
-                              </a>
-                            </mockConstructor>
-                          </StyledComponent>
-                        </Styled(mockConstructor)>
-                        .
-                      </div>
-                    </StyledComponent>
-                  </styled.div>
-                </ForwardRef>
+                                <a
+                                  className="sc-gzVnrw vJPqv"
+                                  href="/contact"
+                                >
+                                  drop me a message
+                                </a>
+                              </mockConstructor>
+                            </StyledComponent>
+                          </Styled(mockConstructor)>
+                          .
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </ForwardRef>
+                </Text>
               </StyledComponent>
-            </Styled(Component)>
+            </Styled(Text)>
             <styled.div>
               <StyledComponent
                 forwardedComponent={
@@ -349,7 +354,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-htoDjs",
                       "isStatic": false,
-                      "lastClassName": "dnRjKf",
+                      "lastClassName": "ldTtwl",
                       "rules": Array [
                         [Function],
                       ],
@@ -367,7 +372,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                 forwardedRef={null}
               >
                 <div
-                  className="sc-htoDjs dnRjKf"
+                  className="sc-htoDjs ldTtwl"
                 >
                   <GitHubIcon>
                     <SocialIcon
@@ -399,7 +404,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-EHOje",
                                 "isStatic": false,
-                                "lastClassName": "ibqCmB",
+                                "lastClassName": "IUOuT",
                                 "rules": Array [
                                   [Function],
                                 ],
@@ -418,17 +423,17 @@ exports[`components/Footer simple snapshot test 1`] = `
                           to="https://github.com/gasserandreas"
                         >
                           <Link
-                            className="sc-EHOje ibqCmB"
+                            className="sc-EHOje IUOuT"
                             external={true}
                             to="https://github.com/gasserandreas"
                           >
                             <styled.a
-                              className="sc-EHOje ibqCmB"
+                              className="sc-EHOje IUOuT"
                               href="https://github.com/gasserandreas"
                               target="_blank"
                             >
                               <StyledComponent
-                                className="sc-EHOje ibqCmB"
+                                className="sc-EHOje IUOuT"
                                 forwardedComponent={
                                   Object {
                                     "$$typeof": Symbol(react.forward_ref),
@@ -456,7 +461,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                                 target="_blank"
                               >
                                 <a
-                                  className="sc-ifAKCX eLBLrj sc-EHOje ibqCmB"
+                                  className="sc-ifAKCX eLBLrj sc-EHOje IUOuT"
                                   href="https://github.com/gasserandreas"
                                   target="_blank"
                                 >
@@ -618,7 +623,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-EHOje",
                                 "isStatic": false,
-                                "lastClassName": "ibqCmB",
+                                "lastClassName": "IUOuT",
                                 "rules": Array [
                                   [Function],
                                 ],
@@ -637,17 +642,17 @@ exports[`components/Footer simple snapshot test 1`] = `
                           to="https://linkedin.com/in/gasserandreas"
                         >
                           <Link
-                            className="sc-EHOje ibqCmB"
+                            className="sc-EHOje IUOuT"
                             external={true}
                             to="https://linkedin.com/in/gasserandreas"
                           >
                             <styled.a
-                              className="sc-EHOje ibqCmB"
+                              className="sc-EHOje IUOuT"
                               href="https://linkedin.com/in/gasserandreas"
                               target="_blank"
                             >
                               <StyledComponent
-                                className="sc-EHOje ibqCmB"
+                                className="sc-EHOje IUOuT"
                                 forwardedComponent={
                                   Object {
                                     "$$typeof": Symbol(react.forward_ref),
@@ -675,7 +680,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                                 target="_blank"
                               >
                                 <a
-                                  className="sc-ifAKCX eLBLrj sc-EHOje ibqCmB"
+                                  className="sc-ifAKCX eLBLrj sc-EHOje IUOuT"
                                   href="https://linkedin.com/in/gasserandreas"
                                   target="_blank"
                                 >

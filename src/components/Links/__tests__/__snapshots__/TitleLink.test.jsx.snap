@@ -38,8 +38,8 @@ exports[`components/TitleLink simple snapshot test 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#808080",
-          "text": "#595959",
+          "muted": "#696969",
+          "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
           "textInverse": "#eee",
@@ -98,14 +98,14 @@ exports[`components/TitleLink simple snapshot test 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#595959",
+            "color": "#333333",
           },
           "muted": Object {
-            "color": "#808080",
+            "color": "#696969",
           },
           "page": Object {
             "fontSize": 4,
@@ -118,11 +118,11 @@ exports[`components/TitleLink simple snapshot test 1`] = `
             "lineHeight": "1.4em",
           },
           "small": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontSize": 0,
           },
           "subPage": Object {
-            "color": "#808080",
+            "color": "#696969",
             "fontSize": 3,
             "lineHeight": "1.6em",
           },
@@ -172,7 +172,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-htpNat",
               "isStatic": false,
-              "lastClassName": "koCKea",
+              "lastClassName": "bEEqZo",
               "rules": Array [
                 [Function],
               ],
@@ -196,17 +196,17 @@ exports[`components/TitleLink simple snapshot test 1`] = `
         to="https://www.google.com/"
       >
         <Link
-          className="sc-htpNat koCKea"
+          className="sc-htpNat bEEqZo"
           external={true}
           to="https://www.google.com/"
         >
           <styled.a
-            className="sc-htpNat koCKea"
+            className="sc-htpNat bEEqZo"
             href="https://www.google.com/"
             target="_blank"
           >
             <StyledComponent
-              className="sc-htpNat koCKea"
+              className="sc-htpNat bEEqZo"
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
@@ -234,7 +234,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
               target="_blank"
             >
               <a
-                className="sc-bwzfXH jgtaUg sc-htpNat koCKea"
+                className="sc-bwzfXH jgtaUg sc-htpNat bEEqZo"
                 href="https://www.google.com/"
                 target="_blank"
               >

@@ -38,8 +38,8 @@ exports[`components/Header simple snapshot test 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#808080",
-          "text": "#595959",
+          "muted": "#696969",
+          "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
           "textInverse": "#eee",
@@ -98,14 +98,14 @@ exports[`components/Header simple snapshot test 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#595959",
+            "color": "#333333",
           },
           "muted": Object {
-            "color": "#808080",
+            "color": "#696969",
           },
           "page": Object {
             "fontSize": 4,
@@ -118,11 +118,11 @@ exports[`components/Header simple snapshot test 1`] = `
             "lineHeight": "1.4em",
           },
           "small": Object {
-            "color": "#595959",
+            "color": "#333333",
             "fontSize": 0,
           },
           "subPage": Object {
-            "color": "#808080",
+            "color": "#696969",
             "fontSize": 3,
             "lineHeight": "1.6em",
           },
@@ -168,7 +168,7 @@ exports[`components/Header simple snapshot test 1`] = `
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
                 "isStatic": false,
-                "lastClassName": "gtVQmG",
+                "lastClassName": "myVVx",
                 "rules": Array [
                   "box-sizing: border-box;",
                   "margin: 0;",
@@ -195,7 +195,7 @@ exports[`components/Header simple snapshot test 1`] = `
           <div
             className="sc-bdVaJa gtVQmG"
           >
-            <Styled(Component)>
+            <Styled(Text)>
               <StyledComponent
                 forwardedComponent={
                   Object {
@@ -213,14 +213,11 @@ exports[`components/Header simple snapshot test 1`] = `
   ",
                       ],
                     },
-                    "displayName": "Styled(Component)",
+                    "displayName": "Styled(Text)",
                     "foldedComponentIds": Array [],
                     "render": [Function],
                     "styledComponentId": "sc-htpNat",
-                    "target": Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "render": [Function],
-                    },
+                    "target": [Function],
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
                     "withComponent": [Function],
@@ -228,65 +225,72 @@ exports[`components/Header simple snapshot test 1`] = `
                 }
                 forwardedRef={null}
               >
-                <ForwardRef
+                <Text
                   className="sc-htpNat dlvzeL"
+                  variant="default"
                 >
-                  <styled.div
+                  <ForwardRef
                     className="sc-htpNat dlvzeL"
-                    tx="text"
+                    variant="default"
                   >
-                    <StyledComponent
+                    <styled.div
                       className="sc-htpNat dlvzeL"
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "sc-bdVaJa",
-                            "isStatic": false,
-                            "lastClassName": "gtVQmG",
-                            "rules": Array [
-                              "box-sizing: border-box;",
-                              "margin: 0;",
-                              "min-width: 0;",
-                              [Function],
-                              [Function],
-                              [Function],
-                              [Function],
-                              [Function],
-                            ],
-                          },
-                          "displayName": "styled.div",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "sc-bdVaJa",
-                          "target": "div",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
                       tx="text"
+                      variant="default"
                     >
-                      <div
-                        className="sc-bdVaJa gtVQmG sc-htpNat dlvzeL"
+                      <StyledComponent
+                        className="sc-htpNat dlvzeL"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "myVVx",
+                              "rules": Array [
+                                "box-sizing: border-box;",
+                                "margin: 0;",
+                                "min-width: 0;",
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        tx="text"
+                        variant="default"
                       >
-                        Hi I
-                        '
-                        am
-                        <Styled(Component)>
-                          <StyledComponent
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "sc-bxivhb",
-                                  "isStatic": false,
-                                  "lastClassName": "hmzLRK",
-                                  "rules": Array [
-                                    "
+                        <div
+                          className="sc-bdVaJa myVVx sc-htpNat dlvzeL"
+                        >
+                          Hi I
+                          '
+                          am
+                          <Styled(Text)>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-bxivhb",
+                                    "isStatic": false,
+                                    "lastClassName": "hmzLRK",
+                                    "rules": Array [
+                                      "
     display: block;
     margin: 0.25rem 0;
 
@@ -294,85 +298,91 @@ exports[`components/Header simple snapshot test 1`] = `
       font-weight: 600;
     }
   ",
-                                  ],
-                                },
-                                "displayName": "Styled(Component)",
-                                "foldedComponentIds": Array [],
-                                "render": [Function],
-                                "styledComponentId": "sc-bxivhb",
-                                "target": Object {
-                                  "$$typeof": Symbol(react.forward_ref),
+                                    ],
+                                  },
+                                  "displayName": "Styled(Text)",
+                                  "foldedComponentIds": Array [],
                                   "render": [Function],
-                                },
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
+                                  "styledComponentId": "sc-bxivhb",
+                                  "target": [Function],
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
                               }
-                            }
-                            forwardedRef={null}
-                          >
-                            <ForwardRef
-                              className="sc-bxivhb hmzLRK"
+                              forwardedRef={null}
                             >
-                              <styled.div
+                              <Text
                                 className="sc-bxivhb hmzLRK"
-                                tx="text"
+                                variant="default"
                               >
-                                <StyledComponent
+                                <ForwardRef
                                   className="sc-bxivhb hmzLRK"
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "sc-bdVaJa",
-                                        "isStatic": false,
-                                        "lastClassName": "gtVQmG",
-                                        "rules": Array [
-                                          "box-sizing: border-box;",
-                                          "margin: 0;",
-                                          "min-width: 0;",
-                                          [Function],
-                                          [Function],
-                                          [Function],
-                                          [Function],
-                                          [Function],
-                                        ],
-                                      },
-                                      "displayName": "styled.div",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "sc-bdVaJa",
-                                      "target": "div",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                  tx="text"
+                                  variant="default"
                                 >
-                                  <div
-                                    className="sc-bdVaJa gtVQmG sc-bxivhb hmzLRK"
+                                  <styled.div
+                                    className="sc-bxivhb hmzLRK"
+                                    tx="text"
+                                    variant="default"
                                   >
-                                    <strong>
-                                      Andreas
-                                    </strong>
-                                     
-                                    Gasser
-                                  </div>
-                                </StyledComponent>
-                              </styled.div>
-                            </ForwardRef>
-                          </StyledComponent>
-                        </Styled(Component)>
-                      </div>
-                    </StyledComponent>
-                  </styled.div>
-                </ForwardRef>
+                                    <StyledComponent
+                                      className="sc-bxivhb hmzLRK"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "sc-bdVaJa",
+                                            "isStatic": false,
+                                            "lastClassName": "myVVx",
+                                            "rules": Array [
+                                              "box-sizing: border-box;",
+                                              "margin: 0;",
+                                              "min-width: 0;",
+                                              [Function],
+                                              [Function],
+                                              [Function],
+                                              [Function],
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "styled.div",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "sc-bdVaJa",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      tx="text"
+                                      variant="default"
+                                    >
+                                      <div
+                                        className="sc-bdVaJa myVVx sc-bxivhb hmzLRK"
+                                      >
+                                        <strong>
+                                          Andreas
+                                        </strong>
+                                         
+                                        Gasser
+                                      </div>
+                                    </StyledComponent>
+                                  </styled.div>
+                                </ForwardRef>
+                              </Text>
+                            </StyledComponent>
+                          </Styled(Text)>
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </ForwardRef>
+                </Text>
               </StyledComponent>
-            </Styled(Component)>
-            <Styled(Component)>
+            </Styled(Text)>
+            <Styled(Text)>
               <StyledComponent
                 forwardedComponent={
                   Object {
@@ -381,19 +391,16 @@ exports[`components/Header simple snapshot test 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-ifAKCX",
                       "isStatic": false,
-                      "lastClassName": "dvBxxg",
+                      "lastClassName": "gJpexr",
                       "rules": Array [
                         [Function],
                       ],
                     },
-                    "displayName": "Styled(Component)",
+                    "displayName": "Styled(Text)",
                     "foldedComponentIds": Array [],
                     "render": [Function],
                     "styledComponentId": "sc-ifAKCX",
-                    "target": Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "render": [Function],
-                    },
+                    "target": [Function],
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
                     "withComponent": [Function],
@@ -401,61 +408,69 @@ exports[`components/Header simple snapshot test 1`] = `
                 }
                 forwardedRef={null}
               >
-                <ForwardRef
-                  className="sc-ifAKCX dvBxxg"
+                <Text
+                  className="sc-ifAKCX gJpexr"
+                  variant="default"
                 >
-                  <styled.div
-                    className="sc-ifAKCX dvBxxg"
-                    tx="text"
+                  <ForwardRef
+                    className="sc-ifAKCX gJpexr"
+                    variant="default"
                   >
-                    <StyledComponent
-                      className="sc-ifAKCX dvBxxg"
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "sc-bdVaJa",
-                            "isStatic": false,
-                            "lastClassName": "gtVQmG",
-                            "rules": Array [
-                              "box-sizing: border-box;",
-                              "margin: 0;",
-                              "min-width: 0;",
-                              [Function],
-                              [Function],
-                              [Function],
-                              [Function],
-                              [Function],
-                            ],
-                          },
-                          "displayName": "styled.div",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "sc-bdVaJa",
-                          "target": "div",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
+                    <styled.div
+                      className="sc-ifAKCX gJpexr"
                       tx="text"
+                      variant="default"
                     >
-                      <div
-                        className="sc-bdVaJa gtVQmG sc-ifAKCX dvBxxg"
+                      <StyledComponent
+                        className="sc-ifAKCX gJpexr"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "myVVx",
+                              "rules": Array [
+                                "box-sizing: border-box;",
+                                "margin: 0;",
+                                "min-width: 0;",
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        tx="text"
+                        variant="default"
                       >
-                        Front end architect
-                        <br />
-                        Senior software engineer
-                        <br />
-                        UX advocate
-                      </div>
-                    </StyledComponent>
-                  </styled.div>
-                </ForwardRef>
+                        <div
+                          className="sc-bdVaJa myVVx sc-ifAKCX gJpexr"
+                        >
+                          Front end architect
+                          <br />
+                          Senior software engineer
+                          <br />
+                          UX advocate
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </ForwardRef>
+                </Text>
               </StyledComponent>
-            </Styled(Component)>
+            </Styled(Text)>
           </div>
         </StyledComponent>
       </styled.div>
