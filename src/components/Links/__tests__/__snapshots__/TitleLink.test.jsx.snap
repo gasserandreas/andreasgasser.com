@@ -236,7 +236,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-htpNat",
               "isStatic": false,
-              "lastClassName": "bFGwuo",
+              "lastClassName": "eHEuBH",
               "rules": Array [
                 [Function],
               ],
@@ -260,17 +260,17 @@ exports[`components/TitleLink simple snapshot test 1`] = `
         to="https://www.google.com/"
       >
         <Link
-          className="sc-htpNat bFGwuo"
+          className="sc-htpNat eHEuBH"
           external={true}
           to="https://www.google.com/"
         >
           <styled.a
-            className="sc-htpNat bFGwuo"
+            className="sc-htpNat eHEuBH"
             href="https://www.google.com/"
             target="_blank"
           >
             <StyledComponent
-              className="sc-htpNat bFGwuo"
+              className="sc-htpNat eHEuBH"
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
@@ -298,7 +298,7 @@ exports[`components/TitleLink simple snapshot test 1`] = `
               target="_blank"
             >
               <a
-                className="sc-bwzfXH gdhkfw sc-htpNat bFGwuo"
+                className="sc-bwzfXH gdhkfw sc-htpNat eHEuBH"
                 href="https://www.google.com/"
                 target="_blank"
               >

@@ -15,7 +15,8 @@ const TitleLink = styled(Link)(({ theme }) => `
 
   &:hover {
     color: ${theme.colors.text};
-    border-bottom: 2px solid ${theme.colors.text};
+    padding-bottom: 0.125rem;
+    border-bottom: 0.125rem solid ${theme.colors.text};
   }
 `);
 
