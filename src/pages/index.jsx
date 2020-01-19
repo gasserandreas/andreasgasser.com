@@ -11,9 +11,19 @@ import Layout from '../components/Layout/Layout';
 import SEO from '../components/SEO/SEO';
 
 const Styles = {
-  Wrapper: styled(Box)`
-    padding: 2rem;
-  `,
+  Wrapper: styled(Box)(({ theme }) => `
+    padding: 3.5rem 2rem;
+
+    @media screen and (min-width: ${theme.breakpoints[3]}) {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+
+    @media screen and (min-width: ${theme.breakpoints[4]}) {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  `),
   WelcomeText: styled(Text)(({ theme }) => `
     color: ${theme.colors.textInverse};
     font-weight: 900;
@@ -22,20 +32,10 @@ const Styles = {
     letter-spacing: 2px;
     margin: 1.5rem 0;
   `),
-  Heading: styled(Heading)(({ theme }) => `
-    color: ${theme.colors.text};
-    letter-spacing: 1.15px;
-    font-weight: 600;
-    font-size: 1.90rem;
-    margin: 1.5rem 0;
+  Heading: styled(Heading)(() => `
     line-height: 2.75rem;
   `),
-  Description: styled(Text)(({ theme }) => `
-    color: ${theme.colors.muted}
-    font-size: 1.25rem;
-    letter-spacing: 1px;
-    line-height: 2rem;
-  `),
+  Description: styled(Heading)(() => ''),
 };
 
 const IndexPage = () => (
@@ -53,7 +53,7 @@ const IndexPage = () => (
         <Styles.Heading>
           I am a Senior Software Engineer with a strong background in Software Engineering and a passion for user-centric software design. 
         </Styles.Heading>
-        <Styles.Description>
+        <Styles.Description variant="subPage">
           {/* I am a Senior Software Engineer with a strong background in Software Engineering and a passion for user-centric software design.  */}
           Currently working closely with usability designers, data scientists, and cloud engineers to transform the application landscape of a global medical company. 
         </Styles.Description>
