@@ -69,8 +69,12 @@ const Styles = {
     flex-grow: 0;
     flex-shrink: 0;
   `,
-  ContentWrapper: styled(Box)(() => `
-    padding: 4rem;
+  ContentWrapper: styled(Box)(({ theme }) => `
+    padding: 2rem 1.25rem;
+
+    @media screen and (min-width: ${theme.breakpoints[1]}) {
+      padding: 4rem;
+    }
   `),
 };
 
