@@ -13,8 +13,9 @@ const Styles = {
     height: 100%;
     flex-direction: row;
 
-    @media screen and (max-width: ${theme.breakpoints[1]}) {
+    @media screen and (max-width: ${theme.breakpoints[2]}) {
       flex-direction: column;
+      text-align: center;
     }
   `),
   LeftNavigation: styled(Box)(({ theme }) => `
@@ -28,30 +29,30 @@ const Styles = {
     flex-shrink: 0;
 
     /* define visibility */
-    @media screen and (max-width: ${theme.breakpoints[1]}) {
+    @media screen and (max-width: ${theme.breakpoints[2]}) {
       display: none;
     }
 
-    /* define size */
-    @media screen and (min-width: ${theme.breakpoints[2]}) {
-      width: 20rem;
-    }
+    // /* define size */
+    // @media screen and (min-width: ${theme.breakpoints[2]}) {
+    //   width: 20rem;
+    // }
 
     @media screen and (min-width: ${theme.breakpoints[3]}) {
       width: 22rem;
     }
 
     @media screen and (min-width: ${theme.breakpoints[4]}) {
-      width: 26rem;
+      width: 24rem;
     }
   `),
   TopBarWrapper: styled(Box)(({ theme }) => `
-    @media screen and (min-width: ${theme.breakpoints[1]}) {
+    @media screen and (min-width: ${theme.breakpoints[2]}) {
       display: none;
     }
   `),
   FooterWrapper: styled(Box)(({ theme }) => `
-    @media screen and (min-width: ${theme.breakpoints[1]}) {
+    @media screen and (min-width: ${theme.breakpoints[2]}) {
       display: none;
     }
   `),
@@ -73,6 +74,9 @@ const Styles = {
     flex-grow: 0;
     flex-shrink: 0;
   `,
+  ContentWrapper: styled(Box)(() => `
+    padding: 4rem;
+  `),
 };
 
 const Layout = ({ children }) => {
@@ -88,8 +92,10 @@ const Layout = ({ children }) => {
       <Styles.TopBarWrapper data-testid="topBarWrapper">
         <TopBar menuContent="No navigation so far" contentRef={contentRef} />
       </Styles.TopBarWrapper>
-      <Styles.Content padding={4} ref={contentRef}>
-        {children}
+      <Styles.Content ref={contentRef}>
+        <Styles.ContentWrapper>
+          {children}
+        </Styles.ContentWrapper>
         <Styles.FooterWrapper data-testid="footerWrapper">
           <Footer />
         </Styles.FooterWrapper>

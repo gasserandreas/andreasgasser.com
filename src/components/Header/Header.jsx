@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { Box, Text } from 'rebass/styled-components';
+import { Box } from 'rebass/styled-components';
+
+import Text from '../Base/Text';
+
 // import { StaticQuery, graphql } from 'gatsby';
 
 // import NonStretchedImage from '../NonStretchedImage/NonStretchedImage';
@@ -24,6 +27,7 @@ const Styles = {
     color: ${theme.colors.muted};
     font-size: 0.9rem;
     margin-top: 1rem;
+    line-height: 1.375rem;
   `),
   // Image: styled(NonStretchedImage)(() => `
   //   border-radius: 0.5rem;
