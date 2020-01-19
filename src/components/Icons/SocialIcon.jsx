@@ -20,8 +20,8 @@ const Styles = {
 /**
  * Base component implementation
  */
-const SocialIcon = ({ icon, link }) => (
-  <Styles.Link to={link} external>
+const SocialIcon = ({ icon, link, ...props }) => (
+  <Styles.Link to={link} external rel="noopener noreferrer" {...props}>
     <BaseIcon icon={icon} />
   </Styles.Link>
 );
@@ -34,6 +34,18 @@ SocialIcon.propTypes = {
 /**
  * Social icon exports
  */
-export const GitHubIcon = () => <SocialIcon icon={faGithub} link="https://github.com/gasserandreas" />;
+export const GitHubIcon = () => (
+  <SocialIcon
+    icon={faGithub}
+    link="https://github.com/gasserandreas"
+    alt="GitHub User link"
+  />
+);
 
-export const LinkedInIcon = () => <SocialIcon icon={faLinkedin} link="https://linkedin.com/in/gasserandreas" />;
+export const LinkedInIcon = () => (
+  <SocialIcon
+    icon={faLinkedin}
+    link="https://linkedin.com/in/gasserandreas"
+    alt="Linked link"
+  />
+);
