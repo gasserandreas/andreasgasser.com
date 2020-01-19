@@ -8,7 +8,7 @@ import SEO from '../components/SEO/SEO';
 
 const ContactPage = () => (
   <Page>
-    <SEO title="Home" />
+    <SEO title="Contact" />
     <Layout>
       <Heading>
         Contact page
