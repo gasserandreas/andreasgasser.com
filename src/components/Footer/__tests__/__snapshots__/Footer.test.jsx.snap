@@ -38,11 +38,11 @@ exports[`components/Footer simple snapshot test 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#696969",
+          "muted": "#595959",
           "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
-          "textInverse": "#eee",
+          "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
           14,
@@ -123,7 +123,7 @@ exports[`components/Footer simple snapshot test 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               1,
               1,
@@ -174,7 +174,7 @@ exports[`components/Footer simple snapshot test 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               2,
               2,
@@ -379,7 +379,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-htoDjs",
                       "isStatic": false,
-                      "lastClassName": "gDNnyN",
+                      "lastClassName": "hRXpEV",
                       "rules": Array [
                         [Function],
                       ],
@@ -397,20 +397,20 @@ exports[`components/Footer simple snapshot test 1`] = `
                 forwardedRef={null}
               >
                 <Text
-                  className="sc-htoDjs gDNnyN"
+                  className="sc-htoDjs hRXpEV"
                   variant="default"
                 >
                   <ForwardRef
-                    className="sc-htoDjs gDNnyN"
+                    className="sc-htoDjs hRXpEV"
                     variant="default"
                   >
                     <styled.div
-                      className="sc-htoDjs gDNnyN"
+                      className="sc-htoDjs hRXpEV"
                       tx="text"
                       variant="default"
                     >
                       <StyledComponent
-                        className="sc-htoDjs gDNnyN"
+                        className="sc-htoDjs hRXpEV"
                         forwardedComponent={
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
@@ -445,7 +445,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                         variant="default"
                       >
                         <div
-                          className="sc-bdVaJa kphPz sc-htoDjs gDNnyN"
+                          className="sc-bdVaJa kphPz sc-htoDjs hRXpEV"
                         >
                           Would you like to know more or start casual chat
                            - 
@@ -589,6 +589,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                 >
                   <GitHubIcon>
                     <SocialIcon
+                      alt="GitHub User link"
                       icon={
                         Object {
                           "icon": Array [
@@ -605,10 +606,13 @@ exports[`components/Footer simple snapshot test 1`] = `
                       link="https://github.com/gasserandreas"
                     >
                       <Styled(Link)
+                        alt="GitHub User link"
                         external={true}
+                        rel="noopener noreferrer"
                         to="https://github.com/gasserandreas"
                       >
                         <StyledComponent
+                          alt="GitHub User link"
                           external={true}
                           forwardedComponent={
                             Object {
@@ -633,19 +637,25 @@ exports[`components/Footer simple snapshot test 1`] = `
                             }
                           }
                           forwardedRef={null}
+                          rel="noopener noreferrer"
                           to="https://github.com/gasserandreas"
                         >
                           <Link
+                            alt="GitHub User link"
                             className="sc-EHOje IUOuT"
                             external={true}
+                            rel="noopener noreferrer"
                             to="https://github.com/gasserandreas"
                           >
                             <styled.a
+                              alt="GitHub User link"
                               className="sc-EHOje IUOuT"
                               href="https://github.com/gasserandreas"
+                              rel="noopener noreferrer"
                               target="_blank"
                             >
                               <StyledComponent
+                                alt="GitHub User link"
                                 className="sc-EHOje IUOuT"
                                 forwardedComponent={
                                   Object {
@@ -671,11 +681,14 @@ exports[`components/Footer simple snapshot test 1`] = `
                                 }
                                 forwardedRef={null}
                                 href="https://github.com/gasserandreas"
+                                rel="noopener noreferrer"
                                 target="_blank"
                               >
                                 <a
+                                  alt="GitHub User link"
                                   className="sc-ifAKCX knIJVx sc-EHOje IUOuT"
                                   href="https://github.com/gasserandreas"
+                                  rel="noopener noreferrer"
                                   target="_blank"
                                 >
                                   <_default
@@ -808,6 +821,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                   </GitHubIcon>
                   <LinkedInIcon>
                     <SocialIcon
+                      alt="Linked link"
                       icon={
                         Object {
                           "icon": Array [
@@ -824,10 +838,13 @@ exports[`components/Footer simple snapshot test 1`] = `
                       link="https://linkedin.com/in/gasserandreas"
                     >
                       <Styled(Link)
+                        alt="Linked link"
                         external={true}
+                        rel="noopener noreferrer"
                         to="https://linkedin.com/in/gasserandreas"
                       >
                         <StyledComponent
+                          alt="Linked link"
                           external={true}
                           forwardedComponent={
                             Object {
@@ -852,19 +869,25 @@ exports[`components/Footer simple snapshot test 1`] = `
                             }
                           }
                           forwardedRef={null}
+                          rel="noopener noreferrer"
                           to="https://linkedin.com/in/gasserandreas"
                         >
                           <Link
+                            alt="Linked link"
                             className="sc-EHOje IUOuT"
                             external={true}
+                            rel="noopener noreferrer"
                             to="https://linkedin.com/in/gasserandreas"
                           >
                             <styled.a
+                              alt="Linked link"
                               className="sc-EHOje IUOuT"
                               href="https://linkedin.com/in/gasserandreas"
+                              rel="noopener noreferrer"
                               target="_blank"
                             >
                               <StyledComponent
+                                alt="Linked link"
                                 className="sc-EHOje IUOuT"
                                 forwardedComponent={
                                   Object {
@@ -890,11 +913,14 @@ exports[`components/Footer simple snapshot test 1`] = `
                                 }
                                 forwardedRef={null}
                                 href="https://linkedin.com/in/gasserandreas"
+                                rel="noopener noreferrer"
                                 target="_blank"
                               >
                                 <a
+                                  alt="Linked link"
                                   className="sc-ifAKCX knIJVx sc-EHOje IUOuT"
                                   href="https://linkedin.com/in/gasserandreas"
+                                  rel="noopener noreferrer"
                                   target="_blank"
                                 >
                                   <_default

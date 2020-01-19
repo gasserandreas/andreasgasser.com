@@ -5,8 +5,8 @@ export default {
     text: '#333333',
     textHover: '#7e7e7e',
     textHighlighed: '#333',
-    textInverse: '#eee',
-    muted: '#696969',
+    textInverse: '#f6f6f6',
+    muted: '#595959',
     // background colors
     background: '#c3c3c3',
     backgroundInverse: '#fff',

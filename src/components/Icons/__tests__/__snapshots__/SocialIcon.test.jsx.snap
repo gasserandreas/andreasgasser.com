@@ -38,11 +38,11 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#696969",
+          "muted": "#595959",
           "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
-          "textInverse": "#eee",
+          "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
           14,
@@ -123,7 +123,7 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               1,
               1,
@@ -174,7 +174,7 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               2,
               2,
@@ -222,6 +222,7 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
   >
     <LinkedInIcon>
       <SocialIcon
+        alt="Linked link"
         icon={
           Object {
             "icon": Array [
@@ -238,10 +239,13 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
         link="https://linkedin.com/in/gasserandreas"
       >
         <Styled(Link)
+          alt="Linked link"
           external={true}
+          rel="noopener noreferrer"
           to="https://linkedin.com/in/gasserandreas"
         >
           <StyledComponent
+            alt="Linked link"
             external={true}
             forwardedComponent={
               Object {
@@ -266,19 +270,25 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
               }
             }
             forwardedRef={null}
+            rel="noopener noreferrer"
             to="https://linkedin.com/in/gasserandreas"
           >
             <Link
+              alt="Linked link"
               className="sc-bxivhb gTWFUj"
               external={true}
+              rel="noopener noreferrer"
               to="https://linkedin.com/in/gasserandreas"
             >
               <styled.a
+                alt="Linked link"
                 className="sc-bxivhb gTWFUj"
                 href="https://linkedin.com/in/gasserandreas"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <StyledComponent
+                  alt="Linked link"
                   className="sc-bxivhb gTWFUj"
                   forwardedComponent={
                     Object {
@@ -304,11 +314,14 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
                   }
                   forwardedRef={null}
                   href="https://linkedin.com/in/gasserandreas"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <a
+                    alt="Linked link"
                     className="sc-htpNat hpMhBH sc-bxivhb gTWFUj"
                     href="https://linkedin.com/in/gasserandreas"
+                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     <_default
@@ -481,11 +494,11 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#696969",
+          "muted": "#595959",
           "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
-          "textInverse": "#eee",
+          "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
           14,
@@ -566,7 +579,7 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               1,
               1,
@@ -617,7 +630,7 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               2,
               2,
@@ -665,6 +678,7 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
   >
     <GitHubIcon>
       <SocialIcon
+        alt="GitHub User link"
         icon={
           Object {
             "icon": Array [
@@ -681,10 +695,13 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
         link="https://github.com/gasserandreas"
       >
         <Styled(Link)
+          alt="GitHub User link"
           external={true}
+          rel="noopener noreferrer"
           to="https://github.com/gasserandreas"
         >
           <StyledComponent
+            alt="GitHub User link"
             external={true}
             forwardedComponent={
               Object {
@@ -709,19 +726,25 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
               }
             }
             forwardedRef={null}
+            rel="noopener noreferrer"
             to="https://github.com/gasserandreas"
           >
             <Link
+              alt="GitHub User link"
               className="sc-bxivhb gTWFUj"
               external={true}
+              rel="noopener noreferrer"
               to="https://github.com/gasserandreas"
             >
               <styled.a
+                alt="GitHub User link"
                 className="sc-bxivhb gTWFUj"
                 href="https://github.com/gasserandreas"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <StyledComponent
+                  alt="GitHub User link"
                   className="sc-bxivhb gTWFUj"
                   forwardedComponent={
                     Object {
@@ -747,11 +770,14 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
                   }
                   forwardedRef={null}
                   href="https://github.com/gasserandreas"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <a
+                    alt="GitHub User link"
                     className="sc-htpNat hpMhBH sc-bxivhb gTWFUj"
                     href="https://github.com/gasserandreas"
+                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     <_default

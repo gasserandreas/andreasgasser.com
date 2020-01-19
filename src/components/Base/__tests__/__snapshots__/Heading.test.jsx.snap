@@ -38,11 +38,11 @@ exports[`components/Heading page Heading 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#696969",
+          "muted": "#595959",
           "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
-          "textInverse": "#eee",
+          "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
           14,
@@ -123,7 +123,7 @@ exports[`components/Heading page Heading 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               1,
               1,
@@ -174,7 +174,7 @@ exports[`components/Heading page Heading 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               2,
               2,
@@ -334,11 +334,11 @@ exports[`components/Heading section Heading 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#696969",
+          "muted": "#595959",
           "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
-          "textInverse": "#eee",
+          "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
           14,
@@ -419,7 +419,7 @@ exports[`components/Heading section Heading 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               1,
               1,
@@ -470,7 +470,7 @@ exports[`components/Heading section Heading 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               2,
               2,
@@ -630,11 +630,11 @@ exports[`components/Heading subPage Heading 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#696969",
+          "muted": "#595959",
           "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
-          "textInverse": "#eee",
+          "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
           14,
@@ -715,7 +715,7 @@ exports[`components/Heading subPage Heading 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               1,
               1,
@@ -766,7 +766,7 @@ exports[`components/Heading subPage Heading 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               2,
               2,
@@ -849,7 +849,7 @@ exports[`components/Heading subPage Heading 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bdVaJa",
                   "isStatic": false,
-                  "lastClassName": "bDJvhv",
+                  "lastClassName": "dZUMSk",
                   "rules": Array [
                     "box-sizing: border-box;",
                     "margin: 0;",
@@ -876,7 +876,7 @@ exports[`components/Heading subPage Heading 1`] = `
             variant="subPage"
           >
             <h2
-              className="sc-bdVaJa bDJvhv"
+              className="sc-bdVaJa dZUMSk"
             >
               Sub Page Heading
             </h2>
