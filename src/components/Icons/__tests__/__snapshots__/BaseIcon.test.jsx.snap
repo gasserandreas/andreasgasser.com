@@ -38,11 +38,11 @@ exports[`components/BaseIcon simple snapshot test for brand icons 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#696969",
+          "muted": "#595959",
           "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
-          "textInverse": "#eee",
+          "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
           14,
@@ -123,7 +123,7 @@ exports[`components/BaseIcon simple snapshot test for brand icons 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               1,
               1,
@@ -174,7 +174,7 @@ exports[`components/BaseIcon simple snapshot test for brand icons 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               2,
               2,
@@ -382,11 +382,11 @@ exports[`components/BaseIcon simple snapshot test for regular icons 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#696969",
+          "muted": "#595959",
           "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
-          "textInverse": "#eee",
+          "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
           14,
@@ -467,7 +467,7 @@ exports[`components/BaseIcon simple snapshot test for regular icons 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               1,
               1,
@@ -518,7 +518,7 @@ exports[`components/BaseIcon simple snapshot test for regular icons 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               2,
               2,

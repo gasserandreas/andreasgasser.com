@@ -38,11 +38,11 @@ exports[`components/Header simple snapshot test 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#696969",
+          "muted": "#595959",
           "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
-          "textInverse": "#eee",
+          "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
           14,
@@ -123,7 +123,7 @@ exports[`components/Header simple snapshot test 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               1,
               1,
@@ -174,7 +174,7 @@ exports[`components/Header simple snapshot test 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#696969",
+            "color": "#595959",
             "fontSize": Array [
               2,
               2,
@@ -484,7 +484,7 @@ exports[`components/Header simple snapshot test 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-bZQynM",
                       "isStatic": false,
-                      "lastClassName": "hdZGzM",
+                      "lastClassName": "hoOKGH",
                       "rules": Array [
                         [Function],
                       ],
@@ -502,20 +502,20 @@ exports[`components/Header simple snapshot test 1`] = `
                 forwardedRef={null}
               >
                 <Text
-                  className="sc-bZQynM hdZGzM"
+                  className="sc-bZQynM hoOKGH"
                   variant="default"
                 >
                   <ForwardRef
-                    className="sc-bZQynM hdZGzM"
+                    className="sc-bZQynM hoOKGH"
                     variant="default"
                   >
                     <styled.div
-                      className="sc-bZQynM hdZGzM"
+                      className="sc-bZQynM hoOKGH"
                       tx="text"
                       variant="default"
                     >
                       <StyledComponent
-                        className="sc-bZQynM hdZGzM"
+                        className="sc-bZQynM hoOKGH"
                         forwardedComponent={
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
@@ -550,7 +550,7 @@ exports[`components/Header simple snapshot test 1`] = `
                         variant="default"
                       >
                         <div
-                          className="sc-bdVaJa kphPz sc-bZQynM hdZGzM"
+                          className="sc-bdVaJa kphPz sc-bZQynM hoOKGH"
                         >
                           Front end architect
                           <br />
