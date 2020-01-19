@@ -449,68 +449,107 @@ exports[`components/Footer simple snapshot test 1`] = `
                         >
                           Would you like to know more or start casual chat
                            - 
-                          <Styled(mockConstructor)
+                          <Styled(Link)
                             to="/contact"
                           >
                             <StyledComponent
                               forwardedComponent={
-                                [MockFunction] {
-                                  "calls": Array [
-                                    Array [
-                                      Object {
-                                        "children": "drop me a message",
-                                        "className": "sc-dnqmqq jquQem",
-                                        "to": "/contact",
-                                      },
-                                      Object {},
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-dnqmqq",
+                                    "isStatic": false,
+                                    "lastClassName": "cvSkbJ",
+                                    "rules": Array [
+                                      [Function],
                                     ],
-                                    Array [
-                                      Object {
-                                        "children": "drop me a message",
-                                        "className": "sc-dnqmqq jquQem",
-                                        "to": "/contact",
-                                      },
-                                      Object {},
-                                    ],
-                                  ],
-                                  "results": Array [
-                                    Object {
-                                      "type": "return",
-                                      "value": <a
-                                        className="sc-dnqmqq jquQem"
-                                        href="/contact"
-                                      >
-                                        drop me a message
-                                      </a>,
-                                    },
-                                    Object {
-                                      "type": "return",
-                                      "value": <a
-                                        className="sc-dnqmqq jquQem"
-                                        href="/contact"
-                                      >
-                                        drop me a message
-                                      </a>,
-                                    },
-                                  ],
+                                  },
+                                  "displayName": "Styled(Link)",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-dnqmqq",
+                                  "target": [Function],
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
                                 }
                               }
                               forwardedRef={null}
                               to="/contact"
                             >
-                              <mockConstructor
-                                className="sc-dnqmqq jquQem"
+                              <Link
+                                className="sc-dnqmqq cvSkbJ"
+                                external={false}
                                 to="/contact"
                               >
-                                <a
-                                  className="sc-dnqmqq jquQem"
-                                  href="/contact"
+                                <Styled(mockConstructor)
+                                  className="sc-dnqmqq cvSkbJ"
+                                  to="/contact"
                                 >
-                                  drop me a message
-                                </a>
-                              </mockConstructor>
+                                  <StyledComponent
+                                    className="sc-dnqmqq cvSkbJ"
+                                    forwardedComponent={
+                                      [MockFunction] {
+                                        "calls": Array [
+                                          Array [
+                                            Object {
+                                              "children": "drop me a message",
+                                              "className": "sc-bxivhb ezBkzg sc-dnqmqq cvSkbJ",
+                                              "to": "/contact",
+                                            },
+                                            Object {},
+                                          ],
+                                          Array [
+                                            Object {
+                                              "children": "drop me a message",
+                                              "className": "sc-bxivhb ezBkzg sc-dnqmqq cvSkbJ",
+                                              "to": "/contact",
+                                            },
+                                            Object {},
+                                          ],
+                                        ],
+                                        "results": Array [
+                                          Object {
+                                            "type": "return",
+                                            "value": <a
+                                              className="sc-bxivhb ezBkzg sc-dnqmqq cvSkbJ"
+                                              href="/contact"
+                                            >
+                                              drop me a message
+                                            </a>,
+                                          },
+                                          Object {
+                                            "type": "return",
+                                            "value": <a
+                                              className="sc-bxivhb ezBkzg sc-dnqmqq cvSkbJ"
+                                              href="/contact"
+                                            >
+                                              drop me a message
+                                            </a>,
+                                          },
+                                        ],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                    to="/contact"
+                                  >
+                                    <mockConstructor
+                                      className="sc-bxivhb ezBkzg sc-dnqmqq cvSkbJ"
+                                      to="/contact"
+                                    >
+                                      <a
+                                        className="sc-bxivhb ezBkzg sc-dnqmqq cvSkbJ"
+                                        href="/contact"
+                                      >
+                                        drop me a message
+                                      </a>
+                                    </mockConstructor>
+                                  </StyledComponent>
+                                </Styled(mockConstructor)>
+                              </Link>
                             </StyledComponent>
-                          </Styled(mockConstructor)>
+                          </Styled(Link)>
                           .
                         </div>
                       </StyledComponent>
@@ -615,7 +654,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-ifAKCX",
                                       "isStatic": false,
-                                      "lastClassName": "eLBLrj",
+                                      "lastClassName": "knIJVx",
                                       "rules": Array [
                                         [Function],
                                       ],
@@ -635,7 +674,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                                 target="_blank"
                               >
                                 <a
-                                  className="sc-ifAKCX eLBLrj sc-EHOje IUOuT"
+                                  className="sc-ifAKCX knIJVx sc-EHOje IUOuT"
                                   href="https://github.com/gasserandreas"
                                   target="_blank"
                                 >
@@ -834,7 +873,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-ifAKCX",
                                       "isStatic": false,
-                                      "lastClassName": "eLBLrj",
+                                      "lastClassName": "knIJVx",
                                       "rules": Array [
                                         [Function],
                                       ],
@@ -854,7 +893,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                                 target="_blank"
                               >
                                 <a
-                                  className="sc-ifAKCX eLBLrj sc-EHOje IUOuT"
+                                  className="sc-ifAKCX knIJVx sc-EHOje IUOuT"
                                   href="https://linkedin.com/in/gasserandreas"
                                   target="_blank"
                                 >

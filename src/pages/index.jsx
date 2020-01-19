@@ -54,7 +54,6 @@ const IndexPage = () => (
           I am a Senior Software Engineer with a strong background in Software Engineering and a passion for user-centric software design. 
         </Styles.Heading>
         <Styles.Description variant="subPage">
-          {/* I am a Senior Software Engineer with a strong background in Software Engineering and a passion for user-centric software design.  */}
           Currently working closely with usability designers, data scientists, and cloud engineers to transform the application landscape of a global medical company. 
         </Styles.Description>
       </Styles.Wrapper>

@@ -6,19 +6,15 @@ import Page from '../components/Page/Page';
 import Layout from '../components/Layout/Layout';
 import SEO from '../components/SEO/SEO';
 
-import TitleLink from '../components/Links/TitleLink';
-import * as Paths from '../components/utils/Paths';
-
 const ContactPage = () => (
   <Page>
-    <SEO title="404: Not found" />
+    <SEO title="Contact" />
     <Layout>
       <Heading>
-        NOT FOUND
+        Contact page
       </Heading>
       <Heading variant="subPage">
-        Whooops, you just hit a route that doesn&#39;t exist... the sadness.
-        <TitleLink to={Paths.INDEX}>Go back home</TitleLink>
+        This page is currently under construction, please come back later.
       </Heading>
     </Layout>
   </Page>

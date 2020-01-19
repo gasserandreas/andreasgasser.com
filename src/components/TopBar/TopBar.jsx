@@ -1,11 +1,15 @@
-/* global window */
+// /* global window */
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Box } from 'rebass/styled-components';
 import styled from 'styled-components';
+import { navigate } from 'gatsby';
 
 import FullSizeMenu from './FullSizeMenu';
 import Text from '../Base/Text';
+// import Link from '../Links/Link';
+
+import * as Paths from '../utils/Paths';
 
 import useEventListener from '../hooks/useEventListener';
 
@@ -26,9 +30,9 @@ function getBoxShadows(showShadow) {
   ` : '';
 }
 
-function getEmailLink() {
-  return `mailto:${process.env.GATSBY_CONTACT_EMAIL}?subject=Question from my website`;
-}
+// function getEmailLink() {
+//   return `mailto:${process.env.GATSBY_CONTACT_EMAIL}?subject=Question from my website`;
+// }
 
 const Styles = {
   TopBar: styled(Box)(({
@@ -62,6 +66,7 @@ const Styles = {
     color: ${theme.colors.textHighlighed};
     text-transform: uppercase;
     line-height: 1.8rem;
+    font-weight: 900;
 
     &:hover {
       cursor: pointer;
@@ -90,6 +95,15 @@ const TopBar = ({ menuContent, contentRef }) => {
         setHeight(TOP_BAR_FULL_HEIGHT);
       }
     }
+  };
+
+  const handleContactClick = () => {
+    // close menu
+    if (openMenu) {
+      setOpenMenu(false);
+    }
+
+    navigate(Paths.CONTACT);
   };
 
   const handleSetHeight = (newHeight) => {
@@ -129,10 +143,10 @@ const TopBar = ({ menuContent, contentRef }) => {
           Menu
         </Styles.TopBarText>
         <Styles.TopBarText
-          onClick={() => window.open(getEmailLink())}
+          onClick={handleContactClick}
           data-testid="topbar-mail-item"
         >
-          Email
+          Contact
         </Styles.TopBarText>
       </Styles.TopBar>
     </>

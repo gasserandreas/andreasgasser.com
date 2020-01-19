@@ -4,6 +4,9 @@ import styled from 'styled-components';
 import { Box } from 'rebass/styled-components';
 
 import Text from '../Base/Text';
+import Link from '../Links/Link';
+
+import * as Paths from '../utils/Paths';
 
 // import { StaticQuery, graphql } from 'gatsby';
 
@@ -15,14 +18,20 @@ const Styles = {
     font-weight: 400;
     margin-bottom: 1rem;
   `,
-  Name: styled(Text)`
+  Name: styled(Link)(({ theme }) => `
+    font-size: 1rem;
     display: block;
     margin: 0.25rem 0;
+    text-decoration: none;
 
     strong {
       font-weight: 600;
     }
-  `,
+
+    &:hover {
+      color: ${theme.colors.text};
+    }
+  `),
   JobDescription: styled(Text)(({ theme }) => `
     color: ${theme.colors.muted};
     font-size: 0.9rem;
@@ -41,10 +50,12 @@ export const Header = () => (
       Hi I
       {'\''}
       am
-      <Styles.Name>
+      <Styles.Name to={Paths.INDEX}>
+        {/* <Link to={Paths.INDEX}> */}
         <strong>Andreas</strong>
         {' '}
         Gasser
+        {/* </Link> */}
       </Styles.Name>
     </Styles.SiteName>
     {/* <Styles.Image fluid={data.file.childImageSharp.fluid} /> */}
