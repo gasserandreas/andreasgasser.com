@@ -1,3 +1,28 @@
+# [1.4.0](https://github.com/gasserandreas/andreasgasser.com/compare/v1.3.0...v1.4.0) (2020-01-19)
+
+
+### Bug Fixes
+
+* **#50:** Fixed storybook issue with new TopBar ([2b73d67](https://github.com/gasserandreas/andreasgasser.com/commit/2b73d673c45675eced3b2f330bfc3d8765e28981))
+* **#54:** fixed base component imports ([7504901](https://github.com/gasserandreas/andreasgasser.com/commit/7504901ce25b0d724f1f27ee216b7a64b983c346))
+
+
+### Features
+
+* **#28:** added contact page ([b5ca704](https://github.com/gasserandreas/andreasgasser.com/commit/b5ca70442fd062eb7199d9f9c264413de1a48ad4)), closes [#28](https://github.com/gasserandreas/andreasgasser.com/issues/28)
+* **#28:** Added custom 404 page ([3f0a093](https://github.com/gasserandreas/andreasgasser.com/commit/3f0a093637bf4ec0315e8cc8380b037736b0b404)), closes [#28](https://github.com/gasserandreas/andreasgasser.com/issues/28)
+* **#28:** added Navigation component ([3c32921](https://github.com/gasserandreas/andreasgasser.com/commit/3c3292143c12d38127cd62698c2d37268eef12d7)), closes [#28](https://github.com/gasserandreas/andreasgasser.com/issues/28)
+* **#28:** updated Link  navigation component ([a765678](https://github.com/gasserandreas/andreasgasser.com/commit/a7656788c31e21910f0e7d32b8f727c0ce5dc756)), closes [#28](https://github.com/gasserandreas/andreasgasser.com/issues/28)
+* **#45:** added first TopBar version ([f2d2289](https://github.com/gasserandreas/andreasgasser.com/commit/f2d22897b0b074bcfe43836dae52ec9fa951aa7d)), closes [#45](https://github.com/gasserandreas/andreasgasser.com/issues/45)
+* **#45:** added Fullsize Menu component ([f882bc9](https://github.com/gasserandreas/andreasgasser.com/commit/f882bc9d0fe16021674a1a9efaeb6f152342ae78)), closes [#45](https://github.com/gasserandreas/andreasgasser.com/issues/45)
+* **#46:** added Footer component with test cases ([3d7e1bd](https://github.com/gasserandreas/andreasgasser.com/commit/3d7e1bde56637b6aeb9101e0b89ab5ce059a52b1)), closes [#46](https://github.com/gasserandreas/andreasgasser.com/issues/46)
+* **#48:** implemented new index page version ([851d17c](https://github.com/gasserandreas/andreasgasser.com/commit/851d17c544b3f86315b242213fb94f433d1529ca)), closes [#48](https://github.com/gasserandreas/andreasgasser.com/issues/48)
+* **#48:** implemented new temp header ([5641325](https://github.com/gasserandreas/andreasgasser.com/commit/56413256803f27676bfe8a33ff05b85aec7a4fb7)), closes [#48](https://github.com/gasserandreas/andreasgasser.com/issues/48)
+* **#48:** improved TopBar component ([95f6953](https://github.com/gasserandreas/andreasgasser.com/commit/95f695386d752f7eff9a6d9c0049eeae5dfc8b0b)), closes [#48](https://github.com/gasserandreas/andreasgasser.com/issues/48)
+* **#54:** added first draft for new index page ([f3f7d5e](https://github.com/gasserandreas/andreasgasser.com/commit/f3f7d5e9c0668a5070d4f46341b366004a103461)), closes [#54](https://github.com/gasserandreas/andreasgasser.com/issues/54)
+* **#54:** added new start page content ([f11e131](https://github.com/gasserandreas/andreasgasser.com/commit/f11e13133b4f3e744dbc3b2b0cb68229f1e6d22a)), closes [#54](https://github.com/gasserandreas/andreasgasser.com/issues/54)
+* **#54:** improved footer and header components ([a20e756](https://github.com/gasserandreas/andreasgasser.com/commit/a20e7566f7f8208667a5f9e1d5ad4dff289128d2)), closes [#54](https://github.com/gasserandreas/andreasgasser.com/issues/54)
+
 # [1.3.0](https://github.com/gasserandreas/andreasgasser.com/compare/v1.2.0...v1.3.0) (2019-12-23)
 
 
