@@ -27,6 +27,7 @@ const Styles = {
     color: ${theme.colors.muted};
     font-size: 0.9rem;
     margin-top: 1rem;
+    line-height: 1.375rem;
   `),
   // Image: styled(NonStretchedImage)(() => `
   //   border-radius: 0.5rem;
