@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/TopBar simple styling test 1`] = `
+<CustomThemeProvider
+  dark={false}
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Array [
+          "320px",
+          "540px",
+          "720px",
+          "960px",
+          "1140px",
+          "1400px",
+        ],
+        "buttons": Object {
+          "outline": Object {
+            "bg": "transparent",
+            "boxShadow": "inset 0 0 2px",
+            "color": "primary",
+            "variant": "buttons.primary",
+          },
+          "primary": Object {
+            "bg": "primary",
+            "borderRadius": "default",
+            "color": "background",
+            "fontSize": 2,
+            "fontWeight": "bold",
+          },
+          "secondary": Object {
+            "bg": "secondary",
+            "color": "background",
+            "variant": "buttons.primary",
+          },
+        },
+        "colors": Object {
+          "background": "#c3c3c3",
+          "backgroundInverse": "#fff",
+          "muted": "#696969",
+          "text": "#333333",
+          "textHighlighed": "#333",
+          "textHover": "#7e7e7e",
+          "textInverse": "#eee",
+        },
+        "fontSizes": Array [
+          14,
+          16,
+          20,
+          24,
+          28,
+          32,
+          40,
+          48,
+          56,
+          64,
+        ],
+        "fontWeights": Object {
+          "body": 400,
+          "bold": 900,
+          "heading": 600,
+        },
+        "fonts": Object {
+          "body": "Open Sans, Helvetica Neue, Helvetica, sans-serif",
+          "heading": "inherit",
+          "monospace": "Menlo, monospace",
+        },
+        "lineHeights": Object {
+          "body": 1.5,
+          "heading": 1.125,
+        },
+        "radii": Object {
+          "circle": 99999,
+          "default": 4,
+        },
+        "shadows": Object {
+          "card": "0 0 4px rgba(0, 0, 0, .125)",
+        },
+        "sizes": Object {
+          "avatar": 48,
+        },
+        "space": Array [
+          0,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+        ],
+        "styles": Object {
+          "root": Object {
+            "fontFamily": "body",
+            "fontWeight": "body",
+            "lineHeight": "body",
+          },
+        },
+        "text": Object {
+          "bold": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+            "fontWeight": "900",
+          },
+          "default": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+          },
+          "muted": Object {
+            "color": "#696969",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+          },
+          "page": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+            ],
+            "fontWeight": 600,
+            "letterSpacing": "0.075rem",
+            "lineHeight": "2.75rem",
+            "margin": "2rem 0 2.5rem",
+            "maxWidth": "32rem",
+            "wordSpacing": "-0.08em",
+          },
+          "section": Object {
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+            "fontWeight": 500,
+            "lineHeight": "1.7rem",
+          },
+          "small": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+            ],
+          },
+          "subPage": Object {
+            "color": "#696969",
+            "fontSize": Array [
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+            ],
+            "fontWeight": 500,
+            "letterSpacing": "0.0625rem",
+            "lineHeight": "2.2rem",
+            "margin": "1.25rem 0 1.75rem",
+            "marginBottom": 2,
+            "maxWidth": "32rem",
+          },
+        },
+        "variants": Object {
+          "avatar": Object {
+            "borderRadius": "circle",
+            "height": "avatar",
+            "width": "avatar",
+          },
+          "card": Object {
+            "bg": "background",
+            "boxShadow": "card",
+            "p": 2,
+          },
+          "link": Object {
+            "color": "primary",
+          },
+          "nav": Object {
+            ":hover,:focus,.active": Object {
+              "color": "primary",
+            },
+            "color": "inherit",
+            "display": "inline-block",
+            "fontSize": 1,
+            "fontWeight": "bold",
+            "p": 2,
+            "textDecoration": "none",
+          },
+        },
+      }
+    }
+  >
+    <FullSizeMenu
+      show={false}
+    >
+      <styled.div
+        show={false}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bdVaJa",
+                "isStatic": false,
+                "lastClassName": "jNAtVv",
+                "rules": Array [
+                  [Function],
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-bdVaJa",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          show={false}
+        >
+          <div
+            className="sc-bdVaJa jNAtVv"
+          >
+            content
+          </div>
+        </StyledComponent>
+      </styled.div>
+    </FullSizeMenu>
+  </ThemeProvider>
+</CustomThemeProvider>
+`;

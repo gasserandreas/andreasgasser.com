@@ -38,8 +38,8 @@ exports[`components/Link simple snapshot test 1`] = `
         "colors": Object {
           "background": "#c3c3c3",
           "backgroundInverse": "#fff",
-          "muted": "#808080",
-          "text": "#595959",
+          "muted": "#696969",
+          "text": "#333333",
           "textHighlighed": "#333",
           "textHover": "#7e7e7e",
           "textInverse": "#eee",
@@ -49,15 +49,17 @@ exports[`components/Link simple snapshot test 1`] = `
           16,
           20,
           24,
+          28,
           32,
+          40,
           48,
+          56,
           64,
-          96,
         ],
         "fontWeights": Object {
           "body": 400,
           "bold": 900,
-          "heading": 700,
+          "heading": 600,
         },
         "fonts": Object {
           "body": "Open Sans, Helvetica Neue, Helvetica, sans-serif",
@@ -98,33 +100,95 @@ exports[`components/Link simple snapshot test 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#595959",
+            "color": "#333333",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#595959",
+            "color": "#333333",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
           },
           "muted": Object {
-            "color": "#808080",
+            "color": "#696969",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
           },
           "page": Object {
-            "fontSize": 4,
-            "letterSpacing": "-0.04em",
-            "lineHeight": "1.4em",
+            "color": "#333333",
+            "fontSize": Array [
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+            ],
+            "fontWeight": 600,
+            "letterSpacing": "0.075rem",
+            "lineHeight": "2.75rem",
+            "margin": "2rem 0 2.5rem",
+            "maxWidth": "32rem",
             "wordSpacing": "-0.08em",
           },
           "section": Object {
-            "fontSize": 3,
-            "lineHeight": "1.4em",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+            "fontWeight": 500,
+            "lineHeight": "1.7rem",
           },
           "small": Object {
-            "color": "#595959",
-            "fontSize": 0,
+            "color": "#333333",
+            "fontSize": Array [
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+            ],
           },
           "subPage": Object {
-            "color": "#808080",
-            "fontSize": 3,
-            "lineHeight": "1.6em",
+            "color": "#696969",
+            "fontSize": Array [
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+            ],
+            "fontWeight": 500,
+            "letterSpacing": "0.0625rem",
+            "lineHeight": "2.2rem",
+            "margin": "1.25rem 0 1.75rem",
+            "marginBottom": 2,
+            "maxWidth": "32rem",
           },
         },
         "variants": Object {
@@ -172,7 +236,7 @@ exports[`components/Link simple snapshot test 1`] = `
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bwzfXH",
                 "isStatic": false,
-                "lastClassName": "jgtaUg",
+                "lastClassName": "gdhkfw",
                 "rules": Array [
                   [Function],
                 ],
@@ -192,7 +256,7 @@ exports[`components/Link simple snapshot test 1`] = `
           target="_blank"
         >
           <a
-            className="sc-bwzfXH jgtaUg"
+            className="sc-bwzfXH gdhkfw"
             href="https://www.google.com/"
             target="_blank"
           >

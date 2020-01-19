@@ -13,27 +13,24 @@ const Styles = {
     height: 100%;
     flex-direction: row;
 
-    @media screen and (max-width: ${theme.breakpoints[1]}) {
+    @media screen and (max-width: ${theme.breakpoints[2]}) {
       flex-direction: column;
+      text-align: center;
     }
   `),
   LeftNavigation: styled(Box)(({ theme }) => `
     /* default styles */
     width: 16rem;
     background-color: ${theme.colors.backgroundInverse};
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 0;
     flex-shrink: 0;
 
     /* define visibility */
-    @media screen and (max-width: ${theme.breakpoints[1]}) {
+    @media screen and (max-width: ${theme.breakpoints[2]}) {
       display: none;
-    }
-
-    /* define size */
-    @media screen and (min-width: ${theme.breakpoints[2]}) {
-      width: 20rem;
     }
 
     @media screen and (min-width: ${theme.breakpoints[3]}) {
@@ -41,16 +38,16 @@ const Styles = {
     }
 
     @media screen and (min-width: ${theme.breakpoints[4]}) {
-      width: 26rem;
+      width: 24rem;
     }
   `),
   TopBarWrapper: styled(Box)(({ theme }) => `
-    @media screen and (min-width: ${theme.breakpoints[1]}) {
+    @media screen and (min-width: ${theme.breakpoints[2]}) {
       display: none;
     }
   `),
   FooterWrapper: styled(Box)(({ theme }) => `
-    @media screen and (min-width: ${theme.breakpoints[1]}) {
+    @media screen and (min-width: ${theme.breakpoints[2]}) {
       display: none;
     }
   `),
@@ -60,26 +57,47 @@ const Styles = {
     flex-shrink: 1;
     overflow: scroll;
   `,
+  Header: styled(Header)`
+    flex-grow: 0;
+    flex-shrink: 0;
+  `,
+  Navigation: styled(Navigation)`
+    flex-grow: 1;
+    flex-shrink: 1;
+  `,
+  Footer: styled(Footer)`
+    flex-grow: 0;
+    flex-shrink: 0;
+  `,
+  ContentWrapper: styled(Box)(() => `
+    padding: 4rem;
+  `),
 };
 
-const Layout = ({ children }) => (
-  <Styles.Layout>
-    <Styles.LeftNavigation padding={4} data-testid="leftNavigation">
-      <Header />
-      <Navigation />
-      <Footer />
-    </Styles.LeftNavigation>
-    <Styles.TopBarWrapper data-testid="topBarWrapper">
-      <TopBar />
-    </Styles.TopBarWrapper>
-    <Styles.Content padding={4}>
-      {children}
-      <Styles.FooterWrapper data-testid="footerWrapper">
-        <Footer />
-      </Styles.FooterWrapper>
-    </Styles.Content>
-  </Styles.Layout>
-);
+const Layout = ({ children }) => {
+  const contentRef = React.useRef();
+
+  return (
+    <Styles.Layout>
+      <Styles.LeftNavigation padding={4} data-testid="leftNavigation">
+        <Styles.Header />
+        <Styles.Navigation />
+        <Styles.Footer />
+      </Styles.LeftNavigation>
+      <Styles.TopBarWrapper data-testid="topBarWrapper">
+        <TopBar menuContent={<Navigation />} contentRef={contentRef} />
+      </Styles.TopBarWrapper>
+      <Styles.Content ref={contentRef}>
+        <Styles.ContentWrapper>
+          {children}
+        </Styles.ContentWrapper>
+        <Styles.FooterWrapper data-testid="footerWrapper">
+          <Footer />
+        </Styles.FooterWrapper>
+      </Styles.Content>
+    </Styles.Layout>
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

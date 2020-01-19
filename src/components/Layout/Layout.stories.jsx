@@ -10,7 +10,7 @@ export default {
   decorators: [(storyFn) => (
     <div
       style={{
-        height: '100vh',
+        height: '110vh',
       }}
     >
       <Page>{storyFn()}</Page>
