@@ -7,7 +7,6 @@ import { navigate } from 'gatsby';
 
 import FullSizeMenu from './FullSizeMenu';
 import Text from '../Base/Text';
-// import Link from '../Links/Link';
 
 import * as Paths from '../utils/Paths';
 
@@ -26,13 +25,9 @@ function getBackgroundStyles(theme, show) {
 
 function getBoxShadows(showShadow) {
   return showShadow ? `
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 0px;
+    box-shadow: rgba(0,0,0,0.15) 2px 1px 2px;
   ` : '';
 }
-
-// function getEmailLink() {
-//   return `mailto:${process.env.GATSBY_CONTACT_EMAIL}?subject=Question from my website`;
-// }
 
 const Styles = {
   TopBar: styled(Box)(({
@@ -67,11 +62,13 @@ const Styles = {
     text-transform: uppercase;
     line-height: 1.8rem;
     font-weight: 900;
+    padding-bottom: 0.125rem;
 
     &:hover {
       cursor: pointer;
       color: ${theme.colors.text};
-      border-bottom: 2px solid ${theme.colors.textHover};
+      border-bottom: 0.125rem solid ${theme.colors.text};
+      padding-bottom: 0;
     }
   `),
 };
@@ -97,13 +94,13 @@ const TopBar = ({ menuContent, contentRef }) => {
     }
   };
 
-  const handleContactClick = () => {
+  const handleNavigationClick = (path) => () => {
     // close menu
     if (openMenu) {
       setOpenMenu(false);
     }
 
-    navigate(Paths.CONTACT);
+    navigate(path);
   };
 
   const handleSetHeight = (newHeight) => {
@@ -143,7 +140,13 @@ const TopBar = ({ menuContent, contentRef }) => {
           Menu
         </Styles.TopBarText>
         <Styles.TopBarText
-          onClick={handleContactClick}
+          onClick={handleNavigationClick(Paths.INDEX)}
+          data-testid="topbar-home-item"
+        >
+          Andreas Gasser
+        </Styles.TopBarText>
+        <Styles.TopBarText
+          onClick={handleNavigationClick(Paths.CONTACT)}
           data-testid="topbar-mail-item"
         >
           Contact
