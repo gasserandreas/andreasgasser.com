@@ -6,10 +6,10 @@ import { Link as GLink } from 'gatsby';
 
 const getLinkStyles = ({ theme }) => `
   color: ${theme.colors.textHighlighed};
-  font-weight: 600;
+  font-weight: 900;
   font-size: 0.95rem;
-  text-decoration: none;
-  text-transform: uppercase;
+  // text-decoration: none;
+  // text-transform: uppercase;
 
   &:hover {
     color: ${theme.colors.textHover};

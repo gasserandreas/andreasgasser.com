@@ -1,6 +1,7 @@
-/* global withTheme */
+/* global withTheme, renderWithRouter */
 import React from 'react';
-import { render, fireEvent } from '@testing-library/react';
+import { fireEvent } from '@testing-library/react';
+import { navigate } from 'gatsby';
 
 import TopBar from '../TopBar';
 
@@ -29,10 +30,11 @@ describe('components/TopBar', () => {
 
   afterAll(() => {
     global.open.mockRestore();
+    navigate.mockClear();
   });
 
   it('should render default TopBar', async () => {
-    const { getByTestId, findByTestId } = render(
+    const { getByTestId, findByTestId } = renderWithRouter(
       withTheme(
         <TopBar menuContent={menuContent} contentRef={contentRef} />,
       ),
@@ -42,7 +44,7 @@ describe('components/TopBar', () => {
     expect(menuItem).toHaveTextContent('Menu');
 
     const mailItem = getByTestId(MAIL_TEXT_TEST_ID);
-    expect(mailItem).toHaveTextContent('Email');
+    expect(mailItem).toHaveTextContent('Contact');
 
     // test to open menu
     fireEvent.click(menuItem);
@@ -50,8 +52,9 @@ describe('components/TopBar', () => {
 
     expect(menu).toHaveTextContent(menuContentText);
 
+    expect(navigate).not.toHaveBeenCalled();
     // check for mailto link
     fireEvent.click(mailItem);
-    expect(global.open).toMatchSnapshot();
+    expect(navigate).toHaveBeenCalledWith('/contact');
   });
 });

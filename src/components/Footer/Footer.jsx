@@ -1,11 +1,11 @@
 import React from 'react';
 import { Box } from 'rebass/styled-components';
-import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 import { GitHubIcon, LinkedInIcon } from '../Icons/SocialIcon';
 import Text from '../Base/Text';
 import Heading from '../Base/Heading';
+import Link from '../Links/Link';
 
 import * as Paths from '../utils/Paths';
 
@@ -30,12 +30,9 @@ const Styles = {
     line-height: 1.375rem;
   `),
   Link: styled(Link)(({ theme }) => `
-    color: ${theme.colors.text};
     font-weight: 900;
-
-    &:hover {
-      color: ${theme.colors.textHover};
-    }
+    text-transform: none;
+    text-decoration: underline;
 
     @media screen and (max-width: ${theme.breakpoints[2]}) {
       display: block;

@@ -266,198 +266,15 @@ exports[`components/Header simple snapshot test 1`] = `
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-htpNat",
+                      "componentId": "sc-ifAKCX",
                       "isStatic": false,
-                      "lastClassName": "dlvzeL",
+                      "lastClassName": "MGsuj",
                       "rules": Array [
                         "
     font-size: 1.1rem;
     font-weight: 400;
     margin-bottom: 1rem;
   ",
-                      ],
-                    },
-                    "displayName": "Styled(Text)",
-                    "foldedComponentIds": Array [],
-                    "render": [Function],
-                    "styledComponentId": "sc-htpNat",
-                    "target": [Function],
-                    "toString": [Function],
-                    "warnTooManyClasses": [Function],
-                    "withComponent": [Function],
-                  }
-                }
-                forwardedRef={null}
-              >
-                <Text
-                  className="sc-htpNat dlvzeL"
-                  variant="default"
-                >
-                  <ForwardRef
-                    className="sc-htpNat dlvzeL"
-                    variant="default"
-                  >
-                    <styled.div
-                      className="sc-htpNat dlvzeL"
-                      tx="text"
-                      variant="default"
-                    >
-                      <StyledComponent
-                        className="sc-htpNat dlvzeL"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "sc-bdVaJa",
-                              "isStatic": false,
-                              "lastClassName": "kphPz",
-                              "rules": Array [
-                                "box-sizing: border-box;",
-                                "margin: 0;",
-                                "min-width: 0;",
-                                [Function],
-                                [Function],
-                                [Function],
-                                [Function],
-                                [Function],
-                              ],
-                            },
-                            "displayName": "styled.div",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "sc-bdVaJa",
-                            "target": "div",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                        tx="text"
-                        variant="default"
-                      >
-                        <div
-                          className="sc-bdVaJa kphPz sc-htpNat dlvzeL"
-                        >
-                          Hi I
-                          '
-                          am
-                          <Styled(Text)>
-                            <StyledComponent
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bxivhb",
-                                    "isStatic": false,
-                                    "lastClassName": "hmzLRK",
-                                    "rules": Array [
-                                      "
-    display: block;
-    margin: 0.25rem 0;
-
-    strong {
-      font-weight: 600;
-    }
-  ",
-                                    ],
-                                  },
-                                  "displayName": "Styled(Text)",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "sc-bxivhb",
-                                  "target": [Function],
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                            >
-                              <Text
-                                className="sc-bxivhb hmzLRK"
-                                variant="default"
-                              >
-                                <ForwardRef
-                                  className="sc-bxivhb hmzLRK"
-                                  variant="default"
-                                >
-                                  <styled.div
-                                    className="sc-bxivhb hmzLRK"
-                                    tx="text"
-                                    variant="default"
-                                  >
-                                    <StyledComponent
-                                      className="sc-bxivhb hmzLRK"
-                                      forwardedComponent={
-                                        Object {
-                                          "$$typeof": Symbol(react.forward_ref),
-                                          "attrs": Array [],
-                                          "componentStyle": ComponentStyle {
-                                            "componentId": "sc-bdVaJa",
-                                            "isStatic": false,
-                                            "lastClassName": "kphPz",
-                                            "rules": Array [
-                                              "box-sizing: border-box;",
-                                              "margin: 0;",
-                                              "min-width: 0;",
-                                              [Function],
-                                              [Function],
-                                              [Function],
-                                              [Function],
-                                              [Function],
-                                            ],
-                                          },
-                                          "displayName": "styled.div",
-                                          "foldedComponentIds": Array [],
-                                          "render": [Function],
-                                          "styledComponentId": "sc-bdVaJa",
-                                          "target": "div",
-                                          "toString": [Function],
-                                          "warnTooManyClasses": [Function],
-                                          "withComponent": [Function],
-                                        }
-                                      }
-                                      forwardedRef={null}
-                                      tx="text"
-                                      variant="default"
-                                    >
-                                      <div
-                                        className="sc-bdVaJa kphPz sc-bxivhb hmzLRK"
-                                      >
-                                        <strong>
-                                          Andreas
-                                        </strong>
-                                         
-                                        Gasser
-                                      </div>
-                                    </StyledComponent>
-                                  </styled.div>
-                                </ForwardRef>
-                              </Text>
-                            </StyledComponent>
-                          </Styled(Text)>
-                        </div>
-                      </StyledComponent>
-                    </styled.div>
-                  </ForwardRef>
-                </Text>
-              </StyledComponent>
-            </Styled(Text)>
-            <Styled(Text)>
-              <StyledComponent
-                forwardedComponent={
-                  Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [],
-                    "componentStyle": ComponentStyle {
-                      "componentId": "sc-ifAKCX",
-                      "isStatic": false,
-                      "lastClassName": "bFozgM",
-                      "rules": Array [
-                        [Function],
                       ],
                     },
                     "displayName": "Styled(Text)",
@@ -473,20 +290,20 @@ exports[`components/Header simple snapshot test 1`] = `
                 forwardedRef={null}
               >
                 <Text
-                  className="sc-ifAKCX bFozgM"
+                  className="sc-ifAKCX MGsuj"
                   variant="default"
                 >
                   <ForwardRef
-                    className="sc-ifAKCX bFozgM"
+                    className="sc-ifAKCX MGsuj"
                     variant="default"
                   >
                     <styled.div
-                      className="sc-ifAKCX bFozgM"
+                      className="sc-ifAKCX MGsuj"
                       tx="text"
                       variant="default"
                     >
                       <StyledComponent
-                        className="sc-ifAKCX bFozgM"
+                        className="sc-ifAKCX MGsuj"
                         forwardedComponent={
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
@@ -521,7 +338,219 @@ exports[`components/Header simple snapshot test 1`] = `
                         variant="default"
                       >
                         <div
-                          className="sc-bdVaJa kphPz sc-ifAKCX bFozgM"
+                          className="sc-bdVaJa kphPz sc-ifAKCX MGsuj"
+                        >
+                          Hi I
+                          '
+                          am
+                          <Styled(Link)
+                            to="/"
+                          >
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-EHOje",
+                                    "isStatic": false,
+                                    "lastClassName": "fchTcZ",
+                                    "rules": Array [
+                                      [Function],
+                                    ],
+                                  },
+                                  "displayName": "Styled(Link)",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-EHOje",
+                                  "target": [Function],
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              to="/"
+                            >
+                              <Link
+                                className="sc-EHOje fchTcZ"
+                                external={false}
+                                to="/"
+                              >
+                                <Styled(mockConstructor)
+                                  className="sc-EHOje fchTcZ"
+                                  to="/"
+                                >
+                                  <StyledComponent
+                                    className="sc-EHOje fchTcZ"
+                                    forwardedComponent={
+                                      [MockFunction] {
+                                        "calls": Array [
+                                          Array [
+                                            Object {
+                                              "children": Array [
+                                                <strong>
+                                                  Andreas
+                                                </strong>,
+                                                " ",
+                                                "Gasser",
+                                              ],
+                                              "className": "sc-htpNat hpMhBH sc-EHOje fchTcZ",
+                                              "to": "/",
+                                            },
+                                            Object {},
+                                          ],
+                                          Array [
+                                            Object {
+                                              "children": Array [
+                                                <strong>
+                                                  Andreas
+                                                </strong>,
+                                                " ",
+                                                "Gasser",
+                                              ],
+                                              "className": "sc-htpNat hpMhBH sc-EHOje fchTcZ",
+                                              "to": "/",
+                                            },
+                                            Object {},
+                                          ],
+                                        ],
+                                        "results": Array [
+                                          Object {
+                                            "type": "return",
+                                            "value": <a
+                                              className="sc-htpNat hpMhBH sc-EHOje fchTcZ"
+                                              href="/"
+                                            >
+                                              <strong>
+                                                Andreas
+                                              </strong>
+                                               
+                                              Gasser
+                                            </a>,
+                                          },
+                                          Object {
+                                            "type": "return",
+                                            "value": <a
+                                              className="sc-htpNat hpMhBH sc-EHOje fchTcZ"
+                                              href="/"
+                                            >
+                                              <strong>
+                                                Andreas
+                                              </strong>
+                                               
+                                              Gasser
+                                            </a>,
+                                          },
+                                        ],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                    to="/"
+                                  >
+                                    <mockConstructor
+                                      className="sc-htpNat hpMhBH sc-EHOje fchTcZ"
+                                      to="/"
+                                    >
+                                      <a
+                                        className="sc-htpNat hpMhBH sc-EHOje fchTcZ"
+                                        href="/"
+                                      >
+                                        <strong>
+                                          Andreas
+                                        </strong>
+                                         
+                                        Gasser
+                                      </a>
+                                    </mockConstructor>
+                                  </StyledComponent>
+                                </Styled(mockConstructor)>
+                              </Link>
+                            </StyledComponent>
+                          </Styled(Link)>
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </ForwardRef>
+                </Text>
+              </StyledComponent>
+            </Styled(Text)>
+            <Styled(Text)>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bZQynM",
+                      "isStatic": false,
+                      "lastClassName": "hdZGzM",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Styled(Text)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bZQynM",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <Text
+                  className="sc-bZQynM hdZGzM"
+                  variant="default"
+                >
+                  <ForwardRef
+                    className="sc-bZQynM hdZGzM"
+                    variant="default"
+                  >
+                    <styled.div
+                      className="sc-bZQynM hdZGzM"
+                      tx="text"
+                      variant="default"
+                    >
+                      <StyledComponent
+                        className="sc-bZQynM hdZGzM"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "kphPz",
+                              "rules": Array [
+                                "box-sizing: border-box;",
+                                "margin: 0;",
+                                "min-width: 0;",
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        tx="text"
+                        variant="default"
+                      >
+                        <div
+                          className="sc-bdVaJa kphPz sc-bZQynM hdZGzM"
                         >
                           Front end architect
                           <br />

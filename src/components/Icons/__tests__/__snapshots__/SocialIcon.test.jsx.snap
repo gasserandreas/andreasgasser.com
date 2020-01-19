@@ -287,7 +287,7 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
                       "componentStyle": ComponentStyle {
                         "componentId": "sc-htpNat",
                         "isStatic": false,
-                        "lastClassName": "bHgDYU",
+                        "lastClassName": "hpMhBH",
                         "rules": Array [
                           [Function],
                         ],
@@ -307,7 +307,7 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
                   target="_blank"
                 >
                   <a
-                    className="sc-htpNat bHgDYU sc-bxivhb gTWFUj"
+                    className="sc-htpNat hpMhBH sc-bxivhb gTWFUj"
                     href="https://linkedin.com/in/gasserandreas"
                     target="_blank"
                   >
@@ -730,7 +730,7 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
                       "componentStyle": ComponentStyle {
                         "componentId": "sc-htpNat",
                         "isStatic": false,
-                        "lastClassName": "bHgDYU",
+                        "lastClassName": "hpMhBH",
                         "rules": Array [
                           [Function],
                         ],
@@ -750,7 +750,7 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
                   target="_blank"
                 >
                   <a
-                    className="sc-htpNat bHgDYU sc-bxivhb gTWFUj"
+                    className="sc-htpNat hpMhBH sc-bxivhb gTWFUj"
                     href="https://github.com/gasserandreas"
                     target="_blank"
                   >

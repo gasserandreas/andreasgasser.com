@@ -236,7 +236,7 @@ exports[`components/Link simple snapshot test 1`] = `
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bwzfXH",
                 "isStatic": false,
-                "lastClassName": "jgtaUg",
+                "lastClassName": "gdhkfw",
                 "rules": Array [
                   [Function],
                 ],
@@ -256,7 +256,7 @@ exports[`components/Link simple snapshot test 1`] = `
           target="_blank"
         >
           <a
-            className="sc-bwzfXH jgtaUg"
+            className="sc-bwzfXH gdhkfw"
             href="https://www.google.com/"
             target="_blank"
           >
