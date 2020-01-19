@@ -1,3 +1,17 @@
+# [1.5.0](https://github.com/gasserandreas/andreasgasser.com/compare/v1.4.0...v1.5.0) (2020-01-19)
+
+
+### Bug Fixes
+
+* **#58:** fixed layout padding ([1dee6d2](https://github.com/gasserandreas/andreasgasser.com/commit/1dee6d2650366669b5128402d35aa162d739f00b))
+* **#60:** style improvement and central link added ([176c4e8](https://github.com/gasserandreas/andreasgasser.com/commit/176c4e8d8714128df07e42f4e5e89b53ad42a15f)), closes [#60](https://github.com/gasserandreas/andreasgasser.com/issues/60)
+
+
+### Features
+
+* **#62:** added favicon ([3ce9a94](https://github.com/gasserandreas/andreasgasser.com/commit/3ce9a9408d25d20d4bc2422fe42771ae270d5c74)), closes [#62](https://github.com/gasserandreas/andreasgasser.com/issues/62)
+* **#64:** added minimal improvements ([d1f063d](https://github.com/gasserandreas/andreasgasser.com/commit/d1f063d683fe75088246369115c313cfb8eaa568)), closes [#64](https://github.com/gasserandreas/andreasgasser.com/issues/64)
+
 # [1.4.0](https://github.com/gasserandreas/andreasgasser.com/compare/v1.3.0...v1.4.0) (2020-01-19)
 
 
