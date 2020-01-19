@@ -33,11 +33,6 @@ const Styles = {
       display: none;
     }
 
-    // /* define size */
-    // @media screen and (min-width: ${theme.breakpoints[2]}) {
-    //   width: 20rem;
-    // }
-
     @media screen and (min-width: ${theme.breakpoints[3]}) {
       width: 22rem;
     }
@@ -90,7 +85,7 @@ const Layout = ({ children }) => {
         <Styles.Footer />
       </Styles.LeftNavigation>
       <Styles.TopBarWrapper data-testid="topBarWrapper">
-        <TopBar menuContent="No navigation so far" contentRef={contentRef} />
+        <TopBar menuContent={<Navigation />} contentRef={contentRef} />
       </Styles.TopBarWrapper>
       <Styles.Content ref={contentRef}>
         <Styles.ContentWrapper>
