@@ -14,9 +14,17 @@ breakpoints.xxl = breakpoints[5];
 const defaultFontSize = [1, 1, 1, 2, 2, 2];
 const headerMaxWidth = '32rem';
 
-export default ({ colors }) => ({
+// console.log(rebass);
+
+// console.log(rebass.buttons.outline);
+
+export default ({ colors, buttons, radii }) => ({
   ...rebass,
   colors,
+  radii: {
+    ...radii,
+    default: '2px',
+  },
   fonts: {
     body: 'Open Sans, Helvetica Neue, Helvetica, sans-serif',
     heading: 'inherit',
@@ -74,7 +82,46 @@ export default ({ colors }) => ({
     section: {
       lineHeight: '1.7rem',
       fontSize: defaultFontSize,
-      fontWeight: 500,
+      // fontWeight: 500,
+      color: colors.textInverse,
+      fontWeight: 900,
+      textTransform: 'uppercase',
+      // fontSize: '1rem',
+      letterSpacing: '2px',
+      margin: '1.5rem 0',
+    },
+  },
+  buttons: {
+    ...buttons,
+    outline: {
+      fontWeight: 400,
+      backgroundColor: 'inherit',
+      color: 'text',
+      textTransform: 'uppercase',
+      border: '1px solid #000',
+      borderColor: 'text',
+      fontSize: '0.95rem',
+      height: '2.5rem',
+      padding: '0rem 0.5rem',
+      '&:hover': {
+        backgroundColor: 'text',
+        color: 'textInverse',
+        cursor: 'pointer',
+      },
+    },
+    link: {
+      fontWeight: 400,
+      textTransform: 'uppercase',
+      color: 'text',
+      backgroundColor: 'inherit',
+      border: 'none',
+      fontSize: '0.95rem',
+      height: '2.5rem',
+      padding: '0rem 0.5rem',
+      '&:hover': {
+        color: 'muted',
+        cursor: 'pointer',
+      },
     },
   },
 });

@@ -24,14 +24,7 @@ const Styles = {
       padding-right: 5rem;
     }
   `),
-  WelcomeText: styled(Text)(({ theme }) => `
-    color: ${theme.colors.textInverse};
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 1rem;
-    letter-spacing: 2px;
-    margin: 1.5rem 0;
-  `),
+  WelcomeText: styled(Text)(() => ''),
   Heading: styled(Heading)(() => `
     line-height: 2.75rem;
   `),
@@ -43,13 +36,13 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Layout>
       <Styles.Wrapper>
-        <Styles.WelcomeText>
+        <Text variant="section">
           Hi, I
           {'\''}
           m
           {' '}
           Andreas
-        </Styles.WelcomeText>
+        </Text>
         <Styles.Heading>
           I am a Senior Software Engineer with a strong background in Software Engineering and a passion for user-centric software design. 
         </Styles.Heading>

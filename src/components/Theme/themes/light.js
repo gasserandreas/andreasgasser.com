@@ -7,6 +7,7 @@ export default {
     textHighlighed: '#333',
     textInverse: '#f6f6f6',
     muted: '#595959',
+    error: '#E11531',
     // background colors
     background: '#c3c3c3',
     backgroundInverse: '#fff',
