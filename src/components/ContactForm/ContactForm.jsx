@@ -14,15 +14,15 @@ import Field from '../Base/Field';
 const validationSchema = Yup.object().shape({
   email: Yup.string()
     .email('Sorry, this seems to be an invalid email address.')
-    .required('A valid email address is required!'),
+    .required('I need a valid email address to get in contact with you!'),
   name: Yup.string()
     .min(2)
     .max(50)
-    .required('I would like to know your name.'),
+    .required('I really would like to know your name.'),
   message: Yup.string()
     .min(2)
     .max(500)
-    .required('Don\'t forget type your message'),
+    .required('Please don\'t forget to add your message'),
 });
 
 const mapPropsToValues = (obj) => {
