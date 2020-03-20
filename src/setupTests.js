@@ -44,5 +44,42 @@ function renderWithRouter(
   }
 }
 
+/**
+ * FormitState helper for Jest test cases
+ * @param {*} formElements 
+ */
+const createFormitState = (formElements = {}) => ({
+  values: formElements.reduce(
+    (prev, cur) => ({
+      ...prev,
+      [cur]: cur,
+    }),
+    {},
+  ),
+  touched: formElements.reduce(
+    (prev, cur) => ({
+      ...prev,
+      [cur]: false,
+    }),
+    {},
+  ),
+  errors: formElements.reduce(
+    (prev, cur) => ({
+      ...prev,
+      [cur]: false,
+    }),
+    {},
+  ),
+  dirty: false,
+  submitting: false,
+  error: '',
+  handleChange: jest.fn(),
+  handleBlur: jest.fn(),
+  handleSubmit: jest.fn(),
+  handleReset: jest.fn(),
+  onSubmit: jest.fn(),
+});
+
 global.renderWithRouter = renderWithRouter;
 global.withTheme = withTheme;
+global.createFormitState = createFormitState;

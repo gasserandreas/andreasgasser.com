@@ -6,6 +6,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import BaseIcon from './BaseIcon';
 import Link from '../Links/Link';
+import { GITHUB_LINK, LINKED_IN_LINK } from '../utils/Links';
 
 const Styles = {
   Link: styled(Link)(({ theme }) => `
@@ -37,7 +38,7 @@ SocialIcon.propTypes = {
 export const GitHubIcon = () => (
   <SocialIcon
     icon={faGithub}
-    link="https://github.com/gasserandreas"
+    link={GITHUB_LINK}
     alt="GitHub User link"
   />
 );
@@ -45,7 +46,7 @@ export const GitHubIcon = () => (
 export const LinkedInIcon = () => (
   <SocialIcon
     icon={faLinkedin}
-    link="https://linkedin.com/in/gasserandreas"
+    link={LINKED_IN_LINK}
     alt="Linked link"
   />
 );

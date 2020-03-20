@@ -1,6 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`components/TitleLink simple snapshot test 1`] = `
+exports[`components/Textarea should change textare row on focus, active or set value 1`] = `
+Object {
+  "rows": 3,
+  "value": "",
+}
+`;
+
+exports[`components/Textarea should change textare row on focus, active or set value 2`] = `ReactWrapper {}`;
+
+exports[`components/Textarea should change textare row on focus, active or set value 3`] = `ReactWrapper {}`;
+
+exports[`components/Textarea should render 1`] = `
 <CustomThemeProvider
   dark={false}
 >
@@ -246,95 +257,141 @@ exports[`components/TitleLink simple snapshot test 1`] = `
       }
     }
   >
-    <Styled(Link)
-      external={true}
-      to="https://www.google.com/"
+    <Textarea
+      rows={3}
+      value=""
     >
-      <StyledComponent
-        external={true}
-        forwardedComponent={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "_foldedDefaultProps": Object {
-              "external": false,
-            },
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-htpNat",
-              "isStatic": false,
-              "lastClassName": "eHEuBH",
-              "rules": Array [
-                [Function],
-              ],
-            },
-            "displayName": "Styled(Link)",
-            "foldedComponentIds": Array [],
-            "propTypes": Object {
-              "children": [Function],
-              "external": [Function],
-              "to": [Function],
-            },
-            "render": [Function],
-            "styledComponentId": "sc-htpNat",
-            "target": [Function],
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          }
-        }
-        forwardedRef={null}
-        to="https://www.google.com/"
+      <Styled(Component)
+        rows={1}
+        rowsProps={5.699999999999999}
+        value=""
       >
-        <Link
-          className="sc-htpNat eHEuBH"
-          external={true}
-          to="https://www.google.com/"
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-htpNat",
+                "isStatic": false,
+                "lastClassName": "bbncyg",
+                "rules": Array [
+                  [Function],
+                ],
+              },
+              "displayName": "Styled(Component)",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-htpNat",
+              "target": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          rows={1}
+          rowsProps={5.699999999999999}
+          value=""
         >
-          <styled.a
-            className="sc-htpNat eHEuBH"
-            href="https://www.google.com/"
-            target="_blank"
+          <ForwardRef
+            className="sc-htpNat bbncyg"
+            rows={1}
+            rowsProps={5.699999999999999}
+            value=""
           >
-            <StyledComponent
-              className="sc-htpNat eHEuBH"
-              forwardedComponent={
+            <styled.div
+              __css={
                 Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "sc-bwzfXH",
-                    "isStatic": false,
-                    "lastClassName": "gdhkfw",
-                    "rules": Array [
-                      [Function],
-                    ],
-                  },
-                  "displayName": "styled.a",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "sc-bwzfXH",
-                  "target": "a",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
+                  "appearance": "none",
+                  "bg": "transparent",
+                  "border": "1px solid",
+                  "borderRadius": "default",
+                  "color": "inherit",
+                  "display": "block",
+                  "fontSize": "inherit",
+                  "lineHeight": "inherit",
+                  "p": 2,
+                  "width": "100%",
                 }
               }
-              forwardedRef={null}
-              href="https://www.google.com/"
-              target="_blank"
+              as="textarea"
+              className="sc-htpNat bbncyg"
+              rows={1}
+              rowsProps={5.699999999999999}
+              tx="forms"
+              value=""
+              variant="textarea"
             >
-              <a
-                className="sc-bwzfXH gdhkfw sc-htpNat eHEuBH"
-                href="https://www.google.com/"
-                target="_blank"
+              <StyledComponent
+                __css={
+                  Object {
+                    "appearance": "none",
+                    "bg": "transparent",
+                    "border": "1px solid",
+                    "borderRadius": "default",
+                    "color": "inherit",
+                    "display": "block",
+                    "fontSize": "inherit",
+                    "lineHeight": "inherit",
+                    "p": 2,
+                    "width": "100%",
+                  }
+                }
+                as="textarea"
+                className="sc-htpNat bbncyg"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "gEBDmG",
+                      "rules": Array [
+                        "box-sizing: border-box;",
+                        "margin: 0;",
+                        "min-width: 0;",
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                rows={1}
+                rowsProps={5.699999999999999}
+                tx="forms"
+                value=""
+                variant="textarea"
               >
-                click me
-              </a>
-            </StyledComponent>
-          </styled.a>
-        </Link>
-      </StyledComponent>
-    </Styled(Link)>
+                <textarea
+                  className="sc-bdVaJa gEBDmG sc-htpNat bbncyg"
+                  rows={1}
+                  value=""
+                />
+              </StyledComponent>
+            </styled.div>
+          </ForwardRef>
+        </StyledComponent>
+      </Styled(Component)>
+    </Textarea>
   </ThemeProvider>
 </CustomThemeProvider>
 `;
+
+exports[`components/Textarea should set height if value is set 1`] = `ReactWrapper {}`;

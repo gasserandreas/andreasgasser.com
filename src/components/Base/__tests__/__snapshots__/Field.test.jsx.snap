@@ -1,0 +1,1388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Field it should render 1`] = `
+<CustomThemeProvider
+  dark={false}
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Array [
+          "320px",
+          "540px",
+          "720px",
+          "960px",
+          "1140px",
+          "1400px",
+        ],
+        "buttons": Object {
+          "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "color": "muted",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "none",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
+          },
+          "outline": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "backgroundColor": "text",
+              "color": "textInverse",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "1px solid #000",
+            "borderColor": "text",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
+          },
+        },
+        "colors": Object {
+          "background": "#c3c3c3",
+          "backgroundInverse": "#fff",
+          "error": "#E11531",
+          "muted": "#595959",
+          "text": "#333333",
+          "textHighlighed": "#333",
+          "textHover": "#7e7e7e",
+          "textInverse": "#f6f6f6",
+        },
+        "fontSizes": Array [
+          14,
+          16,
+          20,
+          24,
+          28,
+          32,
+          40,
+          48,
+          56,
+          64,
+        ],
+        "fontWeights": Object {
+          "body": 400,
+          "bold": 900,
+          "heading": 600,
+        },
+        "fonts": Object {
+          "body": "Open Sans, Helvetica Neue, Helvetica, sans-serif",
+          "heading": "inherit",
+          "monospace": "Menlo, monospace",
+        },
+        "lineHeights": Object {
+          "body": 1.5,
+          "heading": 1.125,
+        },
+        "radii": Object {
+          "default": "2px",
+        },
+        "shadows": Object {
+          "card": "0 0 4px rgba(0, 0, 0, .125)",
+        },
+        "sizes": Object {
+          "avatar": 48,
+        },
+        "space": Array [
+          0,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+        ],
+        "styles": Object {
+          "root": Object {
+            "fontFamily": "body",
+            "fontWeight": "body",
+            "lineHeight": "body",
+          },
+        },
+        "text": Object {
+          "bold": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+            "fontWeight": "900",
+          },
+          "default": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+          },
+          "muted": Object {
+            "color": "#595959",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+          },
+          "page": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+            ],
+            "fontWeight": 600,
+            "letterSpacing": "0.075rem",
+            "lineHeight": "2.75rem",
+            "margin": "2rem 0 2.5rem",
+            "maxWidth": "32rem",
+            "wordSpacing": "-0.08em",
+          },
+          "section": Object {
+            "color": "#f6f6f6",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+            "fontWeight": 900,
+            "letterSpacing": "2px",
+            "lineHeight": "1.7rem",
+            "margin": "1.5rem 0",
+            "textTransform": "uppercase",
+          },
+          "small": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+            ],
+          },
+          "subPage": Object {
+            "color": "#595959",
+            "fontSize": Array [
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+            ],
+            "fontWeight": 500,
+            "letterSpacing": "0.0625rem",
+            "lineHeight": "2.2rem",
+            "margin": "1.25rem 0 1.75rem",
+            "marginBottom": 2,
+            "maxWidth": "32rem",
+          },
+        },
+        "variants": Object {
+          "avatar": Object {
+            "borderRadius": "circle",
+            "height": "avatar",
+            "width": "avatar",
+          },
+          "card": Object {
+            "bg": "background",
+            "boxShadow": "card",
+            "p": 2,
+          },
+          "link": Object {
+            "color": "primary",
+          },
+          "nav": Object {
+            ":hover,:focus,.active": Object {
+              "color": "primary",
+            },
+            "color": "inherit",
+            "display": "inline-block",
+            "fontSize": 1,
+            "fontWeight": "bold",
+            "p": 2,
+            "textDecoration": "none",
+          },
+        },
+      }
+    }
+  >
+    <Field
+      error={[MockFunction]}
+      id="id"
+      inline={false}
+      label="label"
+    >
+      <Styled(styled.div)
+        inline={false}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-ifAKCX",
+                "isStatic": false,
+                "lastClassName": "dlNzvR",
+                "rules": Array [
+                  "box-sizing: border-box;",
+                  "margin: 0;",
+                  "min-width: 0;",
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  "
+    margin: 0.75rem 0;
+
+    ",
+                  [Function],
+                  "
+  ",
+                ],
+              },
+              "displayName": "Styled(styled.div)",
+              "foldedComponentIds": Array [
+                "sc-bdVaJa",
+              ],
+              "render": [Function],
+              "styledComponentId": "sc-ifAKCX",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          inline={false}
+        >
+          <div
+            className="sc-bdVaJa sc-ifAKCX dlNzvR"
+          >
+            <Styled(Component)
+              htmlFor="id"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bxivhb",
+                      "isStatic": false,
+                      "lastClassName": "fbWvkm",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Styled(Component)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bxivhb",
+                    "target": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                htmlFor="id"
+              >
+                <ForwardRef
+                  className="sc-bxivhb fbWvkm"
+                  htmlFor="id"
+                >
+                  <Styled(styled.div)
+                    __css={
+                      Object {
+                        "width": "100%",
+                      }
+                    }
+                    as="label"
+                    className="sc-bxivhb fbWvkm"
+                    htmlFor="id"
+                    tx="forms"
+                    variant="label"
+                  >
+                    <StyledComponent
+                      __css={
+                        Object {
+                          "width": "100%",
+                        }
+                      }
+                      as="label"
+                      className="sc-bxivhb fbWvkm"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bwzfXH",
+                            "isStatic": false,
+                            "lastClassName": "edwPEo",
+                            "rules": Array [
+                              "box-sizing: border-box;",
+                              "margin: 0;",
+                              "min-width: 0;",
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                              "display: flex;",
+                            ],
+                          },
+                          "displayName": "Styled(styled.div)",
+                          "foldedComponentIds": Array [
+                            "sc-bdVaJa",
+                          ],
+                          "render": [Function],
+                          "styledComponentId": "sc-bwzfXH",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      htmlFor="id"
+                      tx="forms"
+                      variant="label"
+                    >
+                      <label
+                        className="sc-bdVaJa sc-bwzfXH edwPEo sc-bxivhb fbWvkm"
+                        htmlFor="id"
+                      >
+                        label
+                      </label>
+                    </StyledComponent>
+                  </Styled(styled.div)>
+                </ForwardRef>
+              </StyledComponent>
+            </Styled(Component)>
+            <div
+              id="child"
+            >
+              children
+            </div>
+            <Styled(Component)>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-htpNat",
+                      "isStatic": false,
+                      "lastClassName": "dOcckH",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Styled(Component)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-htpNat",
+                    "target": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <ForwardRef
+                  className="sc-htpNat dOcckH"
+                >
+                  <styled.div
+                    className="sc-htpNat dOcckH"
+                    tx="text"
+                  >
+                    <StyledComponent
+                      className="sc-htpNat dOcckH"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bdVaJa",
+                            "isStatic": false,
+                            "lastClassName": "gtVQmG",
+                            "rules": Array [
+                              "box-sizing: border-box;",
+                              "margin: 0;",
+                              "min-width: 0;",
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                            ],
+                          },
+                          "displayName": "styled.div",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "sc-bdVaJa",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      tx="text"
+                    >
+                      <div
+                        className="sc-bdVaJa gtVQmG sc-htpNat dOcckH"
+                      >
+                        <Component />
+                      </div>
+                    </StyledComponent>
+                  </styled.div>
+                </ForwardRef>
+              </StyledComponent>
+            </Styled(Component)>
+          </div>
+        </StyledComponent>
+      </Styled(styled.div)>
+    </Field>
+  </ThemeProvider>
+</CustomThemeProvider>
+`;
+
+exports[`components/Field should not render label if not set 1`] = `
+<CustomThemeProvider
+  dark={false}
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Array [
+          "320px",
+          "540px",
+          "720px",
+          "960px",
+          "1140px",
+          "1400px",
+        ],
+        "buttons": Object {
+          "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "color": "muted",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "none",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
+          },
+          "outline": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "backgroundColor": "text",
+              "color": "textInverse",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "1px solid #000",
+            "borderColor": "text",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
+          },
+        },
+        "colors": Object {
+          "background": "#c3c3c3",
+          "backgroundInverse": "#fff",
+          "error": "#E11531",
+          "muted": "#595959",
+          "text": "#333333",
+          "textHighlighed": "#333",
+          "textHover": "#7e7e7e",
+          "textInverse": "#f6f6f6",
+        },
+        "fontSizes": Array [
+          14,
+          16,
+          20,
+          24,
+          28,
+          32,
+          40,
+          48,
+          56,
+          64,
+        ],
+        "fontWeights": Object {
+          "body": 400,
+          "bold": 900,
+          "heading": 600,
+        },
+        "fonts": Object {
+          "body": "Open Sans, Helvetica Neue, Helvetica, sans-serif",
+          "heading": "inherit",
+          "monospace": "Menlo, monospace",
+        },
+        "lineHeights": Object {
+          "body": 1.5,
+          "heading": 1.125,
+        },
+        "radii": Object {
+          "default": "2px",
+        },
+        "shadows": Object {
+          "card": "0 0 4px rgba(0, 0, 0, .125)",
+        },
+        "sizes": Object {
+          "avatar": 48,
+        },
+        "space": Array [
+          0,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+        ],
+        "styles": Object {
+          "root": Object {
+            "fontFamily": "body",
+            "fontWeight": "body",
+            "lineHeight": "body",
+          },
+        },
+        "text": Object {
+          "bold": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+            "fontWeight": "900",
+          },
+          "default": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+          },
+          "muted": Object {
+            "color": "#595959",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+          },
+          "page": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+            ],
+            "fontWeight": 600,
+            "letterSpacing": "0.075rem",
+            "lineHeight": "2.75rem",
+            "margin": "2rem 0 2.5rem",
+            "maxWidth": "32rem",
+            "wordSpacing": "-0.08em",
+          },
+          "section": Object {
+            "color": "#f6f6f6",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+            "fontWeight": 900,
+            "letterSpacing": "2px",
+            "lineHeight": "1.7rem",
+            "margin": "1.5rem 0",
+            "textTransform": "uppercase",
+          },
+          "small": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+            ],
+          },
+          "subPage": Object {
+            "color": "#595959",
+            "fontSize": Array [
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+            ],
+            "fontWeight": 500,
+            "letterSpacing": "0.0625rem",
+            "lineHeight": "2.2rem",
+            "margin": "1.25rem 0 1.75rem",
+            "marginBottom": 2,
+            "maxWidth": "32rem",
+          },
+        },
+        "variants": Object {
+          "avatar": Object {
+            "borderRadius": "circle",
+            "height": "avatar",
+            "width": "avatar",
+          },
+          "card": Object {
+            "bg": "background",
+            "boxShadow": "card",
+            "p": 2,
+          },
+          "link": Object {
+            "color": "primary",
+          },
+          "nav": Object {
+            ":hover,:focus,.active": Object {
+              "color": "primary",
+            },
+            "color": "inherit",
+            "display": "inline-block",
+            "fontSize": 1,
+            "fontWeight": "bold",
+            "p": 2,
+            "textDecoration": "none",
+          },
+        },
+      }
+    }
+  >
+    <Field
+      error={[MockFunction]}
+      id="id"
+      inline={false}
+      label={null}
+    >
+      <Styled(styled.div)
+        inline={false}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-ifAKCX",
+                "isStatic": false,
+                "lastClassName": "dlNzvR",
+                "rules": Array [
+                  "box-sizing: border-box;",
+                  "margin: 0;",
+                  "min-width: 0;",
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  "
+    margin: 0.75rem 0;
+
+    ",
+                  [Function],
+                  "
+  ",
+                ],
+              },
+              "displayName": "Styled(styled.div)",
+              "foldedComponentIds": Array [
+                "sc-bdVaJa",
+              ],
+              "render": [Function],
+              "styledComponentId": "sc-ifAKCX",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          inline={false}
+        >
+          <div
+            className="sc-bdVaJa sc-ifAKCX dlNzvR"
+          >
+            <div
+              id="child"
+            >
+              children
+            </div>
+            <Styled(Component)>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-htpNat",
+                      "isStatic": false,
+                      "lastClassName": "dOcckH",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Styled(Component)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-htpNat",
+                    "target": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <ForwardRef
+                  className="sc-htpNat dOcckH"
+                >
+                  <styled.div
+                    className="sc-htpNat dOcckH"
+                    tx="text"
+                  >
+                    <StyledComponent
+                      className="sc-htpNat dOcckH"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bdVaJa",
+                            "isStatic": false,
+                            "lastClassName": "gtVQmG",
+                            "rules": Array [
+                              "box-sizing: border-box;",
+                              "margin: 0;",
+                              "min-width: 0;",
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                            ],
+                          },
+                          "displayName": "styled.div",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "sc-bdVaJa",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      tx="text"
+                    >
+                      <div
+                        className="sc-bdVaJa gtVQmG sc-htpNat dOcckH"
+                      >
+                        <Component />
+                      </div>
+                    </StyledComponent>
+                  </styled.div>
+                </ForwardRef>
+              </StyledComponent>
+            </Styled(Component)>
+          </div>
+        </StyledComponent>
+      </Styled(styled.div)>
+    </Field>
+  </ThemeProvider>
+</CustomThemeProvider>
+`;
+
+exports[`components/Field should render error field if error is set 1`] = `
+<CustomThemeProvider
+  dark={false}
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Array [
+          "320px",
+          "540px",
+          "720px",
+          "960px",
+          "1140px",
+          "1400px",
+        ],
+        "buttons": Object {
+          "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "color": "muted",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "none",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
+          },
+          "outline": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "backgroundColor": "text",
+              "color": "textInverse",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "1px solid #000",
+            "borderColor": "text",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
+          },
+        },
+        "colors": Object {
+          "background": "#c3c3c3",
+          "backgroundInverse": "#fff",
+          "error": "#E11531",
+          "muted": "#595959",
+          "text": "#333333",
+          "textHighlighed": "#333",
+          "textHover": "#7e7e7e",
+          "textInverse": "#f6f6f6",
+        },
+        "fontSizes": Array [
+          14,
+          16,
+          20,
+          24,
+          28,
+          32,
+          40,
+          48,
+          56,
+          64,
+        ],
+        "fontWeights": Object {
+          "body": 400,
+          "bold": 900,
+          "heading": 600,
+        },
+        "fonts": Object {
+          "body": "Open Sans, Helvetica Neue, Helvetica, sans-serif",
+          "heading": "inherit",
+          "monospace": "Menlo, monospace",
+        },
+        "lineHeights": Object {
+          "body": 1.5,
+          "heading": 1.125,
+        },
+        "radii": Object {
+          "default": "2px",
+        },
+        "shadows": Object {
+          "card": "0 0 4px rgba(0, 0, 0, .125)",
+        },
+        "sizes": Object {
+          "avatar": 48,
+        },
+        "space": Array [
+          0,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+        ],
+        "styles": Object {
+          "root": Object {
+            "fontFamily": "body",
+            "fontWeight": "body",
+            "lineHeight": "body",
+          },
+        },
+        "text": Object {
+          "bold": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+            "fontWeight": "900",
+          },
+          "default": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+          },
+          "muted": Object {
+            "color": "#595959",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+          },
+          "page": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+            ],
+            "fontWeight": 600,
+            "letterSpacing": "0.075rem",
+            "lineHeight": "2.75rem",
+            "margin": "2rem 0 2.5rem",
+            "maxWidth": "32rem",
+            "wordSpacing": "-0.08em",
+          },
+          "section": Object {
+            "color": "#f6f6f6",
+            "fontSize": Array [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+            ],
+            "fontWeight": 900,
+            "letterSpacing": "2px",
+            "lineHeight": "1.7rem",
+            "margin": "1.5rem 0",
+            "textTransform": "uppercase",
+          },
+          "small": Object {
+            "color": "#333333",
+            "fontSize": Array [
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+            ],
+          },
+          "subPage": Object {
+            "color": "#595959",
+            "fontSize": Array [
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+            ],
+            "fontWeight": 500,
+            "letterSpacing": "0.0625rem",
+            "lineHeight": "2.2rem",
+            "margin": "1.25rem 0 1.75rem",
+            "marginBottom": 2,
+            "maxWidth": "32rem",
+          },
+        },
+        "variants": Object {
+          "avatar": Object {
+            "borderRadius": "circle",
+            "height": "avatar",
+            "width": "avatar",
+          },
+          "card": Object {
+            "bg": "background",
+            "boxShadow": "card",
+            "p": 2,
+          },
+          "link": Object {
+            "color": "primary",
+          },
+          "nav": Object {
+            ":hover,:focus,.active": Object {
+              "color": "primary",
+            },
+            "color": "inherit",
+            "display": "inline-block",
+            "fontSize": 1,
+            "fontWeight": "bold",
+            "p": 2,
+            "textDecoration": "none",
+          },
+        },
+      }
+    }
+  >
+    <Field
+      error="error"
+      id="id"
+      inline={false}
+      label="label"
+    >
+      <Styled(styled.div)
+        inline={false}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-ifAKCX",
+                "isStatic": false,
+                "lastClassName": "dlNzvR",
+                "rules": Array [
+                  "box-sizing: border-box;",
+                  "margin: 0;",
+                  "min-width: 0;",
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  "
+    margin: 0.75rem 0;
+
+    ",
+                  [Function],
+                  "
+  ",
+                ],
+              },
+              "displayName": "Styled(styled.div)",
+              "foldedComponentIds": Array [
+                "sc-bdVaJa",
+              ],
+              "render": [Function],
+              "styledComponentId": "sc-ifAKCX",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          inline={false}
+        >
+          <div
+            className="sc-bdVaJa sc-ifAKCX dlNzvR"
+          >
+            <Styled(Component)
+              htmlFor="id"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bxivhb",
+                      "isStatic": false,
+                      "lastClassName": "fbWvkm",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Styled(Component)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bxivhb",
+                    "target": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                htmlFor="id"
+              >
+                <ForwardRef
+                  className="sc-bxivhb fbWvkm"
+                  htmlFor="id"
+                >
+                  <Styled(styled.div)
+                    __css={
+                      Object {
+                        "width": "100%",
+                      }
+                    }
+                    as="label"
+                    className="sc-bxivhb fbWvkm"
+                    htmlFor="id"
+                    tx="forms"
+                    variant="label"
+                  >
+                    <StyledComponent
+                      __css={
+                        Object {
+                          "width": "100%",
+                        }
+                      }
+                      as="label"
+                      className="sc-bxivhb fbWvkm"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bwzfXH",
+                            "isStatic": false,
+                            "lastClassName": "edwPEo",
+                            "rules": Array [
+                              "box-sizing: border-box;",
+                              "margin: 0;",
+                              "min-width: 0;",
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                              "display: flex;",
+                            ],
+                          },
+                          "displayName": "Styled(styled.div)",
+                          "foldedComponentIds": Array [
+                            "sc-bdVaJa",
+                          ],
+                          "render": [Function],
+                          "styledComponentId": "sc-bwzfXH",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      htmlFor="id"
+                      tx="forms"
+                      variant="label"
+                    >
+                      <label
+                        className="sc-bdVaJa sc-bwzfXH edwPEo sc-bxivhb fbWvkm"
+                        htmlFor="id"
+                      >
+                        label
+                      </label>
+                    </StyledComponent>
+                  </Styled(styled.div)>
+                </ForwardRef>
+              </StyledComponent>
+            </Styled(Component)>
+            <div
+              id="child"
+            >
+              children
+            </div>
+            <Styled(Component)>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-htpNat",
+                      "isStatic": false,
+                      "lastClassName": "dOcckH",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Styled(Component)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-htpNat",
+                    "target": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <ForwardRef
+                  className="sc-htpNat dOcckH"
+                >
+                  <styled.div
+                    className="sc-htpNat dOcckH"
+                    tx="text"
+                  >
+                    <StyledComponent
+                      className="sc-htpNat dOcckH"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bdVaJa",
+                            "isStatic": false,
+                            "lastClassName": "gtVQmG",
+                            "rules": Array [
+                              "box-sizing: border-box;",
+                              "margin: 0;",
+                              "min-width: 0;",
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                            ],
+                          },
+                          "displayName": "styled.div",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "sc-bdVaJa",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      tx="text"
+                    >
+                      <div
+                        className="sc-bdVaJa gtVQmG sc-htpNat dOcckH"
+                      >
+                        error
+                      </div>
+                    </StyledComponent>
+                  </styled.div>
+                </ForwardRef>
+              </StyledComponent>
+            </Styled(Component)>
+          </div>
+        </StyledComponent>
+      </Styled(styled.div)>
+    </Field>
+  </ThemeProvider>
+</CustomThemeProvider>
+`;

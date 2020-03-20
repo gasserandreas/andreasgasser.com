@@ -1,8 +1,10 @@
 import React from 'react';
-import { select } from '@storybook/addon-knobs';
+import { select, text, boolean } from '@storybook/addon-knobs';
 
 import TextComponent from './Text';
 import HeadingComponent from './Heading';
+import InputComponent from './Input';
+import FieldComponent from './Field';
 
 export default {
   title: 'Base',
@@ -35,3 +37,24 @@ export const Heading = () => (
     Custom Heading
   </HeadingComponent>
 );
+
+export const Input = () => (
+  <InputComponent value={text('value', 'Andreas')} />
+);
+
+export const Field = () => {
+  const id = text('id', 'custom-id');
+  return (
+    <FieldComponent
+      id={id}
+      error={text('error', null)}
+      label={text('label', 'Add your name')}
+      inline={boolean('inline', false)}
+    >
+      <InputComponent
+        id={id}
+        value={text('value', 'Andreas')}
+      />
+    </FieldComponent>
+  );
+};
