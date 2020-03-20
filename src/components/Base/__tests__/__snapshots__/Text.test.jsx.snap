@@ -17,6 +17,11 @@ exports[`components/Text bold Text 1`] = `
         ],
         "buttons": Object {
           "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "color": "muted",
               "cursor": "pointer",
@@ -31,6 +36,11 @@ exports[`components/Text bold Text 1`] = `
             "textTransform": "uppercase",
           },
           "outline": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "backgroundColor": "text",
               "color": "textInverse",
@@ -310,6 +320,11 @@ exports[`components/Text default Text 1`] = `
         ],
         "buttons": Object {
           "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "color": "muted",
               "cursor": "pointer",
@@ -324,6 +339,11 @@ exports[`components/Text default Text 1`] = `
             "textTransform": "uppercase",
           },
           "outline": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "backgroundColor": "text",
               "color": "textInverse",
@@ -603,6 +623,11 @@ exports[`components/Text muted Text 1`] = `
         ],
         "buttons": Object {
           "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "color": "muted",
               "cursor": "pointer",
@@ -617,6 +642,11 @@ exports[`components/Text muted Text 1`] = `
             "textTransform": "uppercase",
           },
           "outline": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "backgroundColor": "text",
               "color": "textInverse",
@@ -896,6 +926,11 @@ exports[`components/Text small Text 1`] = `
         ],
         "buttons": Object {
           "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "color": "muted",
               "cursor": "pointer",
@@ -910,6 +945,11 @@ exports[`components/Text small Text 1`] = `
             "textTransform": "uppercase",
           },
           "outline": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "backgroundColor": "text",
               "color": "textInverse",

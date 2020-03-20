@@ -17,6 +17,11 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
         ],
         "buttons": Object {
           "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "color": "muted",
               "cursor": "pointer",
@@ -31,6 +36,11 @@ exports[`components/SocialIcon simple snapshot test for brand icons 1`] = `
             "textTransform": "uppercase",
           },
           "outline": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "backgroundColor": "text",
               "color": "textInverse",
@@ -489,6 +499,11 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
         ],
         "buttons": Object {
           "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "color": "muted",
               "cursor": "pointer",
@@ -503,6 +518,11 @@ exports[`components/SocialIcon simple snapshot test for regular icons 1`] = `
             "textTransform": "uppercase",
           },
           "outline": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "backgroundColor": "text",
               "color": "textInverse",

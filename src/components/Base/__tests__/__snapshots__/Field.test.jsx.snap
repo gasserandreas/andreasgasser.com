@@ -17,6 +17,11 @@ exports[`components/Field it should render 1`] = `
         ],
         "buttons": Object {
           "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "color": "muted",
               "cursor": "pointer",
@@ -31,6 +36,11 @@ exports[`components/Field it should render 1`] = `
             "textTransform": "uppercase",
           },
           "outline": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "backgroundColor": "text",
               "color": "textInverse",
@@ -504,6 +514,11 @@ exports[`components/Field should not render label if not set 1`] = `
         ],
         "buttons": Object {
           "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "color": "muted",
               "cursor": "pointer",
@@ -518,6 +533,11 @@ exports[`components/Field should not render label if not set 1`] = `
             "textTransform": "uppercase",
           },
           "outline": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "backgroundColor": "text",
               "color": "textInverse",
@@ -887,6 +907,11 @@ exports[`components/Field should render error field if error is set 1`] = `
         ],
         "buttons": Object {
           "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "color": "muted",
               "cursor": "pointer",
@@ -901,6 +926,11 @@ exports[`components/Field should render error field if error is set 1`] = `
             "textTransform": "uppercase",
           },
           "outline": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
             "&:hover": Object {
               "backgroundColor": "text",
               "color": "textInverse",

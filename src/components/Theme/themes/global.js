@@ -108,6 +108,11 @@ export default ({ colors, buttons, radii }) => ({
         color: 'textInverse',
         cursor: 'pointer',
       },
+      '&:disabled': {
+        cursor: 'not-allowed',
+        backgroundColor: 'inherit',
+        color: 'text',
+      },
     },
     link: {
       fontWeight: 400,
@@ -121,6 +126,11 @@ export default ({ colors, buttons, radii }) => ({
       '&:hover': {
         color: 'muted',
         cursor: 'pointer',
+      },
+      '&:disabled': {
+        cursor: 'not-allowed',
+        backgroundColor: 'inherit',
+        color: 'text',
       },
     },
   },
