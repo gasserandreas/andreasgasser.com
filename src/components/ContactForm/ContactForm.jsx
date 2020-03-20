@@ -73,6 +73,7 @@ export const ContactForm = (props) => {
     handleSubmit,
     handleReset,
     submitting,
+    pending,
   } = props;
 
   return (
@@ -86,6 +87,7 @@ export const ContactForm = (props) => {
           value={values.name}
           onChange={handleChange}
           onBlur={handleBlur}
+          disabled={pending}
         />
       </Styles.Field>
       <Styles.Field id="email" label="Email" error={touched.email && errors.email}>
@@ -97,6 +99,7 @@ export const ContactForm = (props) => {
           value={values.email}
           onChange={handleChange}
           onBlur={handleBlur}
+          disabled={pending}
         />
       </Styles.Field>
       <Styles.Field id="message" label="Message" error={touched.message && errors.message}>
@@ -107,6 +110,7 @@ export const ContactForm = (props) => {
           value={values.message}
           onChange={handleChange}
           onBlur={handleBlur}
+          disabled={pending}
         />
       </Styles.Field>
       <Styles.ButtonGroup>
@@ -114,20 +118,20 @@ export const ContactForm = (props) => {
           type="button"
           variant="link"
           onClick={handleReset}
-          disabled={!dirty || submitting}
+          disabled={!dirty || (submitting || pending)}
           testId="jestResetButton"
         >
           Reset form
         </Styles.Button>
         <Styles.Button
           type="submit"
-          disabled={submitting}
+          disabled={submitting || pending}
           variant="outline"
           style={{ marginLeft: '1rem' }}
-          loading={submitting}
+          loading={submitting || pending}
           testId="jestSubmitButton"
         >
-          Send message
+          {`${pending ? 'Sending' : 'Send'} message`}
         </Styles.Button>
       </Styles.ButtonGroup>
     </Styles.Form>
@@ -150,15 +154,19 @@ ContactForm.propTypes = {
   handleSubmit: PropTypes.func.isRequired,
   handleReset: PropTypes.func.isRequired,
   submitting: PropTypes.bool.isRequired,
+  pending: PropTypes.bool,
 };
 
-ContactForm.defaultProps = {};
+ContactForm.defaultProps = {
+  pending: false,
+};
 
 const EnhancedContactForm = formikEnhancer(ContactForm);
 
 EnhancedContactForm.propTypes = {
   person: personPropType,
   onSubmit: PropTypes.func.isRequired,
+  pending: PropTypes.bool,
 };
 
 EnhancedContactForm.defaultProps = {
@@ -167,6 +175,7 @@ EnhancedContactForm.defaultProps = {
     name: '',
     message: '',
   },
+  pending: false,
 };
 
 export const __testables__ = {  // eslint-disable-line
