@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-fragments */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -9,6 +10,7 @@ import { Button, Box } from 'rebass/styled-components';
 import Input from '../Base/Input';
 import Textarea from '../Base/Textarea';
 import Field from '../Base/Field';
+import Captcha from '../Captcha/Captcha';
 
 // form configuration
 const validationSchema = Yup.object().shape({
@@ -74,7 +76,20 @@ export const ContactForm = (props) => {
     handleReset,
     submitting,
     pending,
+    submitForm,
   } = props;
+
+  const captchaRef = React.useRef(null);
+
+  // submit form after captcha
+  const handleOnSubmit = () => {
+    submitForm();
+  };
+
+  // handle captcha
+  const handleCaptcha = () => {
+    captchaRef.current.execute();
+  };
 
   return (
     <Styles.Form onSubmit={handleSubmit}>
@@ -124,16 +139,22 @@ export const ContactForm = (props) => {
           Reset form
         </Styles.Button>
         <Styles.Button
-          type="submit"
+          type="button"
           disabled={submitting || pending}
           variant="outline"
           style={{ marginLeft: '1rem' }}
           loading={submitting || pending}
           testId="jestSubmitButton"
+          onClick={handleCaptcha}
         >
           {`${pending ? 'Sending' : 'Send'} message`}
         </Styles.Button>
       </Styles.ButtonGroup>
+      <Captcha
+        ref={captchaRef}
+        size="invisible"
+        verifyCallback={handleOnSubmit}
+      />
     </Styles.Form>
   );
 };
@@ -152,6 +173,7 @@ ContactForm.propTypes = {
   handleChange: PropTypes.func.isRequired,
   handleBlur: PropTypes.func.isRequired,
   handleSubmit: PropTypes.func.isRequired,
+  submitForm: PropTypes.func.isRequired,
   handleReset: PropTypes.func.isRequired,
   submitting: PropTypes.bool.isRequired,
   pending: PropTypes.bool,
