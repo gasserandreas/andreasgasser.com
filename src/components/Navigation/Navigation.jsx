@@ -33,6 +33,7 @@ const Styles = {
 export const LINKS = {
   Home: Paths.INDEX,
   Skills: Paths.SKILLS,
+  Projects: Paths.PROJECTS,
   Contact: Paths.CONTACT,
 };
 
