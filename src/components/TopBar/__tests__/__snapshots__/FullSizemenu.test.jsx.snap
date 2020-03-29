@@ -58,13 +58,13 @@ exports[`components/TopBar simple styling test 1`] = `
           },
         },
         "colors": Object {
-          "background": "#c3c3c3",
-          "backgroundInverse": "#fff",
+          "background": "#d3d3d3",
+          "backgroundInverse": "#fcfcfc",
           "error": "#E11531",
-          "muted": "#595959",
-          "text": "#333333",
+          "muted": "#505050",
+          "text": "#282828",
           "textHighlighed": "#333",
-          "textHover": "#7e7e7e",
+          "textHover": "#707070",
           "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
@@ -122,7 +122,7 @@ exports[`components/TopBar simple styling test 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -134,7 +134,7 @@ exports[`components/TopBar simple styling test 1`] = `
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -145,7 +145,7 @@ exports[`components/TopBar simple styling test 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               1,
               1,
@@ -156,7 +156,7 @@ exports[`components/TopBar simple styling test 1`] = `
             ],
           },
           "page": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               4,
               4,
@@ -169,7 +169,7 @@ exports[`components/TopBar simple styling test 1`] = `
             "letterSpacing": "0.075rem",
             "lineHeight": "2.75rem",
             "margin": "2rem 0 2.5rem",
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
             "wordSpacing": "-0.08em",
           },
           "section": Object {
@@ -189,7 +189,7 @@ exports[`components/TopBar simple styling test 1`] = `
             "textTransform": "uppercase",
           },
           "small": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               0,
               0,
@@ -200,7 +200,7 @@ exports[`components/TopBar simple styling test 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               2,
               2,
@@ -214,7 +214,7 @@ exports[`components/TopBar simple styling test 1`] = `
             "lineHeight": "2.2rem",
             "margin": "1.25rem 0 1.75rem",
             "marginBottom": 2,
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
           },
         },
         "variants": Object {
@@ -260,7 +260,7 @@ exports[`components/TopBar simple styling test 1`] = `
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
                 "isStatic": false,
-                "lastClassName": "jNAtVv",
+                "lastClassName": "gmjxvK",
                 "rules": Array [
                   [Function],
                 ],
@@ -279,7 +279,7 @@ exports[`components/TopBar simple styling test 1`] = `
           show={false}
         >
           <div
-            className="sc-bdVaJa jNAtVv"
+            className="sc-bdVaJa gmjxvK"
           >
             content
           </div>

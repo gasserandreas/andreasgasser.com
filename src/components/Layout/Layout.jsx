@@ -20,7 +20,7 @@ const Styles = {
   `),
   LeftNavigation: styled(Box)(({ theme }) => `
     /* default styles */
-    width: 16rem;
+    width: 18rem;
     background-color: ${theme.colors.backgroundInverse};
     display: flex;
     flex-direction: column;
@@ -34,6 +34,10 @@ const Styles = {
     }
 
     @media screen and (min-width: ${theme.breakpoints[3]}) {
+      width: 20rem;
+    }
+
+    @media screen and (min-width: ${theme.breakpoints[4]}) {
       width: 22rem;
     }
 
@@ -70,10 +74,20 @@ const Styles = {
     flex-shrink: 0;
   `,
   ContentWrapper: styled(Box)(({ theme }) => `
-    padding: 2rem 1.25rem;
+    padding: 2rem 3.25rem;
 
     @media screen and (min-width: ${theme.breakpoints[1]}) {
       padding: 4rem;
+    }
+
+    @media screen and (min-width: ${theme.breakpoints[3]}) {
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
+
+    @media screen and (min-width: ${theme.breakpoints[4]}) {
+      padding-left: 9rem;
+      padding-right: 9rem;
     }
   `),
 };

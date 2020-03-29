@@ -21,6 +21,7 @@ const Styles = {
   `),
   Field: styled(Box)`
     margin: 0.75rem 0;
+    text-align: left;
 
     ${(props) => (props.inline
     ? `

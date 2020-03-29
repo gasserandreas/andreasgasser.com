@@ -20,6 +20,7 @@ const Styles = {
     font-size: 1.4rem;
     margin-bottom: 2rem;
     display none;
+    color: ${theme.colors.text};
     @media screen and (max-width: ${theme.breakpoints[2]}) {
       display block;
     }

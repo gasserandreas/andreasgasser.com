@@ -58,13 +58,13 @@ exports[`components/Footer simple snapshot test 1`] = `
           },
         },
         "colors": Object {
-          "background": "#c3c3c3",
-          "backgroundInverse": "#fff",
+          "background": "#d3d3d3",
+          "backgroundInverse": "#fcfcfc",
           "error": "#E11531",
-          "muted": "#595959",
-          "text": "#333333",
+          "muted": "#505050",
+          "text": "#282828",
           "textHighlighed": "#333",
-          "textHover": "#7e7e7e",
+          "textHover": "#707070",
           "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
@@ -122,7 +122,7 @@ exports[`components/Footer simple snapshot test 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -134,7 +134,7 @@ exports[`components/Footer simple snapshot test 1`] = `
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -145,7 +145,7 @@ exports[`components/Footer simple snapshot test 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               1,
               1,
@@ -156,7 +156,7 @@ exports[`components/Footer simple snapshot test 1`] = `
             ],
           },
           "page": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               4,
               4,
@@ -169,7 +169,7 @@ exports[`components/Footer simple snapshot test 1`] = `
             "letterSpacing": "0.075rem",
             "lineHeight": "2.75rem",
             "margin": "2rem 0 2.5rem",
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
             "wordSpacing": "-0.08em",
           },
           "section": Object {
@@ -189,7 +189,7 @@ exports[`components/Footer simple snapshot test 1`] = `
             "textTransform": "uppercase",
           },
           "small": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               0,
               0,
@@ -200,7 +200,7 @@ exports[`components/Footer simple snapshot test 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               2,
               2,
@@ -214,7 +214,7 @@ exports[`components/Footer simple snapshot test 1`] = `
             "lineHeight": "2.2rem",
             "margin": "1.25rem 0 1.75rem",
             "marginBottom": 2,
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
           },
         },
         "variants": Object {
@@ -259,7 +259,7 @@ exports[`components/Footer simple snapshot test 1`] = `
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bZQynM",
                 "isStatic": false,
-                "lastClassName": "ghNYaz",
+                "lastClassName": "gBihrQ",
                 "rules": Array [
                   "box-sizing: border-box;",
                   "margin: 0;",
@@ -287,7 +287,7 @@ exports[`components/Footer simple snapshot test 1`] = `
           forwardedRef={null}
         >
           <footer
-            className="sc-bdVaJa sc-bZQynM ghNYaz"
+            className="sc-bdVaJa sc-bZQynM gBihrQ"
           >
             <Styled(Heading)
               variant="section"
@@ -300,7 +300,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-gzVnrw",
                       "isStatic": false,
-                      "lastClassName": "dRloAG",
+                      "lastClassName": "ihXmHt",
                       "rules": Array [
                         [Function],
                       ],
@@ -319,12 +319,12 @@ exports[`components/Footer simple snapshot test 1`] = `
                 variant="section"
               >
                 <Heading
-                  className="sc-gzVnrw dRloAG"
+                  className="sc-gzVnrw ihXmHt"
                   variant="section"
                 >
                   <ForwardRef
                     as="h3"
-                    className="sc-gzVnrw dRloAG"
+                    className="sc-gzVnrw ihXmHt"
                     variant="section"
                   >
                     <styled.div
@@ -337,7 +337,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                         }
                       }
                       as="h3"
-                      className="sc-gzVnrw dRloAG"
+                      className="sc-gzVnrw ihXmHt"
                       tx="text"
                       variant="section"
                     >
@@ -351,7 +351,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                           }
                         }
                         as="h3"
-                        className="sc-gzVnrw dRloAG"
+                        className="sc-gzVnrw ihXmHt"
                         forwardedComponent={
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
@@ -359,7 +359,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                             "componentStyle": ComponentStyle {
                               "componentId": "sc-bdVaJa",
                               "isStatic": false,
-                              "lastClassName": "kphPz",
+                              "lastClassName": "gjOTNL",
                               "rules": Array [
                                 "box-sizing: border-box;",
                                 "margin: 0;",
@@ -386,7 +386,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                         variant="section"
                       >
                         <h3
-                          className="sc-bdVaJa hzUygp sc-gzVnrw dRloAG"
+                          className="sc-bdVaJa hzUygp sc-gzVnrw ihXmHt"
                         >
                           Want to hear more?
                         </h3>
@@ -405,7 +405,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-htoDjs",
                       "isStatic": false,
-                      "lastClassName": "hRXpEV",
+                      "lastClassName": "epQFMl",
                       "rules": Array [
                         [Function],
                       ],
@@ -423,20 +423,20 @@ exports[`components/Footer simple snapshot test 1`] = `
                 forwardedRef={null}
               >
                 <Text
-                  className="sc-htoDjs hRXpEV"
+                  className="sc-htoDjs epQFMl"
                   variant="default"
                 >
                   <ForwardRef
-                    className="sc-htoDjs hRXpEV"
+                    className="sc-htoDjs epQFMl"
                     variant="default"
                   >
                     <styled.div
-                      className="sc-htoDjs hRXpEV"
+                      className="sc-htoDjs epQFMl"
                       tx="text"
                       variant="default"
                     >
                       <StyledComponent
-                        className="sc-htoDjs hRXpEV"
+                        className="sc-htoDjs epQFMl"
                         forwardedComponent={
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
@@ -444,7 +444,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                             "componentStyle": ComponentStyle {
                               "componentId": "sc-bdVaJa",
                               "isStatic": false,
-                              "lastClassName": "kphPz",
+                              "lastClassName": "gjOTNL",
                               "rules": Array [
                                 "box-sizing: border-box;",
                                 "margin: 0;",
@@ -471,7 +471,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                         variant="default"
                       >
                         <div
-                          className="sc-bdVaJa kphPz sc-htoDjs hRXpEV"
+                          className="sc-bdVaJa gjOTNL sc-htoDjs epQFMl"
                         >
                           Would you like to know more or start casual chat
                            - 
@@ -521,7 +521,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                                           Array [
                                             Object {
                                               "children": "drop me a message",
-                                              "className": "sc-bxivhb ezBkzg sc-dnqmqq cvSkbJ",
+                                              "className": "sc-bxivhb jMBmvI sc-dnqmqq cvSkbJ",
                                               "to": "/contact",
                                             },
                                             Object {},
@@ -529,7 +529,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                                           Array [
                                             Object {
                                               "children": "drop me a message",
-                                              "className": "sc-bxivhb ezBkzg sc-dnqmqq cvSkbJ",
+                                              "className": "sc-bxivhb jMBmvI sc-dnqmqq cvSkbJ",
                                               "to": "/contact",
                                             },
                                             Object {},
@@ -539,7 +539,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                                           Object {
                                             "type": "return",
                                             "value": <a
-                                              className="sc-bxivhb ezBkzg sc-dnqmqq cvSkbJ"
+                                              className="sc-bxivhb jMBmvI sc-dnqmqq cvSkbJ"
                                               href="/contact"
                                             >
                                               drop me a message
@@ -548,7 +548,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                                           Object {
                                             "type": "return",
                                             "value": <a
-                                              className="sc-bxivhb ezBkzg sc-dnqmqq cvSkbJ"
+                                              className="sc-bxivhb jMBmvI sc-dnqmqq cvSkbJ"
                                               href="/contact"
                                             >
                                               drop me a message
@@ -561,11 +561,11 @@ exports[`components/Footer simple snapshot test 1`] = `
                                     to="/contact"
                                   >
                                     <mockConstructor
-                                      className="sc-bxivhb ezBkzg sc-dnqmqq cvSkbJ"
+                                      className="sc-bxivhb jMBmvI sc-dnqmqq cvSkbJ"
                                       to="/contact"
                                     >
                                       <a
-                                        className="sc-bxivhb ezBkzg sc-dnqmqq cvSkbJ"
+                                        className="sc-bxivhb jMBmvI sc-dnqmqq cvSkbJ"
                                         href="/contact"
                                       >
                                         drop me a message
@@ -593,7 +593,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-iwsKbI",
                       "isStatic": false,
-                      "lastClassName": "fAtfZU",
+                      "lastClassName": "jfoKgP",
                       "rules": Array [
                         [Function],
                       ],
@@ -611,7 +611,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                 forwardedRef={null}
               >
                 <div
-                  className="sc-iwsKbI fAtfZU"
+                  className="sc-iwsKbI jfoKgP"
                 >
                   <GitHubIcon>
                     <SocialIcon
@@ -647,7 +647,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-EHOje",
                                 "isStatic": false,
-                                "lastClassName": "IUOuT",
+                                "lastClassName": "jyOsMw",
                                 "rules": Array [
                                   [Function],
                                 ],
@@ -668,21 +668,21 @@ exports[`components/Footer simple snapshot test 1`] = `
                         >
                           <Link
                             alt="GitHub User link"
-                            className="sc-EHOje IUOuT"
+                            className="sc-EHOje jyOsMw"
                             external={true}
                             rel="noopener noreferrer"
                             to="https://github.com/gasserandreas"
                           >
                             <styled.a
                               alt="GitHub User link"
-                              className="sc-EHOje IUOuT"
+                              className="sc-EHOje jyOsMw"
                               href="https://github.com/gasserandreas"
                               rel="noopener noreferrer"
                               target="_blank"
                             >
                               <StyledComponent
                                 alt="GitHub User link"
-                                className="sc-EHOje IUOuT"
+                                className="sc-EHOje jyOsMw"
                                 forwardedComponent={
                                   Object {
                                     "$$typeof": Symbol(react.forward_ref),
@@ -690,7 +690,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-ifAKCX",
                                       "isStatic": false,
-                                      "lastClassName": "knIJVx",
+                                      "lastClassName": "oIdgS",
                                       "rules": Array [
                                         [Function],
                                       ],
@@ -712,7 +712,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                               >
                                 <a
                                   alt="GitHub User link"
-                                  className="sc-ifAKCX knIJVx sc-EHOje IUOuT"
+                                  className="sc-ifAKCX oIdgS sc-EHOje jyOsMw"
                                   href="https://github.com/gasserandreas"
                                   rel="noopener noreferrer"
                                   target="_blank"
@@ -879,7 +879,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-EHOje",
                                 "isStatic": false,
-                                "lastClassName": "IUOuT",
+                                "lastClassName": "jyOsMw",
                                 "rules": Array [
                                   [Function],
                                 ],
@@ -900,21 +900,21 @@ exports[`components/Footer simple snapshot test 1`] = `
                         >
                           <Link
                             alt="Linked link"
-                            className="sc-EHOje IUOuT"
+                            className="sc-EHOje jyOsMw"
                             external={true}
                             rel="noopener noreferrer"
                             to="https://linkedin.com/in/gasserandreas"
                           >
                             <styled.a
                               alt="Linked link"
-                              className="sc-EHOje IUOuT"
+                              className="sc-EHOje jyOsMw"
                               href="https://linkedin.com/in/gasserandreas"
                               rel="noopener noreferrer"
                               target="_blank"
                             >
                               <StyledComponent
                                 alt="Linked link"
-                                className="sc-EHOje IUOuT"
+                                className="sc-EHOje jyOsMw"
                                 forwardedComponent={
                                   Object {
                                     "$$typeof": Symbol(react.forward_ref),
@@ -922,7 +922,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-ifAKCX",
                                       "isStatic": false,
-                                      "lastClassName": "knIJVx",
+                                      "lastClassName": "oIdgS",
                                       "rules": Array [
                                         [Function],
                                       ],
@@ -944,7 +944,7 @@ exports[`components/Footer simple snapshot test 1`] = `
                               >
                                 <a
                                   alt="Linked link"
-                                  className="sc-ifAKCX knIJVx sc-EHOje IUOuT"
+                                  className="sc-ifAKCX oIdgS sc-EHOje jyOsMw"
                                   href="https://linkedin.com/in/gasserandreas"
                                   rel="noopener noreferrer"
                                   target="_blank"
