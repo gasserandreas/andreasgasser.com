@@ -12,7 +12,8 @@ breakpoints.xl = breakpoints[4];
 breakpoints.xxl = breakpoints[5];
 
 const defaultFontSize = [1, 1, 1, 2, 2, 2];
-const headerMaxWidth = '32rem';
+const headerMaxWidth = '50rem';
+// const headerMaxWidth = '78%';
 
 // console.log(rebass);
 

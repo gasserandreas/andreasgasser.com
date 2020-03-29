@@ -136,7 +136,7 @@ const SkillsPage = () => (
         ))}
       </Styles.Services>
       <Styles.Tools mt="5">
-        Tools and frameworks I am working with:
+        <strong>Tools and frameworks I am working with:</strong>
         <Styles.ToolList>
           {tools.map(({ name, url }, i) => (
             <Styles.ToolListItem>

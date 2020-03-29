@@ -58,13 +58,13 @@ exports[`components/Header simple snapshot test 1`] = `
           },
         },
         "colors": Object {
-          "background": "#c3c3c3",
-          "backgroundInverse": "#fff",
+          "background": "#d3d3d3",
+          "backgroundInverse": "#fcfcfc",
           "error": "#E11531",
-          "muted": "#595959",
-          "text": "#333333",
+          "muted": "#505050",
+          "text": "#282828",
           "textHighlighed": "#333",
-          "textHover": "#7e7e7e",
+          "textHover": "#707070",
           "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
@@ -122,7 +122,7 @@ exports[`components/Header simple snapshot test 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -134,7 +134,7 @@ exports[`components/Header simple snapshot test 1`] = `
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -145,7 +145,7 @@ exports[`components/Header simple snapshot test 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               1,
               1,
@@ -156,7 +156,7 @@ exports[`components/Header simple snapshot test 1`] = `
             ],
           },
           "page": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               4,
               4,
@@ -169,7 +169,7 @@ exports[`components/Header simple snapshot test 1`] = `
             "letterSpacing": "0.075rem",
             "lineHeight": "2.75rem",
             "margin": "2rem 0 2.5rem",
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
             "wordSpacing": "-0.08em",
           },
           "section": Object {
@@ -189,7 +189,7 @@ exports[`components/Header simple snapshot test 1`] = `
             "textTransform": "uppercase",
           },
           "small": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               0,
               0,
@@ -200,7 +200,7 @@ exports[`components/Header simple snapshot test 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               2,
               2,
@@ -214,7 +214,7 @@ exports[`components/Header simple snapshot test 1`] = `
             "lineHeight": "2.2rem",
             "margin": "1.25rem 0 1.75rem",
             "marginBottom": 2,
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
           },
         },
         "variants": Object {
@@ -258,7 +258,7 @@ exports[`components/Header simple snapshot test 1`] = `
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
                 "isStatic": false,
-                "lastClassName": "kphPz",
+                "lastClassName": "gjOTNL",
                 "rules": Array [
                   "box-sizing: border-box;",
                   "margin: 0;",
@@ -337,7 +337,7 @@ exports[`components/Header simple snapshot test 1`] = `
                             "componentStyle": ComponentStyle {
                               "componentId": "sc-bdVaJa",
                               "isStatic": false,
-                              "lastClassName": "kphPz",
+                              "lastClassName": "gjOTNL",
                               "rules": Array [
                                 "box-sizing: border-box;",
                                 "margin: 0;",
@@ -364,7 +364,7 @@ exports[`components/Header simple snapshot test 1`] = `
                         variant="default"
                       >
                         <div
-                          className="sc-bdVaJa kphPz sc-ifAKCX MGsuj"
+                          className="sc-bdVaJa gjOTNL sc-ifAKCX MGsuj"
                         >
                           Hi I
                           '
@@ -380,7 +380,7 @@ exports[`components/Header simple snapshot test 1`] = `
                                   "componentStyle": ComponentStyle {
                                     "componentId": "sc-EHOje",
                                     "isStatic": false,
-                                    "lastClassName": "fchTcZ",
+                                    "lastClassName": "jGWJXi",
                                     "rules": Array [
                                       [Function],
                                     ],
@@ -399,16 +399,16 @@ exports[`components/Header simple snapshot test 1`] = `
                               to="/"
                             >
                               <Link
-                                className="sc-EHOje fchTcZ"
+                                className="sc-EHOje jGWJXi"
                                 external={false}
                                 to="/"
                               >
                                 <Styled(mockConstructor)
-                                  className="sc-EHOje fchTcZ"
+                                  className="sc-EHOje jGWJXi"
                                   to="/"
                                 >
                                   <StyledComponent
-                                    className="sc-EHOje fchTcZ"
+                                    className="sc-EHOje jGWJXi"
                                     forwardedComponent={
                                       [MockFunction] {
                                         "calls": Array [
@@ -421,7 +421,7 @@ exports[`components/Header simple snapshot test 1`] = `
                                                 " ",
                                                 "Gasser",
                                               ],
-                                              "className": "sc-htpNat hpMhBH sc-EHOje fchTcZ",
+                                              "className": "sc-htpNat fjAzCs sc-EHOje jGWJXi",
                                               "to": "/",
                                             },
                                             Object {},
@@ -435,7 +435,7 @@ exports[`components/Header simple snapshot test 1`] = `
                                                 " ",
                                                 "Gasser",
                                               ],
-                                              "className": "sc-htpNat hpMhBH sc-EHOje fchTcZ",
+                                              "className": "sc-htpNat fjAzCs sc-EHOje jGWJXi",
                                               "to": "/",
                                             },
                                             Object {},
@@ -445,7 +445,7 @@ exports[`components/Header simple snapshot test 1`] = `
                                           Object {
                                             "type": "return",
                                             "value": <a
-                                              className="sc-htpNat hpMhBH sc-EHOje fchTcZ"
+                                              className="sc-htpNat fjAzCs sc-EHOje jGWJXi"
                                               href="/"
                                             >
                                               <strong>
@@ -458,7 +458,7 @@ exports[`components/Header simple snapshot test 1`] = `
                                           Object {
                                             "type": "return",
                                             "value": <a
-                                              className="sc-htpNat hpMhBH sc-EHOje fchTcZ"
+                                              className="sc-htpNat fjAzCs sc-EHOje jGWJXi"
                                               href="/"
                                             >
                                               <strong>
@@ -475,11 +475,11 @@ exports[`components/Header simple snapshot test 1`] = `
                                     to="/"
                                   >
                                     <mockConstructor
-                                      className="sc-htpNat hpMhBH sc-EHOje fchTcZ"
+                                      className="sc-htpNat fjAzCs sc-EHOje jGWJXi"
                                       to="/"
                                     >
                                       <a
-                                        className="sc-htpNat hpMhBH sc-EHOje fchTcZ"
+                                        className="sc-htpNat fjAzCs sc-EHOje jGWJXi"
                                         href="/"
                                       >
                                         <strong>
@@ -510,7 +510,7 @@ exports[`components/Header simple snapshot test 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-bZQynM",
                       "isStatic": false,
-                      "lastClassName": "hoOKGH",
+                      "lastClassName": "hznXHi",
                       "rules": Array [
                         [Function],
                       ],
@@ -528,20 +528,20 @@ exports[`components/Header simple snapshot test 1`] = `
                 forwardedRef={null}
               >
                 <Text
-                  className="sc-bZQynM hoOKGH"
+                  className="sc-bZQynM hznXHi"
                   variant="default"
                 >
                   <ForwardRef
-                    className="sc-bZQynM hoOKGH"
+                    className="sc-bZQynM hznXHi"
                     variant="default"
                   >
                     <styled.div
-                      className="sc-bZQynM hoOKGH"
+                      className="sc-bZQynM hznXHi"
                       tx="text"
                       variant="default"
                     >
                       <StyledComponent
-                        className="sc-bZQynM hoOKGH"
+                        className="sc-bZQynM hznXHi"
                         forwardedComponent={
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
@@ -549,7 +549,7 @@ exports[`components/Header simple snapshot test 1`] = `
                             "componentStyle": ComponentStyle {
                               "componentId": "sc-bdVaJa",
                               "isStatic": false,
-                              "lastClassName": "kphPz",
+                              "lastClassName": "gjOTNL",
                               "rules": Array [
                                 "box-sizing: border-box;",
                                 "margin: 0;",
@@ -576,9 +576,9 @@ exports[`components/Header simple snapshot test 1`] = `
                         variant="default"
                       >
                         <div
-                          className="sc-bdVaJa kphPz sc-bZQynM hoOKGH"
+                          className="sc-bdVaJa gjOTNL sc-bZQynM hznXHi"
                         >
-                          Front end architect
+                          Frontend architect
                           <br />
                           Senior software engineer
                           <br />

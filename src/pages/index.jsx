@@ -12,17 +12,18 @@ import SEO from '../components/SEO/SEO';
 
 const Styles = {
   Wrapper: styled(Box)(({ theme }) => `
-    padding: 3.5rem 2rem;
+    padding: 3.5rem 0;
+    // padding: 3.5rem 2rem;
 
-    @media screen and (min-width: ${theme.breakpoints[3]}) {
-      padding-left: 4rem;
-      padding-right: 4rem;
-    }
+    // @media screen and (min-width: ${theme.breakpoints[3]}) {
+    //   padding-left: 4rem;
+    //   padding-right: 4rem;
+    // }
 
-    @media screen and (min-width: ${theme.breakpoints[4]}) {
-      padding-left: 5rem;
-      padding-right: 5rem;
-    }
+    // @media screen and (min-width: ${theme.breakpoints[4]}) {
+    //   padding-left: 5rem;
+    //   padding-right: 5rem;
+    // }
   `),
   WelcomeText: styled(Text)(() => ''),
   Heading: styled(Heading)(() => `

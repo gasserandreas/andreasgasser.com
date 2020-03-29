@@ -15,6 +15,7 @@ const Styles = {
   display: ${show ? 'flex' : 'none'}
   align-items: center;
   justify-content: center;
+  font-size: 1.25rem;
 `),
 };
 
