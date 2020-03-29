@@ -58,8 +58,8 @@ exports[`components/BaseIcon simple snapshot test for brand icons 1`] = `
           },
         },
         "colors": Object {
-          "background": "#d3d3d3",
-          "backgroundInverse": "#fcfcfc",
+          "background": "#d9d9d9",
+          "backgroundInverse": "#ffffff",
           "error": "#E11531",
           "muted": "#505050",
           "text": "#282828",
@@ -428,8 +428,8 @@ exports[`components/BaseIcon simple snapshot test for regular icons 1`] = `
           },
         },
         "colors": Object {
-          "background": "#d3d3d3",
-          "backgroundInverse": "#fcfcfc",
+          "background": "#d9d9d9",
+          "backgroundInverse": "#ffffff",
           "error": "#E11531",
           "muted": "#505050",
           "text": "#282828",

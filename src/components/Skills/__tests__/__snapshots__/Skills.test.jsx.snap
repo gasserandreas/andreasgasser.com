@@ -58,8 +58,8 @@ exports[`components/Skills simple snapshot test 1`] = `
           },
         },
         "colors": Object {
-          "background": "#d3d3d3",
-          "backgroundInverse": "#fcfcfc",
+          "background": "#d9d9d9",
+          "backgroundInverse": "#ffffff",
           "error": "#E11531",
           "muted": "#505050",
           "text": "#282828",

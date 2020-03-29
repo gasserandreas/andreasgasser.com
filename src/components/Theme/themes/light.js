@@ -9,7 +9,7 @@ export default {
     muted: '#505050',
     error: '#E11531',
     // background colors
-    background: '#d3d3d3',
-    backgroundInverse: '#fcfcfc',
+    background: '#d9d9d9',
+    backgroundInverse: '#ffffff',
   },
 };
