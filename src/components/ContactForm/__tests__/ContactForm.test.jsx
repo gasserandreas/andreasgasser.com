@@ -116,7 +116,7 @@ describe('components/ContactForm', () => {
     it('submit button should be type of submit', () => {
       const wrapper = mount(withTheme(<ContactForm {...getFormProps()} />));
       const submitButton = wrapper.find(Button).filterWhere((n) => n.props().testId === 'jestSubmitButton');
-      expect(submitButton.props().type).toEqual('submit');
+      expect(submitButton.props().type).toEqual('button');
     });
   });
 
