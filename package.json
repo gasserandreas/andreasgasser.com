@@ -16,6 +16,7 @@
     "@semantic-release/npm": "^5.3.4",
     "@semantic-release/release-notes-generator": "^7.3.5",
     "babel-plugin-styled-components": "^1.10.6",
+    "dotenv": "^8.2.0",
     "formik": "^2.1.4",
     "gatsby": "^2.15.29",
     "gatsby-image": "^2.2.24",
