@@ -16,32 +16,55 @@ exports[`components/Text bold Text 1`] = `
           "1400px",
         ],
         "buttons": Object {
+          "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "color": "muted",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "none",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
+          },
           "outline": Object {
-            "bg": "transparent",
-            "boxShadow": "inset 0 0 2px",
-            "color": "primary",
-            "variant": "buttons.primary",
-          },
-          "primary": Object {
-            "bg": "primary",
-            "borderRadius": "default",
-            "color": "background",
-            "fontSize": 2,
-            "fontWeight": "bold",
-          },
-          "secondary": Object {
-            "bg": "secondary",
-            "color": "background",
-            "variant": "buttons.primary",
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "backgroundColor": "text",
+              "color": "textInverse",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "1px solid #000",
+            "borderColor": "text",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
           },
         },
         "colors": Object {
-          "background": "#c3c3c3",
-          "backgroundInverse": "#fff",
-          "muted": "#595959",
-          "text": "#333333",
+          "background": "#d9d9d9",
+          "backgroundInverse": "#ffffff",
+          "error": "#E11531",
+          "muted": "#505050",
+          "text": "#282828",
           "textHighlighed": "#333",
-          "textHover": "#7e7e7e",
+          "textHover": "#707070",
           "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
@@ -71,8 +94,7 @@ exports[`components/Text bold Text 1`] = `
           "heading": 1.125,
         },
         "radii": Object {
-          "circle": 99999,
-          "default": 4,
+          "default": "2px",
         },
         "shadows": Object {
           "card": "0 0 4px rgba(0, 0, 0, .125)",
@@ -100,7 +122,7 @@ exports[`components/Text bold Text 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -112,7 +134,7 @@ exports[`components/Text bold Text 1`] = `
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -123,7 +145,7 @@ exports[`components/Text bold Text 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               1,
               1,
@@ -134,7 +156,7 @@ exports[`components/Text bold Text 1`] = `
             ],
           },
           "page": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               4,
               4,
@@ -147,10 +169,11 @@ exports[`components/Text bold Text 1`] = `
             "letterSpacing": "0.075rem",
             "lineHeight": "2.75rem",
             "margin": "2rem 0 2.5rem",
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
             "wordSpacing": "-0.08em",
           },
           "section": Object {
+            "color": "#f6f6f6",
             "fontSize": Array [
               1,
               1,
@@ -159,11 +182,14 @@ exports[`components/Text bold Text 1`] = `
               2,
               2,
             ],
-            "fontWeight": 500,
+            "fontWeight": 900,
+            "letterSpacing": "2px",
             "lineHeight": "1.7rem",
+            "margin": "1.5rem 0",
+            "textTransform": "uppercase",
           },
           "small": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               0,
               0,
@@ -174,7 +200,7 @@ exports[`components/Text bold Text 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               2,
               2,
@@ -188,7 +214,7 @@ exports[`components/Text bold Text 1`] = `
             "lineHeight": "2.2rem",
             "margin": "1.25rem 0 1.75rem",
             "marginBottom": 2,
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
           },
         },
         "variants": Object {
@@ -238,7 +264,7 @@ exports[`components/Text bold Text 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bdVaJa",
                   "isStatic": false,
-                  "lastClassName": "eMUmQo",
+                  "lastClassName": "bjKDUS",
                   "rules": Array [
                     "box-sizing: border-box;",
                     "margin: 0;",
@@ -265,7 +291,7 @@ exports[`components/Text bold Text 1`] = `
             variant="bold"
           >
             <div
-              className="sc-bdVaJa eMUmQo"
+              className="sc-bdVaJa bjKDUS"
             >
               Bold Text
             </div>
@@ -293,32 +319,55 @@ exports[`components/Text default Text 1`] = `
           "1400px",
         ],
         "buttons": Object {
+          "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "color": "muted",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "none",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
+          },
           "outline": Object {
-            "bg": "transparent",
-            "boxShadow": "inset 0 0 2px",
-            "color": "primary",
-            "variant": "buttons.primary",
-          },
-          "primary": Object {
-            "bg": "primary",
-            "borderRadius": "default",
-            "color": "background",
-            "fontSize": 2,
-            "fontWeight": "bold",
-          },
-          "secondary": Object {
-            "bg": "secondary",
-            "color": "background",
-            "variant": "buttons.primary",
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "backgroundColor": "text",
+              "color": "textInverse",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "1px solid #000",
+            "borderColor": "text",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
           },
         },
         "colors": Object {
-          "background": "#c3c3c3",
-          "backgroundInverse": "#fff",
-          "muted": "#595959",
-          "text": "#333333",
+          "background": "#d9d9d9",
+          "backgroundInverse": "#ffffff",
+          "error": "#E11531",
+          "muted": "#505050",
+          "text": "#282828",
           "textHighlighed": "#333",
-          "textHover": "#7e7e7e",
+          "textHover": "#707070",
           "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
@@ -348,8 +397,7 @@ exports[`components/Text default Text 1`] = `
           "heading": 1.125,
         },
         "radii": Object {
-          "circle": 99999,
-          "default": 4,
+          "default": "2px",
         },
         "shadows": Object {
           "card": "0 0 4px rgba(0, 0, 0, .125)",
@@ -377,7 +425,7 @@ exports[`components/Text default Text 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -389,7 +437,7 @@ exports[`components/Text default Text 1`] = `
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -400,7 +448,7 @@ exports[`components/Text default Text 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               1,
               1,
@@ -411,7 +459,7 @@ exports[`components/Text default Text 1`] = `
             ],
           },
           "page": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               4,
               4,
@@ -424,10 +472,11 @@ exports[`components/Text default Text 1`] = `
             "letterSpacing": "0.075rem",
             "lineHeight": "2.75rem",
             "margin": "2rem 0 2.5rem",
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
             "wordSpacing": "-0.08em",
           },
           "section": Object {
+            "color": "#f6f6f6",
             "fontSize": Array [
               1,
               1,
@@ -436,11 +485,14 @@ exports[`components/Text default Text 1`] = `
               2,
               2,
             ],
-            "fontWeight": 500,
+            "fontWeight": 900,
+            "letterSpacing": "2px",
             "lineHeight": "1.7rem",
+            "margin": "1.5rem 0",
+            "textTransform": "uppercase",
           },
           "small": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               0,
               0,
@@ -451,7 +503,7 @@ exports[`components/Text default Text 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               2,
               2,
@@ -465,7 +517,7 @@ exports[`components/Text default Text 1`] = `
             "lineHeight": "2.2rem",
             "margin": "1.25rem 0 1.75rem",
             "marginBottom": 2,
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
           },
         },
         "variants": Object {
@@ -515,7 +567,7 @@ exports[`components/Text default Text 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bdVaJa",
                   "isStatic": false,
-                  "lastClassName": "kphPz",
+                  "lastClassName": "gjOTNL",
                   "rules": Array [
                     "box-sizing: border-box;",
                     "margin: 0;",
@@ -542,7 +594,7 @@ exports[`components/Text default Text 1`] = `
             variant="default"
           >
             <div
-              className="sc-bdVaJa kphPz"
+              className="sc-bdVaJa gjOTNL"
             >
               Default Text
             </div>
@@ -570,32 +622,55 @@ exports[`components/Text muted Text 1`] = `
           "1400px",
         ],
         "buttons": Object {
+          "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "color": "muted",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "none",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
+          },
           "outline": Object {
-            "bg": "transparent",
-            "boxShadow": "inset 0 0 2px",
-            "color": "primary",
-            "variant": "buttons.primary",
-          },
-          "primary": Object {
-            "bg": "primary",
-            "borderRadius": "default",
-            "color": "background",
-            "fontSize": 2,
-            "fontWeight": "bold",
-          },
-          "secondary": Object {
-            "bg": "secondary",
-            "color": "background",
-            "variant": "buttons.primary",
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "backgroundColor": "text",
+              "color": "textInverse",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "1px solid #000",
+            "borderColor": "text",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
           },
         },
         "colors": Object {
-          "background": "#c3c3c3",
-          "backgroundInverse": "#fff",
-          "muted": "#595959",
-          "text": "#333333",
+          "background": "#d9d9d9",
+          "backgroundInverse": "#ffffff",
+          "error": "#E11531",
+          "muted": "#505050",
+          "text": "#282828",
           "textHighlighed": "#333",
-          "textHover": "#7e7e7e",
+          "textHover": "#707070",
           "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
@@ -625,8 +700,7 @@ exports[`components/Text muted Text 1`] = `
           "heading": 1.125,
         },
         "radii": Object {
-          "circle": 99999,
-          "default": 4,
+          "default": "2px",
         },
         "shadows": Object {
           "card": "0 0 4px rgba(0, 0, 0, .125)",
@@ -654,7 +728,7 @@ exports[`components/Text muted Text 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -666,7 +740,7 @@ exports[`components/Text muted Text 1`] = `
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -677,7 +751,7 @@ exports[`components/Text muted Text 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               1,
               1,
@@ -688,7 +762,7 @@ exports[`components/Text muted Text 1`] = `
             ],
           },
           "page": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               4,
               4,
@@ -701,10 +775,11 @@ exports[`components/Text muted Text 1`] = `
             "letterSpacing": "0.075rem",
             "lineHeight": "2.75rem",
             "margin": "2rem 0 2.5rem",
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
             "wordSpacing": "-0.08em",
           },
           "section": Object {
+            "color": "#f6f6f6",
             "fontSize": Array [
               1,
               1,
@@ -713,11 +788,14 @@ exports[`components/Text muted Text 1`] = `
               2,
               2,
             ],
-            "fontWeight": 500,
+            "fontWeight": 900,
+            "letterSpacing": "2px",
             "lineHeight": "1.7rem",
+            "margin": "1.5rem 0",
+            "textTransform": "uppercase",
           },
           "small": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               0,
               0,
@@ -728,7 +806,7 @@ exports[`components/Text muted Text 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               2,
               2,
@@ -742,7 +820,7 @@ exports[`components/Text muted Text 1`] = `
             "lineHeight": "2.2rem",
             "margin": "1.25rem 0 1.75rem",
             "marginBottom": 2,
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
           },
         },
         "variants": Object {
@@ -792,7 +870,7 @@ exports[`components/Text muted Text 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bdVaJa",
                   "isStatic": false,
-                  "lastClassName": "jQlQmu",
+                  "lastClassName": "faEIqv",
                   "rules": Array [
                     "box-sizing: border-box;",
                     "margin: 0;",
@@ -819,7 +897,7 @@ exports[`components/Text muted Text 1`] = `
             variant="muted"
           >
             <div
-              className="sc-bdVaJa jQlQmu"
+              className="sc-bdVaJa faEIqv"
             >
               Muted Text
             </div>
@@ -847,32 +925,55 @@ exports[`components/Text small Text 1`] = `
           "1400px",
         ],
         "buttons": Object {
+          "link": Object {
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "color": "muted",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "none",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
+          },
           "outline": Object {
-            "bg": "transparent",
-            "boxShadow": "inset 0 0 2px",
-            "color": "primary",
-            "variant": "buttons.primary",
-          },
-          "primary": Object {
-            "bg": "primary",
-            "borderRadius": "default",
-            "color": "background",
-            "fontSize": 2,
-            "fontWeight": "bold",
-          },
-          "secondary": Object {
-            "bg": "secondary",
-            "color": "background",
-            "variant": "buttons.primary",
+            "&:disabled": Object {
+              "backgroundColor": "inherit",
+              "color": "text",
+              "cursor": "not-allowed",
+            },
+            "&:hover": Object {
+              "backgroundColor": "text",
+              "color": "textInverse",
+              "cursor": "pointer",
+            },
+            "backgroundColor": "inherit",
+            "border": "1px solid #000",
+            "borderColor": "text",
+            "color": "text",
+            "fontSize": "0.95rem",
+            "fontWeight": 400,
+            "height": "2.5rem",
+            "padding": "0rem 0.5rem",
+            "textTransform": "uppercase",
           },
         },
         "colors": Object {
-          "background": "#c3c3c3",
-          "backgroundInverse": "#fff",
-          "muted": "#595959",
-          "text": "#333333",
+          "background": "#d9d9d9",
+          "backgroundInverse": "#ffffff",
+          "error": "#E11531",
+          "muted": "#505050",
+          "text": "#282828",
           "textHighlighed": "#333",
-          "textHover": "#7e7e7e",
+          "textHover": "#707070",
           "textInverse": "#f6f6f6",
         },
         "fontSizes": Array [
@@ -902,8 +1003,7 @@ exports[`components/Text small Text 1`] = `
           "heading": 1.125,
         },
         "radii": Object {
-          "circle": 99999,
-          "default": 4,
+          "default": "2px",
         },
         "shadows": Object {
           "card": "0 0 4px rgba(0, 0, 0, .125)",
@@ -931,7 +1031,7 @@ exports[`components/Text small Text 1`] = `
         },
         "text": Object {
           "bold": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -943,7 +1043,7 @@ exports[`components/Text small Text 1`] = `
             "fontWeight": "900",
           },
           "default": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               1,
               1,
@@ -954,7 +1054,7 @@ exports[`components/Text small Text 1`] = `
             ],
           },
           "muted": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               1,
               1,
@@ -965,7 +1065,7 @@ exports[`components/Text small Text 1`] = `
             ],
           },
           "page": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               4,
               4,
@@ -978,10 +1078,11 @@ exports[`components/Text small Text 1`] = `
             "letterSpacing": "0.075rem",
             "lineHeight": "2.75rem",
             "margin": "2rem 0 2.5rem",
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
             "wordSpacing": "-0.08em",
           },
           "section": Object {
+            "color": "#f6f6f6",
             "fontSize": Array [
               1,
               1,
@@ -990,11 +1091,14 @@ exports[`components/Text small Text 1`] = `
               2,
               2,
             ],
-            "fontWeight": 500,
+            "fontWeight": 900,
+            "letterSpacing": "2px",
             "lineHeight": "1.7rem",
+            "margin": "1.5rem 0",
+            "textTransform": "uppercase",
           },
           "small": Object {
-            "color": "#333333",
+            "color": "#282828",
             "fontSize": Array [
               0,
               0,
@@ -1005,7 +1109,7 @@ exports[`components/Text small Text 1`] = `
             ],
           },
           "subPage": Object {
-            "color": "#595959",
+            "color": "#505050",
             "fontSize": Array [
               2,
               2,
@@ -1019,7 +1123,7 @@ exports[`components/Text small Text 1`] = `
             "lineHeight": "2.2rem",
             "margin": "1.25rem 0 1.75rem",
             "marginBottom": 2,
-            "maxWidth": "32rem",
+            "maxWidth": "50rem",
           },
         },
         "variants": Object {
@@ -1069,7 +1173,7 @@ exports[`components/Text small Text 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bdVaJa",
                   "isStatic": false,
-                  "lastClassName": "bucTEO",
+                  "lastClassName": "cfIufV",
                   "rules": Array [
                     "box-sizing: border-box;",
                     "margin: 0;",
@@ -1096,7 +1200,7 @@ exports[`components/Text small Text 1`] = `
             variant="small"
           >
             <div
-              className="sc-bdVaJa bucTEO"
+              className="sc-bdVaJa cfIufV"
             >
               Small Text
             </div>

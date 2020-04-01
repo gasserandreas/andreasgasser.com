@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`components/Link simple snapshot test 1`] = `
+exports[`components/Skills simple snapshot test 1`] = `
 <CustomThemeProvider
   dark={false}
 >
@@ -246,51 +246,157 @@ exports[`components/Link simple snapshot test 1`] = `
       }
     }
   >
-    <Link
-      external={true}
-      to="https://www.google.com/"
+    <Skills
+      title="Title"
     >
-      <styled.a
-        href="https://www.google.com/"
-        target="_blank"
-      >
+      <Styled(styled.div)>
         <StyledComponent
           forwardedComponent={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
+                "componentId": "sc-htpNat",
                 "isStatic": false,
-                "lastClassName": "oojrj",
+                "lastClassName": "eGFQBp",
                 "rules": Array [
+                  "box-sizing: border-box;",
+                  "margin: 0;",
+                  "min-width: 0;",
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
                   [Function],
                 ],
               },
-              "displayName": "styled.a",
-              "foldedComponentIds": Array [],
+              "displayName": "Styled(styled.div)",
+              "foldedComponentIds": Array [
+                "sc-bdVaJa",
+              ],
               "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
-              "target": "a",
+              "styledComponentId": "sc-htpNat",
+              "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
               "withComponent": [Function],
             }
           }
           forwardedRef={null}
-          href="https://www.google.com/"
-          target="_blank"
         >
-          <a
-            className="sc-bwzfXH oojrj"
-            href="https://www.google.com/"
-            target="_blank"
+          <div
+            className="sc-bdVaJa sc-htpNat eGFQBp"
           >
-            click me
-          </a>
+            <Styled(Component)
+              variant="section"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bxivhb",
+                      "isStatic": false,
+                      "lastClassName": "hNpapq",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Styled(Component)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bxivhb",
+                    "target": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    },
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                variant="section"
+              >
+                <ForwardRef
+                  className="sc-bxivhb hNpapq"
+                  variant="section"
+                >
+                  <styled.div
+                    __css={
+                      Object {
+                        "fontFamily": "heading",
+                        "fontSize": 4,
+                        "fontWeight": "heading",
+                        "lineHeight": "heading",
+                      }
+                    }
+                    as="h2"
+                    className="sc-bxivhb hNpapq"
+                    tx="text"
+                    variant="section"
+                  >
+                    <StyledComponent
+                      __css={
+                        Object {
+                          "fontFamily": "heading",
+                          "fontSize": 4,
+                          "fontWeight": "heading",
+                          "lineHeight": "heading",
+                        }
+                      }
+                      as="h2"
+                      className="sc-bxivhb hNpapq"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bdVaJa",
+                            "isStatic": false,
+                            "lastClassName": "hzUygp",
+                            "rules": Array [
+                              "box-sizing: border-box;",
+                              "margin: 0;",
+                              "min-width: 0;",
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                            ],
+                          },
+                          "displayName": "styled.div",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "sc-bdVaJa",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      tx="text"
+                      variant="section"
+                    >
+                      <h2
+                        className="sc-bdVaJa hzUygp sc-bxivhb hNpapq"
+                      >
+                        Title
+                      </h2>
+                    </StyledComponent>
+                  </styled.div>
+                </ForwardRef>
+              </StyledComponent>
+            </Styled(Component)>
+            some content
+          </div>
         </StyledComponent>
-      </styled.a>
-    </Link>
+      </Styled(styled.div)>
+    </Skills>
   </ThemeProvider>
 </CustomThemeProvider>
 `;

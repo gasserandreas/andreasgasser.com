@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`components/Link simple snapshot test 1`] = `
+exports[`components/Input should render 1`] = `
 <CustomThemeProvider
   dark={false}
 >
@@ -246,51 +246,121 @@ exports[`components/Link simple snapshot test 1`] = `
       }
     }
   >
-    <Link
-      external={true}
-      to="https://www.google.com/"
-    >
-      <styled.a
-        href="https://www.google.com/"
-        target="_blank"
-      >
+    <Input>
+      <Styled(Component)>
         <StyledComponent
           forwardedComponent={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
+                "componentId": "sc-htpNat",
                 "isStatic": false,
-                "lastClassName": "oojrj",
+                "lastClassName": "hLPnjl",
                 "rules": Array [
                   [Function],
                 ],
               },
-              "displayName": "styled.a",
+              "displayName": "Styled(Component)",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
-              "target": "a",
+              "styledComponentId": "sc-htpNat",
+              "target": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
               "toString": [Function],
               "warnTooManyClasses": [Function],
               "withComponent": [Function],
             }
           }
           forwardedRef={null}
-          href="https://www.google.com/"
-          target="_blank"
         >
-          <a
-            className="sc-bwzfXH oojrj"
-            href="https://www.google.com/"
-            target="_blank"
+          <ForwardRef
+            className="sc-htpNat hLPnjl"
           >
-            click me
-          </a>
+            <styled.div
+              __css={
+                Object {
+                  "appearance": "none",
+                  "bg": "transparent",
+                  "border": "1px solid",
+                  "borderRadius": "default",
+                  "color": "inherit",
+                  "display": "block",
+                  "fontSize": "inherit",
+                  "lineHeight": "inherit",
+                  "p": 2,
+                  "width": "100%",
+                }
+              }
+              as="input"
+              className="sc-htpNat hLPnjl"
+              tx="forms"
+              type="text"
+              variant="input"
+            >
+              <StyledComponent
+                __css={
+                  Object {
+                    "appearance": "none",
+                    "bg": "transparent",
+                    "border": "1px solid",
+                    "borderRadius": "default",
+                    "color": "inherit",
+                    "display": "block",
+                    "fontSize": "inherit",
+                    "lineHeight": "inherit",
+                    "p": 2,
+                    "width": "100%",
+                  }
+                }
+                as="input"
+                className="sc-htpNat hLPnjl"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "gEBDmG",
+                      "rules": Array [
+                        "box-sizing: border-box;",
+                        "margin: 0;",
+                        "min-width: 0;",
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                tx="forms"
+                type="text"
+                variant="input"
+              >
+                <input
+                  className="sc-bdVaJa gEBDmG sc-htpNat hLPnjl"
+                  type="text"
+                />
+              </StyledComponent>
+            </styled.div>
+          </ForwardRef>
         </StyledComponent>
-      </styled.a>
-    </Link>
+      </Styled(Component)>
+    </Input>
   </ThemeProvider>
 </CustomThemeProvider>
 `;

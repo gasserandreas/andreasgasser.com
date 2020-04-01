@@ -60,7 +60,7 @@ export const Header = () => (
     </Styles.SiteName>
     {/* <Styles.Image fluid={data.file.childImageSharp.fluid} /> */}
     <Styles.JobDescription>
-      Front end architect
+      Frontend architect
       <br />
       Senior software engineer
       <br />

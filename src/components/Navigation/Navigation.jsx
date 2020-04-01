@@ -26,12 +26,18 @@ const Styles = {
     color: ${theme.colors.muted}
     margin: 0.5rem 0;
 
+    @media screen and (max-width: ${theme.breakpoints[2]}) {
+      font-size: 1.25rem;
+      margin: 0.75rem 0;
+    }
+
     ${getActiveStyles(theme, active)};
   `),
 };
 
 export const LINKS = {
   Home: Paths.INDEX,
+  Skills: Paths.SKILLS,
   Contact: Paths.CONTACT,
 };
 

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/utils/services check requestInitialState 1`] = `
+Object {
+  "data": null,
+  "error": false,
+  "lastError": null,
+  "lastSuccess": null,
+  "pending": false,
+}
+`;
+
+exports[`components/utils/services should  1`] = `
+Object {
+  "data": "01000170f970fb94-0a203402-dfd0-427a-a023-c32ba13f29cf-000000",
+  "send": true,
+}
+`;
+
+exports[`components/utils/services should return default url 1`] = `[Function]`;
