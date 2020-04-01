@@ -1,3 +1,23 @@
+# [1.6.0](https://github.com/gasserandreas/andreasgasser.com/compare/v1.5.0...v1.6.0) (2020-04-01)
+
+
+### Bug Fixes
+
+* added env vars support ([4709c3e](https://github.com/gasserandreas/andreasgasser.com/commit/4709c3ec47ef199d19e369d20eb4c8160ceb7f10))
+* added key to captcha ([f4f6fb2](https://github.com/gasserandreas/andreasgasser.com/commit/f4f6fb2a122e9785a6e59c9ff20c208f68397e28))
+* added minor color updates ([5305978](https://github.com/gasserandreas/andreasgasser.com/commit/5305978bd2d34c804c033561ef4bbc87eca889f7))
+* **#71:** improved general styles ([7c76caa](https://github.com/gasserandreas/andreasgasser.com/commit/7c76caa2129ba9eb26a29328f3c4135cf0a152e1)), closes [#71](https://github.com/gasserandreas/andreasgasser.com/issues/71)
+
+
+### Features
+
+* **#68:** added contact form component ([13d002a](https://github.com/gasserandreas/andreasgasser.com/commit/13d002ad998c6658d80c206c4c56bb62e388365b)), closes [#68](https://github.com/gasserandreas/andreasgasser.com/issues/68)
+* **#68:** added contact page ([b3755b0](https://github.com/gasserandreas/andreasgasser.com/commit/b3755b06dae5194f5cef4bdb887fc75a0d18c827)), closes [#68](https://github.com/gasserandreas/andreasgasser.com/issues/68)
+* **#68:** improved styles for pages ([c4a7c8d](https://github.com/gasserandreas/andreasgasser.com/commit/c4a7c8da428cbd2e59b0c51b761cf38fad631b71)), closes [#68](https://github.com/gasserandreas/andreasgasser.com/issues/68)
+* **#70:** added skills component ([77e67ad](https://github.com/gasserandreas/andreasgasser.com/commit/77e67adcbcfba37ef09b055c80aa818e0f16d56e)), closes [#70](https://github.com/gasserandreas/andreasgasser.com/issues/70)
+* **#70:** added skills page ([74838ec](https://github.com/gasserandreas/andreasgasser.com/commit/74838ec87a41d27dac90192e93d49b7f208e88e0)), closes [#70](https://github.com/gasserandreas/andreasgasser.com/issues/70)
+* **#76:** added Captcha to contact page ([123ca27](https://github.com/gasserandreas/andreasgasser.com/commit/123ca278ee3fc0e705f8b59c785600f637db8ca1)), closes [#76](https://github.com/gasserandreas/andreasgasser.com/issues/76)
+
 # [1.5.0](https://github.com/gasserandreas/andreasgasser.com/compare/v1.4.0...v1.5.0) (2020-01-19)
 
 
