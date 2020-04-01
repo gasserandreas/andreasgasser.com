@@ -39,7 +39,7 @@ Captcha.propTypes = {
 };
 
 Captcha.defaultProps = {
-  key: process.env.GATSBY_CAPTCHA_KEY,
+  key: '6LdtBeUUAAAAAJo5jFo4Zm0XwSw25CL2yFUCW1jv',
   verifyCallback: null,
   onloadCallback: null,
   size: null,
