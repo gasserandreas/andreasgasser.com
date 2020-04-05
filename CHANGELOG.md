@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/gasserandreas/andreasgasser.com/compare/v1.6.0...v1.6.1) (2020-04-05)
+
+
+### Bug Fixes
+
+* disabled contact form ([fddf2d5](https://github.com/gasserandreas/andreasgasser.com/commit/fddf2d5fe2f4766fff33c92ba19b6ae7a52a124c))
+
 # [1.6.0](https://github.com/gasserandreas/andreasgasser.com/compare/v1.5.0...v1.6.0) (2020-04-01)
 
 
