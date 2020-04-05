@@ -1,70 +1,80 @@
 /* eslint-disable no-trailing-spaces, max-len */
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
+// import { Link } from 'gatsby';
 
 import Heading from '../components/Base/Heading';
 import Page from '../components/Page/Page';
 import Layout from '../components/Layout/Layout';
 import SEO from '../components/SEO/SEO';
-import ContactForm from '../components/ContactForm/ContactForm';
+import Link from '../components/Links/Link';
+import { LINKED_IN_LINK } from '../components/utils/Links';
 
-import { sendContactMessage, requestInitialState } from '../components/utils/services';
+// import ContactForm from '../components/ContactForm/ContactForm';
+
+// import { sendContactMessage, requestInitialState } from '../components/utils/services';
 
 const Styles = {
-  Error: styled.div(({ theme }) => `
-    color: ${theme.colors.error};
-  `),
-  Success: styled.div``,
+  Link: styled(Link)`
+    font-size: inherit;
+  `,
 };
 
-const ContactPage = () => {
-  const [requestState, setRequestState] = useState({
-    ...requestInitialState,
-  });
+// const Styles = {
+//   Error: styled.div(({ theme }) => `
+//     color: ${theme.colors.error};
+//   `),
+//   Success: styled.div``,
+// };
 
-  const handleReset = () => {
-    setRequestState({ ...requestInitialState });
-  };
+const ContactPage = () => { // eslint-disable-line
+  // const [requestState, setRequestState] = useState({
+  //   ...requestInitialState,
+  // });
 
-  const handleOnSumit = async (person) => {
-    setRequestState({
-      ...requestState,
-      pending: true,
-    });
+  // const handleReset = () => {
+  //   setRequestState({ ...requestInitialState });
+  // };
 
-    try {
-      const payload = await sendContactMessage(person);
-      setRequestState({
-        ...requestState,
-        data: payload,
-        lastSuccess: Date.now(),
-      });
-    } catch (error) {
-      setRequestState({
-        ...requestState,
-        error,
-        lastError: Date.now(),
-      });
-    }
-  };
+  // const handleOnSumit = async (person) => {
+  //   setRequestState({
+  //     ...requestState,
+  //     pending: true,
+  //   });
 
-  const renderError = () => (
-    <Styles.Error>
-      <strong>Whooopppss</strong>
-      , something seems to be broken here and I could not receive your message.
-      <br />
-      <br />
-      Please try again later or reach out to me on my social media account.
-    </Styles.Error>
-  );
+  //   try {
+  //     const payload = await sendContactMessage(person);
+  //     setRequestState({
+  //       ...requestState,
+  //       data: payload,
+  //       lastSuccess: Date.now(),
+  //     });
+  //   } catch (error) {
+  //     setRequestState({
+  //       ...requestState,
+  //       error,
+  //       lastError: Date.now(),
+  //     });
+  //   }
+  // };
 
-  const renderSuccess = () => (
-    <Styles.Success>
-      Thanks for your message, I will answer as soon as possible, I promise! ;-)
-    </Styles.Success>
-  );
+  // const renderError = () => (
+  //   <Styles.Error>
+  //     <strong>Whooopppss</strong>
+  //     , something seems to be broken here and I could not receive your message.
+  //     <br />
+  //     <br />
+  //     Please try again later or reach out to me on my social media account.
+  //   </Styles.Error>
+  // );
 
-  const { pending, lastSuccess, lastError } = requestState;
+  // const renderSuccess = () => (
+  //   <Styles.Success>
+  //     Thanks for your message, I will answer as soon as possible, I promise! ;-)
+  //   </Styles.Success>
+  // );
+
+  // const { pending, lastSuccess, lastError } = requestState;
 
   return (
     <Page>
@@ -74,9 +84,13 @@ const ContactPage = () => {
           Get in contact with me
         </Heading>
         <Heading>
-          Please drop me a message if you would like to know more or start casual chat.
+          Please drop me a message on
+          {' '}
+          <Styles.Link to={LINKED_IN_LINK} external>LinkedIn</Styles.Link>
+          {' '}
+          if you would like to know more or start casual chat.
         </Heading>
-        <Heading variant="subPage">
+        {/* <Heading variant="subPage">
           {lastError && renderError()}
           {lastSuccess && renderSuccess()}
           {!lastError && !lastSuccess && (
@@ -86,7 +100,7 @@ const ContactPage = () => {
               pending={pending}
             />
           )}
-        </Heading>
+        </Heading> */}
       </Layout>
     </Page>
   );
